@@ -1,5 +1,6 @@
 import React from 'react';
 import './Solomeya.css'
+import icon from '../../images/header-icon-telegram.svg'
 
 function Solomeya() {
   return (
@@ -8,7 +9,7 @@ function Solomeya() {
       <h2 className="solomeya__subtitle">АРОМА-РАСЧЁСКИ</h2>
       <div className="solomeya__cont">
         <div className="solomeya__cont-brush">
-          <img className="solomeya__img"></img>
+          <img src={icon}className="solomeya__img_1"></img>
           <img className="solomeya__img"></img>
           <img className="solomeya__img"></img>
 

@@ -4,7 +4,9 @@ import React from 'react';
 //import Navigation from '../Navigation/Navigation'
 //import headerLogo from '../../images/logo-header.svg';
 //import BurgerMenu from '../BurgerMenu/BurgerMenu';
-import logo from '../../images/4.svg'
+import logo from '../../images/logo1.svg';
+import telegramIcon from '../../images/header-icon-telegram.svg';
+import whatsappIcon from '../../images/header-icon-whatsapp.svg';
 import './Header.css';
 
 function Header() {
@@ -13,21 +15,31 @@ function Header() {
   return (
     <header className="header">
       <div className="header__container">
+        <img className="header__logo" src={logo} alt="Логотип компании 'Amarylis'" />
 
-        <img className="header__logo" src={logo} alt="Логотип" />
-
-        <div className="header__info">
-
-          <p className="header__about">8(499) 704 55 75</p>
-          <div className="header__about-nav">
-            <p className="header__about">О РАСЧЁСКАХ</p>
-            <p to='/signin' className="header__about">О КОМПАНИИ</p>
-            <p className="header__about">КОНТАКТЫ</p>
+        <div className="header__container-main">
+          <div className="header__cont">
+            <a className="header__element-phone">8(499) 704 55 75</a>
+            <img className="header__icon" src={telegramIcon} alt="Telegram" />
+            <img className="header__icon" src={whatsappIcon} alt="Whatsapp" />
           </div>
-
+          <nav className="header__menu">
+          <ul className="header__list">
+            <li className="header__list-element"><a className="header__list-link" href="#">О РАСЧЁСКАХ</a></li>
+            <li className="header__list-element"><a className="header__list-link" href="https://amarylis.ru/">О КОМПАНИИ</a></li>
+            <li className="header__list-element "><a className="header__list-link" href="https://amarylis.ru/contacts/">КОНТАКТЫ</a></li>
+          </ul>
+        </nav >
 
         </div>
+
+
+
+
+
       </div>
+
+
     </header >
   )
 }

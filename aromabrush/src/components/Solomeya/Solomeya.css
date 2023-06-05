@@ -1,12 +1,21 @@
 .solomeya {
   background: linear-gradient(to right,#fa6579, #f43850);
-  width: 1280px;
+  width: 100%;
   height: 800px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 40px;
 
+}
+
+.solomeya__img_1{
+  position:absolute;
+  top:25px;
+  right:100px;
+  height:150px;
+  width: 150px;
+  z-index: 1;
 }
 
 .solomeya__title {
