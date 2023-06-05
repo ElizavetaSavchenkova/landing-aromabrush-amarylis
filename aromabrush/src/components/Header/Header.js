@@ -11,16 +11,21 @@ function Header() {
   // const location = useLocation();
   //const path = location.pathname === '/';
   return (
-    <header className='header'>
+    <header className="header">
       <div className="header__container">
 
         <img className="header__logo" src={logo} alt="Логотип" />
 
         <div className="header__info">
-          <p className="header__phone">8(499) 704 55 75</p>
-          <p className="header__registration">О РАСЧЁСКАХ</p>
-          <p to='/signin' className="header__login">О КОМПАНИИ</p>
-<p className="header__4">КОНТАКТЫ</p>
+
+          <p className="header__about">8(499) 704 55 75</p>
+          <div className="header__about-nav">
+            <p className="header__about">О РАСЧЁСКАХ</p>
+            <p to='/signin' className="header__about">О КОМПАНИИ</p>
+            <p className="header__about">КОНТАКТЫ</p>
+          </div>
+
+
         </div>
       </div>
     </header >

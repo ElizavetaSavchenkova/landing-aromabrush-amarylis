@@ -1,0 +1,16 @@
+.buy{
+  width:1280px;
+  height:500px;
+
+}
+
+.buy__container{
+  width:1280px;
+  height:200px;
+  background-color:darkorange;
+}
+
+.banner__title{
+  font-size:30px;
+  color:aliceblue;
+}

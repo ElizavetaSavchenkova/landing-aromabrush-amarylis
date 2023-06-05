@@ -1,0 +1,76 @@
+.solomeya {
+  background: linear-gradient(to right,#fa6579, #f43850);
+  width: 1280px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+
+}
+
+.solomeya__title {
+  margin: 100px 0 0 0;
+  width: 1000px;
+  padding: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 24px;
+  color: white;
+  text-align: center;
+}
+
+.solomeya__subtitle {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 24px;
+  color: white;
+}
+
+.solomeya__cont {
+  background-color: blueviolet;
+  width: 800px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.solomeya__cont-brush {
+  background-color: brown;
+}
+
+.solomeya__cont-buy {
+  background-color: green;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: end;
+
+
+}
+
+.solomeya__img {
+  background-image: url(../../images/ras.jpg);
+  width: 150px;
+  height: 100%;
+}
+
+.solomeya__button {
+  width: 100%;
+  height: 40px;
+  background-color: #98cac9;
+  border-radius: 8px;
+  border: inherit
+}
+
+.solomeya__buy {
+  color: white;
+  align-self: center;
+}

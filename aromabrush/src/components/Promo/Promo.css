@@ -1,0 +1,34 @@
+.promo{
+  background-color: black;
+  width:1280px;
+  height:700px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding:50px 0 0 0;
+  box-sizing: border-box;
+
+}
+
+.promo__container{
+  background-color: aqua;
+  width:1000px;
+  height:1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.promo__brush{
+  background-color: blue;
+  width:400px;
+  height: 400px;
+}
+
+.promo__taste{
+  background-color: brown;
+  width:1000px;
+  height:100px;
+}

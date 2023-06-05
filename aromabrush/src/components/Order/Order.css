@@ -1,0 +1,11 @@
+.order{
+  width:1280px;
+  background-color: #a87db5;
+  height: 500px;
+}
+
+.order__container{
+background-color: chartreuse;
+width:500px;
+height:100px;
+}
