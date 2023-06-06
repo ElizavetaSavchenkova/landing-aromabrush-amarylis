@@ -5,6 +5,7 @@ import React from 'react';
 import './App.css';
 import Header from '../Header/Header';
 import Main from '../Main/Main';
+import icon from '../../images/krug.svg'
 import Footer from '../Footer/Footer';
 
 
@@ -22,9 +23,14 @@ function App() {
 //
   return (
     <div className="page">
+
       <Header />
+
       <Main />
-      <Footer />
+
+<Footer/>
+
+
     </div>
   )
 }

@@ -3,14 +3,14 @@ import './Footer.css'
 
 function Footer() {
   return (
-    <section className="footer">
+    <footer className="footer">
       <div className="footer__container">
 
       </div>
 
 
 
-    </section>
+    </footer>
   )
 }
 

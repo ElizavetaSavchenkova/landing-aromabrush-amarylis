@@ -8,6 +8,7 @@ import logo from '../../images/logo1.svg';
 import telegramIcon from '../../images/header-icon-telegram.svg';
 import whatsappIcon from '../../images/header-icon-whatsapp.svg';
 import './Header.css';
+import icon from '../../images/krug.svg'
 
 function Header() {
   // const location = useLocation();
@@ -31,7 +32,9 @@ function Header() {
           </ul>
         </nav >
 
+
         </div>
+
 
 
 

@@ -28,8 +28,6 @@ function Main() {
       <Review/>
       <AboutCompany/>
       <Contacts/>
-
-
     </main>
   )
 }
