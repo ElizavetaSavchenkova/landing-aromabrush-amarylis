@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/landing-aromabrush-amarylis/static/css/main.e6a9f0c2.css",
-    "main.js": "/landing-aromabrush-amarylis/static/js/main.888ad1d3.js",
+    "main.css": "/landing-aromabrush-amarylis/static/css/main.52cc45a0.css",
+    "main.js": "/landing-aromabrush-amarylis/static/js/main.d0d0d8c0.js",
     "static/js/787.a4342853.chunk.js": "/landing-aromabrush-amarylis/static/js/787.a4342853.chunk.js",
     "static/media/logo3.svg": "/landing-aromabrush-amarylis/static/media/logo3.8e0961fffe399a203e5f.svg",
     "static/media/ras.jpg": "/landing-aromabrush-amarylis/static/media/ras.cf5d905bd9fcce0a546a.jpg",
-    "static/media/4.svg": "/landing-aromabrush-amarylis/static/media/4.dcc31413b33900bbfd45785dd2fe378e.svg",
+    "static/media/logo1.svg": "/landing-aromabrush-amarylis/static/media/logo1.bdfef69ffc99e64ce11bb13fe8ab90eb.svg",
+    "static/media/krug.svg": "/landing-aromabrush-amarylis/static/media/krug.9879bd2987a2443a9c1ed516d7fd175a.svg",
+    "static/media/header-icon-whatsapp.svg": "/landing-aromabrush-amarylis/static/media/header-icon-whatsapp.303730af9964f74fcffdddf2a72dd91b.svg",
+    "static/media/header-icon-telegram.svg": "/landing-aromabrush-amarylis/static/media/header-icon-telegram.0ac84a353f6dec88aeadbd78b39413e2.svg",
     "index.html": "/landing-aromabrush-amarylis/index.html",
-    "main.e6a9f0c2.css.map": "/landing-aromabrush-amarylis/static/css/main.e6a9f0c2.css.map",
-    "main.888ad1d3.js.map": "/landing-aromabrush-amarylis/static/js/main.888ad1d3.js.map",
+    "main.52cc45a0.css.map": "/landing-aromabrush-amarylis/static/css/main.52cc45a0.css.map",
+    "main.d0d0d8c0.js.map": "/landing-aromabrush-amarylis/static/js/main.d0d0d8c0.js.map",
     "787.a4342853.chunk.js.map": "/landing-aromabrush-amarylis/static/js/787.a4342853.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6a9f0c2.css",
-    "static/js/main.888ad1d3.js"
+    "static/css/main.52cc45a0.css",
+    "static/js/main.d0d0d8c0.js"
   ]
 }
