@@ -2,6 +2,13 @@ import React from 'react';
 import './Promo.css'
 import black from '../../images/black-ras.svg';
 import icon3 from '../../images/ras3.svg';
+import strawberry from '../../images/strawberry.svg'
+import mango from '../../images/mango.svg';
+import lemon from '../../images/lemon.svg'
+import jasmine from '../../images/jasmine.svg'
+import lavender from '../../images/lavender.svg'
+import grape from '../../images/grape.svg'
+
 
 function Promo() {
   return (
@@ -39,7 +46,30 @@ function Promo() {
 
         </div>
         <div className="promo__taste">
-
+<div className="promo__element">
+  <img className="promo_img" src={strawberry}></img>
+  <p className="promo__subt">клубника</p>
+</div>
+<div className="promo__element">
+  <img className="promo_img" src={mango}></img>
+  <p className="promo__subt">манго</p>
+</div>
+<div className="promo__element">
+  <img className="promo_img" src={lemon}></img>
+  <p className="promo__subt">лимон</p>
+</div>
+<div className="promo__element">
+  <img className="promo_img" src={jasmine}></img>
+  <p className="promo__subt">жасмин</p>
+</div>
+<div className="promo__element">
+  <img className="promo_img" src={lavender}></img>
+  <p className="promo__subt">лаванда</p>
+</div>
+<div className="promo__element">
+  <img className="promo_img" src={grape}></img>
+  <p className="promo__subt">виноград</p>
+</div>
         </div>
       </div>
 

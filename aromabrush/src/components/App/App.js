@@ -12,7 +12,10 @@ import Footer from '../Footer/Footer';
 
 function App() {
 
-
+ // addEventListener('scroll',() => {
+   // let hue = content.getBoundingClientRect().top/22;
+   // main.style.background = `linear-gradient(45deg, white, hsl(${hue},100%,50%))`;
+ // });
 
   //const rootElement = document.getElementById("root");
   //if (rootElement.hasChildNodes()) {
@@ -21,6 +24,30 @@ function App() {
   //  render(<App />, rootElement);
  // }
 //
+
+//window.onscroll = function() {
+ // if ((window).scrollTop() > 400){
+ // ('.header').css({'background-color': 'white'} )
+ // }else{
+ // ('.header').css({'background-color': 'black'})
+  //};
+
+  //}
+
+  window.addEventListener('scroll', () =>{
+    let scrollDistance = window.scrollY
+    console.log(scrollDistance)
+    if ((scrollDistance > 1000) && (scrollDistance < 2000)){
+      console.log(scrollDistance)
+      const header = document.querySelector('header');
+      console.log(header)
+      header.classList.add('header__black')
+    } else {
+      const header = document.querySelector('header');
+      header.classList.remove('header__black')
+    }
+  })
+
   return (
     <div className="page">
 

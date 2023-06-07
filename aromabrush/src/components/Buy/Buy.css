@@ -1,16 +1,69 @@
 .buy{
-  width:1280px;
-  height:500px;
+  width:100%;
+background-color: #ffffff;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:70px 0 60px 0;
 
 }
 
 .buy__container{
-  width:1280px;
-  height:200px;
-  background-color:darkorange;
+  max-width:1440px;
+
+  display:flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
 }
 
-.banner__title{
+.buy__title{
   font-size:30px;
-  color:aliceblue;
+  color:#3B3B3B;
+  text-align: center;
+  font-weight: 500;
+font-size: 41.9858px;
+line-height: 38px;
+margin:0;
+padding:0;
+}
+
+.buy__title{
+  font-style: normal;
+font-weight: 500;
+font-size: 41.9858px;
+line-height: 38px;
+color:#3B3B3B;
+}
+
+.buy__markets{
+display:grid;
+grid-template-columns: repeat(8, minmax(100px, 135px));
+padding:60px 0 0 0;
+margin:0;
+
+
+list-style: none;
+}
+
+.buy__markets_2{
+  display:grid;
+
+
+padding:0;
+margin:0;
+
+grid-template-columns: repeat(7, minmax(100px, 135px));
+
+list-style: none;
+justify-content: center;
+}
+
+.buy__markets-element{
+  width:100%;
+}
+
+.buy__markets-element-img{
+  width:100%;
 }

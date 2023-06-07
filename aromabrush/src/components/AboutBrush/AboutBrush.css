@@ -1,16 +1,15 @@
 .aboutbrush{
 background-color:#75c7d2;
-width:1280px;
-height:1000px;
+width:100%;
 display:flex;
 flex-direction: column;
 align-items: center;
-padding: 50px 0 0 0;
+padding: 50px 0 50px 0;
+box-sizing: border-box;
 }
 
 .aboutbrush__container{
-width:1000px;
-background-color: cornflowerblue;
+max-width: 1440px ;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -18,19 +17,35 @@ align-items: center;
 }
 
 .aboutbrush__title{
-  font-size:20px;
-  color: white;
-
+  margin: 0;
+  padding:0;
+  font-style: normal;
+font-weight: 500;
+font-size: 41.9858px;
+line-height: 38px;
+color: #ffffff;
+padding:0 0 60px 0;
 }
 
 .aboutbrush__video{
-width:700px;
-height:300px;
+  width:81.25% ;
+height:580px;
+margin:0;
  background-color: #363636;
+
+ box-sizing: border-box;
 }
 
 .aboutbrush__subtitle{
-  width:700px;
+  font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+color: white;
+width:57.36% ;
+margin:0;
+padding:30px 0 0 0;
+
 
 
 }
