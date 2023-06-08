@@ -1,11 +1,77 @@
-.contacts{
-  background-color: gold;
-  width:1280px;
-  height:500px;
-}
-.contacts__container{
-  background-color: gold;
-  width:1280px;
-  height:500px;
+.contacts {
+  max-width: 1440px;
 }
 
+.contacts__container {
+  max-width: 1440px;
+  position: relative;
+
+}
+
+.contacts__info {
+  width: 1000px;
+background-color: #ffffff;
+  position: absolute;
+  top: 280px;
+  right:14%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding:30px 20px 30px 20px;
+  border-radius: 80px;
+}
+
+
+
+.contacts__map {
+
+
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 30% 70%;
+  gap:0px 140px;
+
+}
+
+.contacts__maptwo {
+
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-rows: 30% 70%;
+  gap:0px 80px;
+
+}
+
+.contacts__map1 {
+  margin: 0;
+  font-weight: 400;
+font-size: 12.0009px;
+line-height: 32px;
+
+
+}
+
+.contacts__map2 {
+  margin: 0;
+  font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 32px;
+align-self: center;
+}
+
+.contacts__map2_center{
+ text-align: center;
+}
+
+.contacts__map1_right{
+text-align: end;
+}
+
+.contacts__map2_right{
+  text-align: end;
+}

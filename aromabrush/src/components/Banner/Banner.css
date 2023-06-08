@@ -6,6 +6,10 @@
 
 .banner__container {
   background-color: #363636;
-  width: 1440px;
+  max-width: 1440px;
 
+}
+
+.banner__title{
+  width:100%;
 }

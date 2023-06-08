@@ -6,7 +6,15 @@ function AboutBrush() {
     <section className="aboutbrush">
       <div className="aboutbrush__container">
         <h4 className="aboutbrush__title">О РАСЧЁСКАХ</h4>
-        <p className='aboutbrush__video'>video</p>
+
+        <iframe width="1066"
+        height="560"
+        src="https://www.youtube.com/embed/ssuZ8PUEqZM"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+
         <p className='aboutbrush__subtitle'>Арома-расчески от Solomeya - ваш ключ к здоровым
 и красивым волосам. Подходят для любого типа волос, бережно распутывают и не травмируют пряди. Легко моются, устойчивы
 к нагреву. Изысканные ароматы: виноград, жасмин, лаванда, клубника,
@@ -21,3 +29,5 @@ function AboutBrush() {
 }
 
 export default AboutBrush
+
+// <video className='aboutbrush__video' ></video>
