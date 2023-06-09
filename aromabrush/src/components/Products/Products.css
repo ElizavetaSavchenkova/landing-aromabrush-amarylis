@@ -1,0 +1,140 @@
+.products {
+  margin: 0;
+  padding: 60px 0 0 0;
+  background-color: #ffffff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.products__container {
+  margin: 0;
+  padding: 0;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: darkkhaki;
+}
+
+.products__title {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 38px;
+  color: #363636;
+}
+
+.products__tagline-container {
+  margin: 0;
+  padding: 0;
+  max-width: 94.44%;
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  grid-template-columns: repeat(3, minmax(317px, 1fr));
+  align-items: center;
+  justify-items: center;
+}
+
+.products__tagline-desc {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  background-color: antiquewhite;
+}
+
+.products__figure {
+  /*width: 250px;
+  height: 137px;*/
+  background-color: white;
+  box-shadow: 10px 2px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 70px;
+
+  text-align: center;
+  padding: 20px;
+  width: 230px;
+  height: 66px;
+  padding: 38px 8px 33px;
+
+}
+
+
+
+
+.products__brush {
+  width: 572px;
+  height: 649px;
+  padding: 0 0 0 30px;
+}
+
+
+
+
+
+
+.products__figure_in {
+  align-self: flex-end;
+
+}
+
+.products__figure_two {
+  align-self: center;
+
+}
+
+.products__figure_three {
+  align-self: left;
+
+}
+
+
+
+.products__figure-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 32px;
+  margin: 0;
+
+}
+
+
+
+.products__tastes-list {
+  margin: 0;
+  padding: 0;
+  max-width: 94.44%;
+  display: grid;
+  grid-template-columns: repeat(6, minmax(70px, 110px));
+  gap: 80px;
+  padding: 75px 0 75px 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+
+
+.products__element {}
+
+.products_img {
+  width: 100%;
+}
+
+.products__subt {
+  margin: 0;
+  padding: 0;
+
+  text-align: center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24.5042px;
+  line-height: 32px;
+}

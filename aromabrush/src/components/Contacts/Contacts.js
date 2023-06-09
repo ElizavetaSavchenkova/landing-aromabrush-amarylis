@@ -35,7 +35,7 @@ function Contacts() {
       <div className="contacts__container" id="yandexmap">
         <YMaps>
           <Map defaultState={defaultState}
-            width={'100%'}
+            width={'1330px'}
             height={'500px'}>
             <Placemark geometry={[55.85519539032519, 37.444785813276766]} />
           </Map>

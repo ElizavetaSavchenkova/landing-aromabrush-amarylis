@@ -11,9 +11,9 @@ function AboutBrush() {
         height="560"
         src="https://www.youtube.com/embed/ssuZ8PUEqZM"
         title="YouTube video player"
-        frameborder="0"
+        frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen></iframe>
+        allowFullScreen></iframe>
 
         <p className='aboutbrush__subtitle'>Арома-расчески от Solomeya - ваш ключ к здоровым
 и красивым волосам. Подходят для любого типа волос, бережно распутывают и не травмируют пряди. Легко моются, устойчивы
