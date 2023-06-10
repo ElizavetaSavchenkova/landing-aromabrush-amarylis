@@ -16,6 +16,7 @@ background-color: #ffffff;
   flex-direction: column;
   align-content: center;
   justify-content: center;
+  background-color: cadetblue;
 }
 
 .buy__title{
@@ -39,7 +40,7 @@ color:#3B3B3B;
 
 .buy__markets{
 display:grid;
-grid-template-columns: repeat(8, minmax(100px, 135px));
+grid-template-columns: repeat(8, minmax(120px, 120px));
 padding:60px 0 0 0;
 margin:0;
 
@@ -54,7 +55,7 @@ list-style: none;
 padding:0;
 margin:0;
 
-grid-template-columns: repeat(7, minmax(100px, 135px));
+grid-template-columns: repeat(7, minmax(120px, 120px));
 
 list-style: none;
 justify-content: center;

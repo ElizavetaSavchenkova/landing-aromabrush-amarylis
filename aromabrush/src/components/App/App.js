@@ -1,5 +1,6 @@
 //import logo from './logo.svg';
 import React from 'react';
+import { useEffect } from 'react';
 //import { Helmet } from 'react-helmet';
 //import { hydrate, render } from "react-dom";
 import './App.css';
@@ -33,6 +34,18 @@ function App() {
   //};
 
   //}
+
+  console.log(window.innerWidth);
+
+  function menu() {
+    if (window.innerWidth === 1440) {
+      console.log('Разрешение')
+    }
+  }
+
+  useEffect(() => {
+    menu()
+  }, [])
 
   window.addEventListener('scroll', () => {
     let scrollDistance = window.scrollY

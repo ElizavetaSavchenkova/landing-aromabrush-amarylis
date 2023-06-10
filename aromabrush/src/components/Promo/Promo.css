@@ -96,6 +96,8 @@
   justify-content: end;
   box-sizing: border-box;
   list-style: none;
+
+
 }
 
 .promo__bestseller {
@@ -199,6 +201,23 @@
   z-index: -1;
 }
 
+.promo__element-circle-test {
+  margin: 0;
+  padding: 0;
+  background-image: url(../../images/krug2.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 262px;
+  height: 262px;
+  position: absolute;
+  z-index: -1;
+  right: -8%;
+  top: 65%;
+  z-index: -1;
+  display: none;
+
+}
+
 .promo__element-circle-yellow {
   background-image: url(../../images/krug4.svg);
   width: 488px;
@@ -209,4 +228,164 @@
   right: 82%;
   top: 690px;
   z-index: -1;
+}
+
+@media screen and (max-width:1280px) and (min-width:1024px) {
+  /* .promo__bestseller-container {
+    width: 461px;
+  padding: 0 0 0 120px;
+  justify-content: end;
+  }
+
+
+
+
+  .promo__button-buy {
+    align-self: center;
+  }
+
+  .promo__bestseller-desc {
+    align-self: center;
+  }
+  */
+
+  .promo__bestseller-title {
+
+    font-size: 32px;
+    line-height: 36px;
+    align-self: flex-end;
+    justify-self: flex-end;
+  }
+
+  .promo__button-buy {
+
+    padding: 20px 50px 20px 50px;
+    background: #7DD3DF;
+    border-radius: 20.768px;
+    border: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 16px;
+    align-self: flex-start;
+    box-sizing: border-box;
+  }
+
+  .promo__products {
+
+    padding: 0 0 0 80px;
+
+
+  }
+
+  .promo__brush-img-yellow {
+    width: 184px;
+    height: 233px;
+    position: absolute;
+    top: 200px;
+    left: 570px;
+    padding: 0 36px 0 0;
+  }
+
+}
+
+@media screen and (max-width:1125px) and (min-width:900px) {
+  .promo__promo-container {
+
+    flex-direction: column;
+    padding: 0 165px 0 0;
+    margin: 0;
+    gap: 40px;
+  }
+
+  .promo__brush-img-blue {
+    padding: 0;
+    margin: 0;
+  }
+
+  .promo__products {
+    padding: 0 0 0 130px;
+  }
+
+  .promo__brush-img-blue {}
+
+  .promo__bestseller-container {
+
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
+    padding: 0 0 60px 170px;
+
+  }
+
+  .promo__brush-img-yellow {
+    width: 184px;
+    height: 233px;
+    position: absolute;
+    top: 200px;
+    left: 375px;
+    padding: 0 36px 0 0;
+  }
+
+  .promo__button-buy {
+
+
+    align-self: center;
+    justify-self: center;
+  }
+
+  .promo__bestseller-desc {
+
+    align-self: center;
+  }
+
+  .promo__button-buy {
+
+    padding: 23px 65px 23px 65px;
+
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 20px;
+    align-self: center;
+    justify-self: center;
+    box-sizing: border-box;
+  }
+
+  .promo__bestseller-title {
+
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 44px;
+
+  }
+
+  .promo__brush-img-pink {
+    width: 217px;
+    height: 360px;
+    position: absolute;
+    top: 70px;
+    right: 260px;
+  }
+
+  .promo__element-circle-test {
+    display: flex;
+  }
+
+  .promo {}
+}
+
+@media screen and (max-width:1024px) and (min-width:768px) {
+  .promo__title {
+
+    font-size: 58px;
+    line-height: 53px;
+  }
+
+  .promo__subtitle {
+
+    font-size: 38px;
+    line-height: 34px;
+
+}
 }

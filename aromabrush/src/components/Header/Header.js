@@ -1,10 +1,39 @@
 import React from 'react';
+import { useState, useEffect } from 'react';
 import headerLogo from '../../images/header-logo.svg';
 import telegramIcon from '../../images/header-icon-telegram.svg';
 import whatsappIcon from '../../images/header-icon-whatsapp.svg';
 import './Header.css';
+import BurgerMenu from '../BurgerMenu/BurggerMenu';
 
 function Header() {
+
+  const [start, setStart] = useState(false)
+
+  function menu(){
+    if (window.innerWidth === 1100){
+      setStart(true)
+      console.log('works')
+    }
+  }
+
+  useEffect(()=> {
+    menu()
+  }, [])
+
+  useEffect(()=> {
+    console.log('РАБОТА')
+  }, [])
+
+  window.addEventListener('scroll', () => {
+    let scrollDistance = window.scrollY
+    console.log(scrollDistance)
+    if (scrollDistance > 2) {
+      setStart(true)
+      console.log('Работает')
+    }
+  })
+
   return (
     <header className="header">
       <div className="header__container">
@@ -23,6 +52,11 @@ function Header() {
             </ul>
           </nav >
         </div>
+        {start &&
+          <>
+            <BurgerMenu />
+          </>
+        }
       </div>
     </header >
   )

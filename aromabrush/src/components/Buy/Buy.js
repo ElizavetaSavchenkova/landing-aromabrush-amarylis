@@ -17,6 +17,8 @@ import neo from '../../images/av-icon.svg'
 import ave from '../../images/ave-icon.svg'
 import rada from '../../images/rada-icon.svg'
 
+import ave2 from '../../images/newlogo.svg';
+
 function Buy() {
   return (
     <section className="buy">
@@ -39,7 +41,7 @@ function Buy() {
           <li className="buy__markets-element"><img className="buy__markets-element-img" src={av}></img></li>
           <li className="buy__markets-element"><img className="buy__markets-element-img" src={erka}></img></li>
           <li className="buy__markets-element"><img className="buy__markets-element-img" src={neo}></img></li>
-          <li className="buy__markets-element"><img className="buy__markets-element-img" src={ave}></img></li>
+          <li className="buy__markets-element"><img className="buy__markets-element-img" src={ave2}></img></li>
           <li className="buy__markets-element"><img className="buy__markets-element-img" src={rada}></img></li>
         </ul>
       </div>
