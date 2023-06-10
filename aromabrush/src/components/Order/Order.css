@@ -16,6 +16,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+
 }
 
 .order__title {
@@ -34,14 +36,18 @@
   padding: 40px 0 30px 0;
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(4, minmax(100px, 140px));
+  grid-template-columns: repeat(4, minmax(100px, 110px));
   justify-content: center;
   align-items: flex-end;
   box-sizing: border-box;
+
+
+  gap: 40px;
 }
 
 .order__market-element {
   width: 100%;
+
 
 }
 
@@ -49,7 +55,7 @@
   width: 100%;
 }
 
-.order__text {
+.order__description-container {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -59,7 +65,7 @@
   align-items: end;
 }
 
-.order__text-sub {
+.order__descripton-text {
   margin: 0;
   padding: 0;
   font-style: normal;
@@ -67,20 +73,24 @@
   font-size: 30px;
   line-height: 40px;
   color: #ffffff;
-  width: 40%;
+  width: 45%;
 }
 
 .order__button {
+  margin: 0;
+  background-color: #7DD3DF;
+  border-radius: 20.768px;
+  border: inherit;
+  padding: 22px 25px;
+}
 
+.order__button-link {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
   font-style: normal;
   font-weight: 500;
   font-size: 30px;
   line-height: 20px;
-  background-color: #7DD3DF;
-  border-radius: 20.768px;
-  border: inherit;
-  color: #ffffff;
-  padding: 22px 25px;
-
-
+  text-decoration: none;
 }

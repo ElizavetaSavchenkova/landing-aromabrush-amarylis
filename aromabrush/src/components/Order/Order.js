@@ -5,6 +5,11 @@ import sber from '../../images/sber.svg'
 import ozon from '../../images/ozon.svg'
 import wb from '../../images/wb.svg'
 
+import wb1 from '../../images/wb-market.svg'
+import sber1 from '../../images/sber-market.svg'
+import ozon1 from '../../images/ozon-market.svg'
+import yandex1 from '../../images/yandex-market.svg'
+
 function Order() {
   return (
     <section className="order">
@@ -17,31 +22,32 @@ function Order() {
 
           <li className="order__market-element">
             <a className="order__market-link" href="https://amarylis.ru/" target="_blank">
-            <img className="order__icon" src={yandex} alt="Яндекс-маркет"></img>
+              <img className="order__icon" src={yandex1} alt="Яндекс-маркет"></img>
             </a>
           </li>
 
           <li className="order__market-element">
-          <a className="order__market-link" href="https://amarylis.ru/" target="_blank">
-          <img className="order__icon" src={ozon} alt="Озон"></img>
-          </a>
+            <a className="order__market-link" href="https://amarylis.ru/" target="_blank">
+              <img className="order__icon" src={ozon1} alt="Озон"></img>
+            </a>
 
           </li>
           <li className="order__market-element">
-            <img className="order__icon" src={wb}></img>
+            <img className="order__icon" src={wb1}></img>
           </li>
           <li className="order__market-element">
-            <img className="order__icon" src={sber}></img>
+            <img className="order__icon" src={sber1}></img>
           </li>
         </ul>
 
-        <div className="order__text">
-          <h4 className="order__text-sub">
-            ЕСЛИ ТЫ <strong>ОПТОВЫЙ ПОКУПАТЕЛЬ</strong> - ПОЛУЧИ ДОСТУП К ПРАЙСУ
+        <div className="order__description-container">
+          <h4 className="order__descripton-text">
+            ЕСЛИ ТЫ <strong>ОПТОВЫЙ ПОКУПАТЕЛЬ - </strong>ПОЛУЧИ ДОСТУП К ПРАЙСУ
           </h4>
-          <button className="order__button">
-            КУПИТЬ ОПТОМ
-          </button>
+
+          <div className="order__button">
+            <a href="https://amarylis.ru/" className="order__button-link">КУПИТЬ ОПТОМ</a>
+          </div>
         </div>
 
       </div>

@@ -201,18 +201,18 @@
   z-index: -1;
 }
 
-.promo__element-circle-test {
+.promo__element-circle-violet {
   margin: 0;
   padding: 0;
-  background-image: url(../../images/krug2.svg);
+  background-image: url(../../images/violet.svg);
   background-size: cover;
   background-repeat: no-repeat;
-  width: 262px;
-  height: 262px;
+  width: 354px;
+  height: 354px;
   position: absolute;
   z-index: -1;
-  right: -8%;
-  top: 65%;
+  right: -15%;
+  top: 62%;
   z-index: -1;
   display: none;
 
@@ -368,7 +368,7 @@
     right: 260px;
   }
 
-  .promo__element-circle-test {
+  .promo__element-circle-violet {
     display: flex;
   }
 

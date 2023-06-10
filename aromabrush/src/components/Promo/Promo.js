@@ -34,7 +34,7 @@ function Promo() {
       <div className="promo__wrapper">
         <div className="promo__element-circle-pink"></div>
         <div className="promo__element-circle-blue"></div>
-        <div className="promo__element-circle-test"></div>
+        <div className="promo__element-circle-violet"></div>
         <div className="promo__element-circle-yellow"></div>
       </div>
     </section>

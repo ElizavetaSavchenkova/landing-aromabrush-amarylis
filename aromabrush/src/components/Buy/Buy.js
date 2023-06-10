@@ -1,21 +1,24 @@
 import React from 'react';
 import './Buy.css'
-import auchan from '../../images/auchan.svg';
-import yandexm from '../../images/yandexm-icon.svg';
-import samokat from '../../images/samokat-icon.svg';
-import sberm from '../../images/sbermarket-icon.svg';
-import ozon from '../../images/ozon-icon.svg';
-import letu from '../../images/letu-icon.svg';
-import goldenapple from '../../images/golden-apple-icon.svg';
-import wb from '../../images/wb-icon.svg';
+import auchan from '../../images/auchan-mag.svg';
+import yandexm from '../../images/yandexm-mag.svg';
+import samokat from '../../images/samokat-mag.svg';
+import sberm from '../../images/sberm-mag.svg';
+import ozon from '../../images/ozon-mag.svg';
+import letu from '../../images/letu-mag.svg';
+import goldenapple from '../../images/goldenapple-mag.svg';
+import wb from '../../images/wb-mag.svg';
 
-import elize from '../../images/elize-icon.svg'
-import rivgosh from '../../images/riv-gosh-icon.svg'
-import av from '../../images/av-icon.svg'
-import erka from '../../images/neo-farm-icon.svg'
-import neo from '../../images/av-icon.svg'
-import ave from '../../images/ave-icon.svg'
-import rada from '../../images/rada-icon.svg'
+import elize from '../../images/elize-mag.svg'
+import rivgosh from '../../images/rivgosh-mag.svg'
+import av from '../../images/av-mag.svg'
+import neofarm from '../../images/neofarm-mag.svg'
+import erka from '../../images/erka-mag.svg'
+import ave from '../../images/ave-mag.svg'
+import rada from '../../images/raduga-mag.svg'
+
+
+
 
 import ave2 from '../../images/newlogo.svg';
 
@@ -40,8 +43,8 @@ function Buy() {
           <li className="buy__markets-element"><img className="buy__markets-element-img" src={rivgosh}></img></li>
           <li className="buy__markets-element"><img className="buy__markets-element-img" src={av}></img></li>
           <li className="buy__markets-element"><img className="buy__markets-element-img" src={erka}></img></li>
-          <li className="buy__markets-element"><img className="buy__markets-element-img" src={neo}></img></li>
-          <li className="buy__markets-element"><img className="buy__markets-element-img" src={ave2}></img></li>
+          <li className="buy__markets-element"><img className="buy__markets-element-img" src={neofarm}></img></li>
+          <li className="buy__markets-element"><img className="buy__markets-element-img" src={ave}></img></li>
           <li className="buy__markets-element"><img className="buy__markets-element-img" src={rada}></img></li>
         </ul>
       </div>
