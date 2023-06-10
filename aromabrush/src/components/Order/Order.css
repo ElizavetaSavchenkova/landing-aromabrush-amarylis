@@ -1,88 +1,86 @@
-.order{
-
-  background-color: #a87db5;
-  padding: 45px 0 40px 0;
-box-sizing: border-box;
-width:100%;
-align-items: center;
-display: flex;
-flex-direction: column;
-}
-
-.order__container{
-
-display: flex;
-justify-content: center;
-flex-direction: column;
-max-width: 1440px;
-
-}
-
-.order__title{
-  font-style: normal;
-font-weight: 500;
-font-size: 41.9858px;
-line-height: 38px;
- color: #ffffff;
- text-align: center;
- margin: 0;
-}
-
-.order__market{
-  list-style: none;
-  display:grid;
-  grid-template-columns: repeat(4, minmax(100px, 140px));
-  justify-items: center;
-  justify-content: center;
-  align-items:flex-end;
-  padding: 40px  0 30px 0;
+.order {
   margin: 0;
+  padding: 60px 0 60px 0;
+  width: 100%;
+  background-color: #a87db5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   box-sizing: border-box;
+}
 
+.order__container {
+  margin: 0;
+  padding: 0;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.order__title {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 38px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.order__markets-container {
+  margin: 0;
+  padding: 40px 0 30px 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(100px, 140px));
+  justify-content: center;
+  align-items: flex-end;
+  box-sizing: border-box;
+}
+
+.order__market-element {
+  width: 100%;
 
 }
 
-.order__market-element{
-width: 100%;
-
-}
-
-.order__icon{
+.order__icon {
   width: 100%;
 }
 
-.order__text{
-width:100%;
-display:flex;
-flex-direction:row;
-gap:60px;
-height: 80px;
-justify-content: center;
-align-items: end;
+.order__text {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  height: 80px;
+  justify-content: center;
+  align-items: end;
 }
 
-.order__text-sub{
-margin: 0;
-padding: 0;
-font-style: normal;
-font-weight: 500;
-font-size: 30px;
-line-height: 40px;
-color: #ffffff;
-width:40%;
+.order__text-sub {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  color: #ffffff;
+  width: 40%;
 }
 
-.order__button{
+.order__button {
 
-font-style: normal;
-font-weight: 500;
-font-size: 30px;
-line-height: 20px;
-background-color: #7DD3DF;
-border-radius: 20.768px;
-border: inherit;
-color: #ffffff;
-padding:22px 25px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 20px;
+  background-color: #7DD3DF;
+  border-radius: 20.768px;
+  border: inherit;
+  color: #ffffff;
+  padding: 22px 25px;
 
 
 }

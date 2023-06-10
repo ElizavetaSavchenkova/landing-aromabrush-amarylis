@@ -101,16 +101,21 @@
 .promo__bestseller {
   margin: 0;
   padding: 0 0 20px 0;
-  color: #ffffff;
   align-self: center;
+  box-sizing: border-box;
+}
+
+.promo__bestseller-title {
+  margin: 0;
+  padding: 0;
   font-style: normal;
   font-weight: 900;
   font-size: 40px;
   line-height: 44px;
-  box-sizing: border-box;
+  color: #ffffff;
 }
 
-.promo__button {
+.promo__button-buy {
   margin: 0;
   padding: 0;
   padding: 23px 65px 23px 65px;
@@ -124,8 +129,15 @@
   font-size: 32px;
   line-height: 20px;
   align-self: flex-start;
-  color: #ffffff;
   box-sizing: border-box;
+}
+
+.promo__button-link-buy {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: #ffffff;
+
 }
 
 .promo__bestseller-desc {
@@ -139,7 +151,7 @@
   align-self: flex-start;
 }
 
-.promo__bestseller-desc2 {
+.promo__bestseller-desc_newline {
   padding: 0;
 }
 

@@ -7,7 +7,7 @@ import './Promo.css'
 function Promo() {
   return (
     <section className="promo">
-      <p className="promo__title">AROMA WET DETANGLER</p>
+      <span className="promo__title">AROMA WET DETANGLER</span>
       <h1 className="promo__subtitle">АРОМА-РАСЧЁСКИ</h1>
       <div className="promo__promo-container">
         <div className="promo__products">
@@ -25,10 +25,10 @@ function Promo() {
           </img>
         </div>
         <ul className="promo__bestseller-container">
-          <li className="promo__bestseller">ХИТ ПРОДАЖ</li>
-          <button className="promo__button" aria-label="Купить хит продаж" type="button" id="bestseller-buy">КУПИТЬ</button>
+          <li className="promo__bestseller"><h2 className="promo__bestseller-title">ХИТ ПРОДАЖ</h2></li>
+          <li className="promo__button-buy"><a className="promo__button-link-buy" href="page/new.html">КУПИТЬ</a></li>
           <li className="promo__bestseller-desc">У ОФИЦИАЛЬНОГО</li>
-          <li className="promo__bestseller-desc promo__bestseller-desc2">ДИСТРИБЬЮТЕРА</li>
+          <li className="promo__bestseller-desc promo__bestseller-desc_newline">ДИСТРИБЬЮТЕРА</li>
         </ul>
       </div>
       <div className="promo__wrapper">

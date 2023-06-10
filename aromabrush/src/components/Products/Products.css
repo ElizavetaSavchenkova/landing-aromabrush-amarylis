@@ -16,7 +16,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: darkkhaki;
 }
 
 .products__title {
@@ -47,94 +46,84 @@
   display: flex;
   flex-direction: column;
   gap: 60px;
-  background-color: antiquewhite;
 }
 
 .products__figure {
-  /*width: 250px;
-  height: 137px;*/
-  background-color: white;
-  box-shadow: 10px 2px 25px rgba(0, 0, 0, 0.15);
-  border-radius: 70px;
-
-  text-align: center;
-  padding: 20px;
+  margin: 0;
+  padding: 38px 8px 33px;
   width: 230px;
   height: 66px;
-  padding: 38px 8px 33px;
-
+  background-color: #ffffff;
+  box-shadow: 10px 2px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 70px;
+  text-align: center;
 }
 
-
-
-
-.products__brush {
-  width: 572px;
-  height: 649px;
-  padding: 0 0 0 30px;
-}
-
-
-
-
-
-
-.products__figure_in {
+.products__figure_right {
   align-self: flex-end;
-
 }
 
-.products__figure_two {
+.products__figure_center {
   align-self: center;
-
 }
 
-.products__figure_three {
+.products__figure_left {
   align-self: left;
-
 }
-
-
 
 .products__figure-text {
+  margin: 0;
+  padding: 0;
   font-style: normal;
   font-weight: 500;
   font-size: 23px;
   line-height: 32px;
-  margin: 0;
-
+  color: #363636;
 }
-
-
 
 .products__tastes-list {
   margin: 0;
-  padding: 0;
+  padding: 75px 0 60px 0;
   max-width: 94.44%;
   display: grid;
   grid-template-columns: repeat(6, minmax(70px, 110px));
-  gap: 80px;
-  padding: 75px 0 75px 0;
+  gap: 85px;
   box-sizing: border-box;
   list-style: none;
 }
 
+.products__taste-el {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
 
-
-.products__element {}
-
-.products_img {
+.products__taste-img {
+  margin: 0;
+  padding: 0;
   width: 100%;
 }
 
-.products__subt {
+.products__taste-caption {
   margin: 0;
   padding: 0;
-
   text-align: center;
-  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
-  font-size: 24.5042px;
+  font-size: 24px;
   line-height: 32px;
+  display: block;
+  text-align: center;
+}
+
+.products__brush-image {
+  padding: 0 0 0 30px;
+  margin: 0;
+  width: 572px;
+  height: 649px;
+  box-sizing: border-box;
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import Promo from '../Solomeya/Promo';
+import Promo from '../Promo/Promo';
 import Products from '../Products/Products';
 import Order from '../Order/Order';
 import Banner from '../Banner/Banner'

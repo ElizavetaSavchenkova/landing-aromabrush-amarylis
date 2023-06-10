@@ -12,32 +12,32 @@ import Footer from '../Footer/Footer';
 
 function App() {
 
- // addEventListener('scroll',() => {
-   // let hue = content.getBoundingClientRect().top/22;
-   // main.style.background = `linear-gradient(45deg, white, hsl(${hue},100%,50%))`;
- // });
+  // addEventListener('scroll',() => {
+  // let hue = content.getBoundingClientRect().top/22;
+  // main.style.background = `linear-gradient(45deg, white, hsl(${hue},100%,50%))`;
+  // });
 
   //const rootElement = document.getElementById("root");
   //if (rootElement.hasChildNodes()) {
   //  hydrate(<App />, rootElement);
   //} else {
   //  render(<App />, rootElement);
- // }
-//
+  // }
+  //
 
-//window.onscroll = function() {
- // if ((window).scrollTop() > 400){
- // ('.header').css({'background-color': 'white'} )
- // }else{
- // ('.header').css({'background-color': 'black'})
+  //window.onscroll = function() {
+  // if ((window).scrollTop() > 400){
+  // ('.header').css({'background-color': 'white'} )
+  // }else{
+  // ('.header').css({'background-color': 'black'})
   //};
 
   //}
 
-  window.addEventListener('scroll', () =>{
+  window.addEventListener('scroll', () => {
     let scrollDistance = window.scrollY
     console.log(scrollDistance)
-    if ((scrollDistance > 1000) && (scrollDistance < 2000)){
+    if ((scrollDistance > 1000) && (scrollDistance < 2000)) {
       console.log(scrollDistance)
       const header = document.querySelector('header');
       console.log(header)
@@ -48,6 +48,8 @@ function App() {
     }
   })
 
+
+
   return (
     <div className="page">
 
@@ -55,7 +57,7 @@ function App() {
 
       <Main />
 
-<Footer/>
+      <Footer />
 
 
     </div>
