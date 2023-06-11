@@ -1,6 +1,8 @@
 //import logo from './logo.svg';
 import React from 'react';
 import { useEffect } from 'react';
+import { useState } from 'react';
+//import { useResize } from './use-resize';
 //import { Helmet } from 'react-helmet';
 //import { hydrate, render } from "react-dom";
 import './App.css';
@@ -8,10 +10,14 @@ import Header from '../Header/Header';
 import Main from '../Main/Main';
 import icon from '../../images/krug.svg'
 import Footer from '../Footer/Footer';
+import PopupMenu from '../PopupMenu/PopupMenu'
 
 
 
-function App() {
+function App({ onMenuClick }) {
+
+  const [start, setStart] = useState(false)
+  const [isPopupMenuOpen, setIsPopupMenuOpen] = useState(false);
 
   // addEventListener('scroll',() => {
   // let hue = content.getBoundingClientRect().top/22;
@@ -61,14 +67,54 @@ function App() {
     }
   })
 
+  //
+  // window.addEventListener("resize", AutoScale);
+  // AutoScale();
 
+  // function AutoScale() {
+  // let width = window.screen.width; //Ширина окна
+  //Если вы хотите проверять по размеру экрана, то вам нужно свойство window.screen.width
+
+  // if (width > 1280)
+  // console.log('1380')
+
+  //}
+
+  // const [windowWidth, setWindowWidth] = React.useState(window.screen.width);
+
+  //React.useEffect(() => {
+  //  window.onresize = () => { setWindowWidth(window.screen.width) };
+  //   console.log('header')
+
+  //   return () => { window.onresize = false };
+  // }, [windowWidth]);
+
+  // useEffect(()=> {
+  //   if(windowWidth >=950 ){
+
+  //   }
+  // })
+
+  function handleMenuClick() {
+    setIsPopupMenuOpen(true);
+  }
+
+  function handleCloseMenu() {
+    setIsPopupMenuOpen(false);
+  }
+
+
+
+  //const { width, isScreenSm, isScreenMd, isScreenLg, isScreenXl } = useResize();
 
   return (
     <div className="page">
 
-      <Header />
+      <Header onMenuClick={handleMenuClick}/>
+      <PopupMenu isOpen={isPopupMenuOpen} onMenuClick={handleCloseMenu} />
 
-      <Main />
+      <Main
+        start={start} />
 
       <Footer />
 

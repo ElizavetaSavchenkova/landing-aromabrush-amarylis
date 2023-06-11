@@ -16,10 +16,6 @@ import neofarm from '../../images/neofarm-mag.svg'
 import erka from '../../images/erka-mag.svg'
 import ave from '../../images/ave-mag.svg'
 import rada from '../../images/raduga-mag.svg'
-
-
-
-
 import ave2 from '../../images/newlogo.svg';
 
 function Buy() {
@@ -27,9 +23,9 @@ function Buy() {
     <section className="buy">
       <div className="buy__container">
         <h4 className="buy__title">ГДЕ КУПИТЬ</h4>
-        <ul className="buy__markets">
-          <li className="buy__markets-element"><img className="buy__markets-element-img" src={auchan}></img></li>
-          <li className="buy__markets-element"><img className="buy__markets-element-img" src={yandexm}></img></li>
+        <ul className="buy__markets-container">
+          <li className="buy__markets-element"><img className="buy__markets-element-img" src={auchan} alt="АШАН"></img></li>
+          <li className="buy__markets-element"><img className="buy__markets-element-img" src={yandexm} alt="Яндекс-Маркет"></img></li>
           <li className="buy__markets-element"><img className="buy__markets-element-img" src={samokat}></img></li>
           <li className="buy__markets-element"><img className="buy__markets-element-img" src={sberm}></img></li>
           <li className="buy__markets-element"><img className="buy__markets-element-img" src={wb}></img></li>
@@ -38,7 +34,7 @@ function Buy() {
           <li className="buy__markets-element"><img className="buy__markets-element-img" src={goldenapple}></img></li>
 
          </ul>
-         <ul className="buy__markets_2">
+         <ul className="buy__markets-container-second">
           <li className="buy__markets-element"><img className="buy__markets-element-img" src={elize}></img></li>
           <li className="buy__markets-element"><img className="buy__markets-element-img" src={rivgosh}></img></li>
           <li className="buy__markets-element"><img className="buy__markets-element-img" src={av}></img></li>

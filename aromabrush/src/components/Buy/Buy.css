@@ -1,78 +1,60 @@
 .buy {
+  margin: 0;
+  padding: 60px 0 60px 0;
   width: 100%;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 70px 0 60px 0;
-
 }
 
 .buy__container {
+  margin: 0;
+  padding: 0;
   max-width: 1440px;
-
   display: flex;
   flex-direction: column;
   align-content: center;
   justify-content: center;
-
-
 }
 
 .buy__title {
-  font-size: 30px;
-  color: #3B3B3B;
-  text-align: center;
-  font-weight: 500;
-  font-size: 41.9858px;
-  line-height: 38px;
   margin: 0;
   padding: 0;
-}
-
-.buy__title {
-  font-style: normal;
   font-weight: 500;
-  font-size: 41.9858px;
+  font-size: 42px;
   line-height: 38px;
+  text-align: center;
   color: #3B3B3B;
 }
 
-.buy__markets {
+.buy__markets-container {
+  margin: 0;
+  padding: 60px 0 30px 0;
+  list-style: none;
   display: grid;
   grid-template-columns: repeat(8, minmax(110px, 120px));
-  padding: 60px 0 30px 0;
-  margin: 0;
-  list-style: none;
-  gap:30px;
+  gap: 30px;
+  box-sizing: border-box;
 }
 
-.buy__markets_2 {
-  display: grid;
-
-
-  padding: 0;
+.buy__markets-container-second {
   margin: 0;
-
+  padding: 0;
+  display: grid;
   grid-template-columns: repeat(7, minmax(110px, 120px));
-
   list-style: none;
   justify-content: center;
-  gap:30px;
+  gap: 30px;
 }
 
 .buy__markets-element {
-
-
   border-radius: 50%;
-height:120px;
-box-shadow: 9px 0px 24px -11px rgba(34, 60, 80, 0.51);
-
+  height: 120px;
+  box-shadow: 9px 0px 24px -11px rgba(34, 60, 80, 0.51);
 }
 
 .buy__markets-element-img {
   width: 100%;
-
-
 }

@@ -1,83 +1,101 @@
-.review{
-width:100%;
-background-color: #ffffff;
-
-
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+.review {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
 }
 
-.review__container{
-max-width: 1440px;
-display: flex;
-justify-content: center;
-
-
+.review__container {
+  max-width: 1440px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: darkgreen;
+  z-index: 2;
 }
 
-.review__container-2{
-  width: 80% ;
+.review__fugure{
+  margin: 0;
+  padding: 0;
+  background-image: url('../../images/krug6.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  right:1100px;
+  bottom: -3770px;
+  z-index: 1;
+}
+
+.review__container-2 {
+  width: 80%;
 
   display: grid;
   grid-template-columns: 20% 53% 27%;
   /*grid-template-columns: 10% 75% 25%;&*/
+  background-color: aquamarine;
+  z-index:2;
 }
 
-.review__container-info{
+.review__container-info {
 
-display: flex;
-flex-direction: column;
-gap:30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
-.review__review-img{
-  align-self:center;
+.review__review-img {
+  align-self: center;
   justify-self: end;
 
 }
 
-.review__review{
+.review__review {
   font-style: normal;
-font-weight: 400;
-font-size: 27px;
-line-height: 37px;
-margin:0;
-padding:0;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 37px;
+  margin: 0;
+  padding: 0;
 }
 
-.review__kaw{
+.review__kaw {
 
-justify-self: center;
+  justify-self: center;
 }
 
-.review__review-user-text{
+.review__review-user-text {
   font-style: normal;
   font-weight: 400;
   font-size: 24.504px;
   line-height: 32px;
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
 
-.review__review-user{
- display: grid;
+.review__review-user {
+  display: grid;
 
- grid-template-columns: 25% 75% ;
- grid-template-rows: 25% 75% ;
- gap:1px 1px;
-/* grid-template-columns: 35% 65%;*/
-/*display: flex;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: 25% 75%;
+  gap: 1px 1px;
+  /* grid-template-columns: 35% 65%;*/
+  /*display: flex;
 gap:50px;*/
 
 }
 
-.review__review-user_grid{
+.review__review-user_grid {
 
 
 
-    grid-column-start: 1;
+  grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 6;
@@ -91,7 +109,7 @@ gap:50px;*/
   grid-row-end: 3;
 }
 
-.block_size_img{
+.block_size_img {
   grid-column-start: 1;
   grid-row-start: 2;
   grid-row-start: 1;

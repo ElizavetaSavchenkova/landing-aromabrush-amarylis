@@ -10,10 +10,11 @@ import Contacts from '../Contacts/Contacts';
 import AboutCompany from '../AboutCompany/AboutCompany';
 import './Main.css'
 
-function Main() {
+function Main({start}) {
   return (
     <main className="main">
-      <Promo />
+      <Promo
+      start={start}/>
       <Products/>
       <Order/>
       <Banner/>
