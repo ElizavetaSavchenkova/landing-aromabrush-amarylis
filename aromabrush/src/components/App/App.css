@@ -15,3 +15,7 @@
  /* background: linear-gradient(to right,#fa6579, #f43850);*/
 }
 
+.page_blur {
+  filter: blur(10px);
+}
+

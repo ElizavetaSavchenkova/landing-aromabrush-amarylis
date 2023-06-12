@@ -21,7 +21,7 @@ header:after {
 
 .header__container {
   margin: 0 auto;
-  padding: 45px 0 40px 0;
+  padding: 54px 0 45px 0;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -162,7 +162,7 @@ header:after {
     margin: 0;
     justify-content: space-between;
     width: 94.44%;
-    height: 125px;
+    /*height: 125px;*/
   }
 
   .header__info-container {
@@ -212,10 +212,32 @@ header:after {
   }
 }
 
-@media screen and (max-width:1100px) and (min-width:200px) {
+@media screen and (max-width:1100px) and (min-width:800px) {
   .header__container {
     margin: 0 auto;
-    padding: 45px 0 40px 0;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    box-sizing: border-box;
+    z-index: 3;
+    padding: 54px 0 45px 0;
+
+  }
+
+  .header__logo {
+    width: 205px;
+    height: 40px;
+    align-self: center;
+
+
+  }
+}
+
+@media screen and (max-width:800px) and (min-width:570px) {
+  .header__container {
+    margin: 0 auto;
+    padding: 30px 0 32px 0;
     width: 85%;
     display: flex;
     justify-content: space-between;
@@ -232,4 +254,76 @@ header:after {
 
 
   }
+}
+
+@media screen and (max-width:570px) and (min-width:450px) {
+  .header__container {
+    margin: 0 auto;
+    padding: 30px 0 32px 0;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    box-sizing: border-box;
+    z-index: 3;
+
+  }
+
+  .header__logo {
+    width: 157px;
+    height: 31px;
+    align-self: center;
+
+
+  }
+
+
+}
+
+@media screen and (max-width:570px) and (min-width:450px) {
+  .header__container {
+    margin: 0 auto;
+    padding: 29px 0 15px 0;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    box-sizing: border-box;
+    z-index: 3;
+
+  }
+
+  .header__logo {
+    width: 157px;
+    height: 31px;
+    align-self: center;
+
+
+  }
+
+
+}
+
+@media screen and (max-width:450px) and (min-width:300px) {
+  .header__container {
+    margin: 0 auto;
+    padding: 29px 0 15px 0;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    box-sizing: border-box;
+    z-index: 3;
+
+  }
+
+  .header__logo {
+    width: 157px;
+    height: 31px;
+    align-self: center;
+
+
+  }
+
+
 }

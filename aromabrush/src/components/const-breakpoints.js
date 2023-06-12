@@ -13,6 +13,9 @@ export const SCREEN_MY = 1100;
 export const SCREEN_MY2 = 1101;
 
 
+export const SCREEN_MY4 = 1095;
+export const SCREEN_MY5 = 1096;
+
     //isScreenSm: width >= SCREEN_SM,
   //  isScreenLg: width >= SCREEN_LG,
     //isScreenXl: width >= SCREEN_XL,

@@ -95,20 +95,34 @@ function App({ onMenuClick }) {
   //   }
   // })
 
+
+
+
+
   function handleMenuClick() {
     setIsPopupMenuOpen(true);
+        const promo = document.getElementById('promo')
+        console.log(promo)
+       promo.classList.add('promo_blur')
   }
+
+
 
   function handleCloseMenu() {
     setIsPopupMenuOpen(false);
-  }
+    const buttonx = Array.from(document.querySelectorAll('.x'));
+        const promo = document.getElementById('promo')
+       promo.classList.remove('promo_blur')
+
+    }
+
 
 
 
   //const { width, isScreenSm, isScreenMd, isScreenLg, isScreenXl } = useResize();
 
   return (
-    <div className="page">
+    <div className="page" id="page">
 
       <Header onMenuClick={handleMenuClick}/>
       <PopupMenu isOpen={isPopupMenuOpen} onMenuClick={handleCloseMenu} />

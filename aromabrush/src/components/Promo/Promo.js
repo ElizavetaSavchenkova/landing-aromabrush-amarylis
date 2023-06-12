@@ -80,7 +80,7 @@ function Promo() {
   const { width, isScreenMy3, isScreenSm, isScreenMd, isScreenLg, isScreenXl } = useResize();
 
   return (
-    <section className="promo">width:{width}px
+    <section className="promo" id="promo">
       {isScreenLg &&
         <>
           <span className="promo__title">AROMA WET DETANGLER</span>
