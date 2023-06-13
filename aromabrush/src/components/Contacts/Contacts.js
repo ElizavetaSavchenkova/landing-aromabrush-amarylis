@@ -1,7 +1,7 @@
 import React from 'react';
 import './Contacts.css'
 import { YMaps, Map, Placemark } from '@pbe/react-yandex-maps';
-
+import { useResize } from '../use-resize';
 //let map;
 //et marker;
 //function initMap ()
@@ -26,54 +26,124 @@ function Contacts() {
   const defaultState = {
     center: [55.85519539032519, 37.444785813276766],
     zoom: 17,
+
   };
 
+  const { width, isScreenMy9, isScreenMy10, isScreenMy11 } = useResize();
+
   return (
-
-
     <section className="contacts">
-      <div className="contacts__container" id="yandexmap">
-        <YMaps>
-          <Map defaultState={defaultState}
-            width={'1330px'}
-            height={'500px'}>
-            <Placemark geometry={[55.85519539032519, 37.444785813276766]} />
-          </Map>
-        </YMaps>
+      {isScreenMy9 &&
+        <div className="contacts__container" id="yandexmap">
+          <YMaps>
+            <Map
+              state={{ center: [55.85519539032519, 37.444785813276766], zoom: 17 }}
+              width={'100%'}
+              height={'450px'}>
+              <Placemark geometry={[55.85519539032519, 37.444785813276766]} />
+            </Map>
+          </YMaps>
 
-        <div className="contacts__info">
+          <div className="contacts__info">
+            <ul className="contacts__info-container">
+              <li className="contacts__info-title">Оптовикам</li>
+              <li className="contacts__info-title">WhatsApp</li>
+              <li className="contacts__info-title">Интернет-магазин</li>
+              <li className="contacts__info-title">Санкт-Петербург</li>
 
-          <div className="contacts__map">
-            <p className="contacts__map1">Оптовикам</p>
-            <p className="contacts__map1">WhatsApp</p>
-            <p className="contacts__map1">Интернет-магазин</p>
-            <p className="contacts__map1">Санкт-Петербург</p>
+              <li className="contacts__info-desc">+7 (499) 704-55-75</li>
+              <li className="contacts__info-desc">+7 (926) 992-95-88</li>
+              <li className="contacts__info-desc">+7 (800) 511-98-97</li>
+              <li className="contacts__info-desc">+7 (812) 424-18-64</li>
+            </ul>
 
-            <p className="contacts__map2">+7 (499) 704-55-75</p>
-            <p className="contacts__map2">+7 (926) 992-95-88</p>
-            <p className="contacts__map2">+7 (800) 511-98-97</p>
-            <p className="contacts__map2">+7 (812) 424-18-64</p>
+            <ul className="contacts__info-container contacts__info-container_second">
+              <li className="contacts__info-title">Адрес</li>
+              <li className="contacts__info-title"></li>
+              <li className="contacts__info-title contacts__info-title_right">Режим работы</li>
+
+              <li className="contacts__info-desc">г. Москва ул. Фомичевой д.5 корп.2</li>
+              <li className="contacts__info-desc contacts__info-desc_center">sales@amarylis.ru</li>
+              <li className="contacts__info-desc contacts__info-desc_right">ПН-ПТ - 10:00-19:00</li>
+
+            </ul>
           </div>
 
-          <div className="contacts__maptwo">
-          <p className="contacts__map1">Адрес</p>
-            <p className="contacts__map1"></p>
-            <p className="contacts__map1 contacts__map1_right">Режим работы</p>
-
-            <p className="contacts__map2">г. Москва ул. Фомичевой д.5 корп.2</p>
-            <p className="contacts__map2 contacts__map2_center">sales@amarylis.ru</p>
-            <p className="contacts__map2 contacts__map2_right">ПН-ПТ - 10:00-19:00</p>
-
+        </div>}
+      {isScreenMy10 &&
+        <div className="contacts__container" id="yandexmap">
+          <YMaps>
+            <Map
+              state={{ center: [55.85409612663442, 37.44562956773195], zoom: 16 }}
+              width={'100%'}
+              height={'500px'}>
+              <Placemark geometry={[55.85519539032519, 37.444785813276766]} />
+            </Map>
+          </YMaps>
+          <div className="contacts__info">
+            <ul className="contacts__info-container">
+              <li className="contacts__info-title">Оптовикам</li>
+              <li className="contacts__info-title">Интернет-магазин</li>
+              <li className="contacts__info-desc">+7 (499) 704-55-75</li>
+              <li className="contacts__info-desc">+7 (800) 511-98-97</li>
+              <li className="contacts__info-title">WhatsApp</li>
+              <li className="contacts__info-title">Санкт-Петербург</li>
+              <li className="contacts__info-desc">+7 (926) 992-95-88</li>
+              <li className="contacts__info-desc">+7 (812) 424-18-64</li>
+            </ul>
+            <ul className="contacts__info-container contacts__info-container_second">
+              <li className="contacts__info-title">Адрес</li>
+              <li className="contacts__info-desc contacts__info-desc__address">г. Москва ул. Фомичевой д.5 корп.2</li>
+              <li className="contacts__info-desc contacts__info-desc_center">sales@amarylis.ru</li>
+              <li className="contacts__info-title contacts__info-title_right">Режим работы</li>
+              <li className="contacts__info-desc contacts__info-desc_right">ПН-ПТ - 10:00-19:00</li>
+            </ul>
           </div>
+        </div>}
 
-        </div>
-      </div>
-
-
-
-
+      {isScreenMy11 &&
+        <div className="contacts__container" id="yandexmap">
+          <YMaps>
+            <Map
+              state={{ center: [55.85283649208692, 37.4447839967925], zoom: 16 }}
+              width={'100%'}
+              height={'550px'}>
+              <Placemark geometry={[55.85519539032519, 37.444785813276766]} />
+            </Map>
+          </YMaps>
+          <div className="contacts__info">
+            <ul className="contacts__info-container">
+              <li className="contacts__info-title">Оптовикам</li>
+              <li className="contacts__info-desc">+7 (499) 704-55-75</li>
+              <li className="contacts__info-title">WhatsApp</li>
+              <li className="contacts__info-desc">+7 (926) 992-95-88</li>
+              <li className="contacts__info-title">Интернет-магазин</li>
+              <li className="contacts__info-desc">+7 (800) 511-98-97</li>
+              <li className="contacts__info-title">Санкт-Петербург</li>
+              <li className="contacts__info-desc">+7 (812) 424-18-64</li>
+              <li className="contacts__info-title">Адрес</li>
+              <li className="contacts__info-desc contacts__info-desc__address">г. Москва ул. Фомичевой д.5 корп.2</li>
+              <li className="contacts__info-desc contacts__info-desc_center">sales@amarylis.ru</li>
+              <li className="contacts__info-title contacts__info-title_right">Режим работы</li>
+              <li className="contacts__info-desc contacts__info-desc_right">ПН-ПТ - 10:00-19:00</li>
+            </ul>
+          </div>
+        </div>}
     </section>
   )
 }
 
 export default Contacts
+
+
+//
+//<ul className="contacts__info-container contacts__info-container_second">
+          // /   <li className="contacts__info-title">Адрес</li>
+        //      <li className="contacts__info-title"></li>
+            ///  <li className="contacts__info-title contacts__info-title_right">Режим работы</li>
+////
+            //  <li className="contacts__info-desc">г. Москва ул. Фомичевой д.5 корп.2</li>
+           //   <li className="contacts__info-desc contacts__info-desc_center">sales@amarylis.ru</li>
+            //  <li className="contacts__info-desc contacts__info-desc_right">ПН-ПТ - 10:00-19:00</li>
+
+         //   </ul>

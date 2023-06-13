@@ -114,7 +114,7 @@ function Promo() {
         </div>
         <ul className="promo__bestseller-container">
           <li className="promo__bestseller"><h2 className="promo__bestseller-title">ХИТ ПРОДАЖ</h2></li>
-          <li className="promo__button-buy"><a className="promo__button-link-buy" href="page/new.html">КУПИТЬ</a></li>
+          <li className="promo__button-buy"><a className="promo__button-link-buy" href="https://amarylis.ru/search/?q=%d0%b0%d1%80%d0%be%d0%bc%d0%b0+%d1%80%d0%b0%d1%81%d1%87%d0%b5%d1%81%d0%ba%d0%b8&utm_source=amarylis.ru&utm_medium=posadochnaya_stranitsi&utm_campaign=aroma-rascheski">КУПИТЬ</a></li>
           <li className="promo__bestseller-desc">У ОФИЦИАЛЬНОГО</li>
           <li className="promo__bestseller-desc promo__bestseller-desc_newline">ДИСТРИБЬЮТЕРА</li>
         </ul>

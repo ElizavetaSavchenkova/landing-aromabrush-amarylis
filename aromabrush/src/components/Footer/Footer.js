@@ -9,21 +9,22 @@ function Footer() {
     <footer className="footer">
       <div className="footer__container">
         <h4 className="footer__title">ПОДПИШИТЕСЬ НА НАС</h4>
-        <div className="footer__info">
-          <div className="footer__vk">
-            <img className="footer__icon" src={vk}></img>
-            <p className="footer__text">amarylis_shop</p>
-          </div>
-          <div className="footer__youtube">
-            <img className="footer__icon2" src={youtube}></img>
-            <p className="footer__text">YouTube</p>
-          </div>
-        </div>
-        <p className="footer__sub">*Обращаем Ваше внимание на то, что данный интернет-сайт носит исключительно информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437 Гражданского кодекса Российской Федерации.</p>
+
+        <nav className="footer__info">
+          <ul className="footer__info-container">
+            <li className="footer__vk">
+              <a href="https://vk.com/amarylis_shop?utm_source=vk&utm_medium=posadochnaya_stranitsi&utm_campaign=aroma-rascheski">
+                <img className="footer__icon footer__icon_vk" src={vk}></img></a>
+              <p className="footer__text-icon">amarylis_shop</p>
+            </li>
+            <li className="footer__youtube">
+              <a href="https://www.youtube.com/@amarylisorg/videos?utm_source=youtube&utm_medium=posadochnaya_stranitsi&utm_campaign=aroma-rascheski"><img className="footer__icon footer__icon_youtube" src={youtube}></img></a>
+              <p className="footer__text-icon">YouTube</p>
+            </li>
+          </ul>
+        </nav>
+        <p className="footer__note">*Обращаем Ваше внимание на то, что данный интернет-сайт носит исключительно информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437 Гражданского кодекса Российской Федерации.</p>
       </div>
-
-
-
     </footer>
   )
 }

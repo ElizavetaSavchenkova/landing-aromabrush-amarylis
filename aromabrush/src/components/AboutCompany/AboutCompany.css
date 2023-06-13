@@ -1,8 +1,8 @@
 .aboutcompany {
-  width: 100%;
-  background-color: #ffffff;
   padding: 60px 0 60px 0;
   margin: 0;
+  width: 100%;
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,36 +10,28 @@
 }
 
 .aboutcompany__container {
+  margin: 0;
+  padding: 0;
   max-width: 1440px;
-
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
 }
 
 .aboutcompany__title {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 41.9858px;
-  line-height: 38px;
-  color: #3B3B3B;
   margin: 0;
   padding: 0 0 30px 0;
-}
-
-.aboutcompany__title1 {
-  padding: 0 0 15px 0;
   font-style: normal;
   font-weight: 500;
-  font-size: 41.9858px;
+  font-size: 42px;
   line-height: 38px;
   color: #3B3B3B;
-  margin: 0;
 }
 
 .aboutcompany__desc {
+  margin: 0;
+  padding: 0;
   width: 57.29%;
   display: flex;
   flex-direction: column;
@@ -47,11 +39,95 @@
 }
 
 .aboutcompany__desc-el {
-  text-align: start;
   margin: 0;
+  padding: 0;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 32px;
+  text-align: start;
+}
 
+
+@media screen and (max-width:1155px) and (min-width:760px) {
+  .aboutcompany__title {
+    padding: 0 0 20px 0;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+  }
+
+  .aboutcompany__desc {
+    width: 65.5%;
+    gap: 30px;
+  }
+
+  .aboutcompany__desc-el {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .aboutcompany {
+    padding: 40px 0 40px 0;
+  }
+
+}
+
+
+
+@media screen and (max-width:760px) and (min-width:450px) {
+  .aboutcompany__title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 38px;
+    padding: 0 0 10px 0;
+  }
+
+  .aboutcompany__desc-el {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .aboutcompany__desc {
+    width: 68%;
+    gap: 30px;
+  }
+
+  .aboutcompany {
+    padding: 40px 0 40px 0;
+  }
+
+
+}
+
+
+@media screen and (max-width:450px) and (min-width:300px) {
+  .aboutcompany__title {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 38px;
+    padding: 0 0 7px 0;
+  }
+
+  .aboutcompany__desc-el {
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 10px;
+  }
+
+  .aboutcompany__desc {
+    gap: 0;
+
+  }
+
+  .aboutcompany__desc {
+    width: 74%;
+
+  }
+
+  .aboutcompany {
+    padding: 40px 0 40px 0;
+  }
 }

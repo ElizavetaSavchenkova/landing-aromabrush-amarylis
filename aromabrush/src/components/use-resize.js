@@ -9,6 +9,12 @@ import {
   SCREEN_MY2,
   SCREEN_MY4,
   SCREEN_MY5,
+  SCREEN_MY6,
+  SCREEN_MY7,
+  SCREEN_MY8,
+  SCREEN_MY10,
+  SCREEN_MY9,
+  SCREEN_MY11,
 
 } from './const-breakpoints';
 
@@ -37,5 +43,14 @@ export const useResize = () => {
     isScreenMy3: width < SCREEN_LG,
     isScreenMy4: width <= SCREEN_MY4,
     isScreenMy5: width > SCREEN_MY5,
+    isScreenMy6: width <= SCREEN_MY6,
+    isScreenMy7: width >= SCREEN_MY7,
+
+    isScreenMy8: width >= SCREEN_MY8,
+
+    isScreenMy9: width >= SCREEN_MY9,
+    isScreenMy10: width <= SCREEN_MY10 && width > SCREEN_MY11,
+    isScreenMy11: width <= SCREEN_MY11
+
   };
 };
