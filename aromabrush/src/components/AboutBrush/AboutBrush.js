@@ -3,7 +3,7 @@ import './AboutBrush.css'
 
 function AboutBrush() {
   return (
-    <section className="aboutbrush">
+    <section className="aboutbrush" id="aboutbrush">
       <div className="aboutbrush__container">
         <h3 className="aboutbrush__title">О РАСЧЁСКАХ</h3>
         <div className="aboutbrush__video-container">

@@ -32,7 +32,8 @@ function Contacts() {
   const { width, isScreenMy9, isScreenMy10, isScreenMy11 } = useResize();
 
   return (
-    <section className="contacts">
+    <section className="contacts" id="contacts">
+      <h3 className="contacts__title">КОНТАКТЫ</h3>
       {isScreenMy9 &&
         <div className="contacts__container" id="yandexmap">
           <YMaps>
@@ -43,6 +44,7 @@ function Contacts() {
               <Placemark geometry={[55.85519539032519, 37.444785813276766]} />
             </Map>
           </YMaps>
+
 
           <div className="contacts__info">
             <ul className="contacts__info-container">

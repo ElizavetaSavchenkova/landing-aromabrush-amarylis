@@ -18,9 +18,29 @@ import ave from '../../images/ave-mag.svg'
 import rada from '../../images/raduga-mag.svg'
 import ave2 from '../../images/newlogo.svg';
 
+import CarouselMarkets from '../CarouselMarkets/CarouselMarkets'
+
 function Buy() {
   return (
     <section className="buy">
+      <CarouselMarkets>
+        <ul className="buy__markets-container">
+          <li className="buy__markets-element"><img className="buy__markets-element-img" src={auchan} alt="АШАН"></img></li>
+          <li className="buy__markets-element"><img className="buy__markets-element-img" src={yandexm} alt="Яндекс-Маркет"></img></li>
+          <li className="buy__markets-element"><img className="buy__markets-element-img" src={samokat}></img></li>
+        </ul>
+        <ul className="buy__markets-container">
+          <li className="buy__markets-element"><img className="buy__markets-element-img" src={sberm}></img></li>
+          <li className="buy__markets-element"><img className="buy__markets-element-img" src={wb}></img></li>
+          <li className="buy__markets-element"><img className="buy__markets-element-img" src={letu}></img></li>
+          </ul>
+          <ul className="buy__markets-container">
+          <li className="buy__markets-element"><img className="buy__markets-element-img" src={sberm}></img></li>
+          <li className="buy__markets-element"><img className="buy__markets-element-img" src={ozon}></img></li>
+          <li className="buy__markets-element"><img className="buy__markets-element-img" src={goldenapple}></img></li>
+        </ul>
+      </CarouselMarkets>
+
       <div className="buy__container">
         <h4 className="buy__title">ГДЕ КУПИТЬ</h4>
         <ul className="buy__markets-container">
@@ -32,9 +52,8 @@ function Buy() {
           <li className="buy__markets-element"><img className="buy__markets-element-img" src={letu}></img></li>
           <li className="buy__markets-element"><img className="buy__markets-element-img" src={ozon}></img></li>
           <li className="buy__markets-element"><img className="buy__markets-element-img" src={goldenapple}></img></li>
-
-         </ul>
-         <ul className="buy__markets-container-second">
+        </ul>
+        <ul className="buy__markets-container-second">
           <li className="buy__markets-element"><img className="buy__markets-element-img" src={elize}></img></li>
           <li className="buy__markets-element"><img className="buy__markets-element-img" src={rivgosh}></img></li>
           <li className="buy__markets-element"><img className="buy__markets-element-img" src={av}></img></li>

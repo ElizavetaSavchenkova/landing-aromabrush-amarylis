@@ -3,7 +3,7 @@ import './AboutCompany.css'
 
 function AboutCompany() {
   return (
-    <section className="aboutcompany">
+    <section className="aboutcompany" id="aboutcompany">
       <div className="aboutcompany__container">
         <h2 className="aboutcompany__title">О КОМПАНИИ АМАРИЛИС</h2>
         <div className="aboutcompany__desc">

@@ -6,7 +6,7 @@ import youtube from '../../images/youtube-footer-icon.svg'
 
 function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer" >
       <div className="footer__container">
         <h4 className="footer__title">ПОДПИШИТЕСЬ НА НАС</h4>
 

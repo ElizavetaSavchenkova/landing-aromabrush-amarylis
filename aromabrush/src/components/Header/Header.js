@@ -86,14 +86,14 @@ function Header({onMenuClick}) {
           <div className="header__info">
             <ul className="header__info-container">
               <li className="header__info-container-el"><span className="header__info-container-telephone">8(499) 704 55 75</span></li>
-              <li className="header__info-container-el"><a href="https://amarylis.ru/"><img className="header__icon" src={telegramIcon} alt="Telegram" /></a></li>
-              <li className="header__info-container-el"><a href="https://amarylis.ru/"><img className="header__icon" src={whatsappIcon} alt="Whatsapp" /></a></li>
+              <li className="header__info-container-el"><a href="https://t.me/amarylis_ru?utm_source=wa&utm_campaign=aroma_rascheski"><img className="header__icon" src={telegramIcon} alt="Telegram" /></a></li>
+              <li className="header__info-container-el"><a href="https://wa.me/79269959588?utm_source=wa&utm_campaign=aroma_rascheski"><img className="header__icon" src={whatsappIcon} alt="Whatsapp" /></a></li>
             </ul>
             <nav className="header__menu">
               <ul className="header__menu-list">
-                <li className="header__list-element"><a className="header__list-link" href="https://amarylis.ru/">О РАСЧЁСКАХ</a></li>
-                <li className="header__list-element"><a className="header__list-link" href="https://amarylis.ru/">О КОМПАНИИ</a></li>
-                <li className="header__list-element "><a className="header__list-link" href="https://amarylis.ru/contacts/">КОНТАКТЫ</a></li>
+                <li className="header__list-element"><a className="header__list-link" href="#aboutbrush">О РАСЧЁСКАХ</a></li>
+                <li className="header__list-element"><a className="header__list-link" href="#aboutcompany">О КОМПАНИИ</a></li>
+                <li className="header__list-element "><a className="header__list-link" href="#contacts">КОНТАКТЫ</a></li>
               </ul>
             </nav >
           </div>

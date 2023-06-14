@@ -11,6 +11,7 @@ import lavender from '../../images/lavender.svg'
 import grape from '../../images/grape.svg'
 import './Products.css';
 import { useResize } from '../use-resize';
+import Carousel from '../Carousel/Carousel';
 
 
 import photo from '../../images/1.svg'
@@ -116,7 +117,14 @@ function Products() {
                 <img className="products__figure-text" src={photo3}></img>
               </div>
             </div>
-            <img className="products__brush-image" src={black} alt="Арома-расчёска Solomeya со вкусом винограда"></img>
+            <Carousel>
+              <p className="item1"> </p>
+              <p className="item2"></p>
+              <p className="item3"></p>
+            </Carousel>
+
+
+
             <div className="products__tagline-desc">
               <div className="products__figure products__figure_left">
                 <img className="products__figure-text" src={photo4}></img>
