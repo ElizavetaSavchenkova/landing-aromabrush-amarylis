@@ -14,7 +14,7 @@ import './Main.css'
 
 function Main({ start }) {
   return (
-    <main className="main">
+    <main className="main" id="main">
       <Promo
         start={start} />
       <Products />
@@ -25,11 +25,6 @@ function Main({ start }) {
       <Review />
       <AboutCompany />
       <Contacts />
-      <Carousel>
-        <p className="item1"> </p>
-        <p className="item2"></p>
-        <p className="item3"></p>
-      </Carousel>
     </main>
   )
 }

@@ -101,9 +101,9 @@ function App({ onMenuClick }) {
 
   function handleMenuClick() {
     setIsPopupMenuOpen(true);
-    const promo = document.getElementById('promo')
+    const promo = document.getElementById('main')
     console.log(promo)
-    promo.classList.add('promo_blur')
+    promo.classList.add('main_blur')
   }
 
 
@@ -111,8 +111,8 @@ function App({ onMenuClick }) {
   function handleCloseMenu() {
     setIsPopupMenuOpen(false);
     const buttonx = Array.from(document.querySelectorAll('.x'));
-    const promo = document.getElementById('promo')
-    promo.classList.remove('promo_blur')
+    const promo = document.getElementById('main')
+    promo.classList.remove('main_blur')
 
   }
 

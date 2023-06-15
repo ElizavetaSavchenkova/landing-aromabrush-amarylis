@@ -28,6 +28,15 @@ export const SCREEN_MY10 = 730
 
 export const SCREEN_MY11 = 430
 
+///buy
+export const SCREEN_MY12 = 1301
+export const SCREEN_MY13 = 1300
+
+export const SCREEN_MY14 = 761
+export const SCREEN_MY15 = 760
+
+export const SCREEN_MY16 = 450
+
     //isScreenSm: width >= SCREEN_SM,
   //  isScreenLg: width >= SCREEN_LG,
     //isScreenXl: width >= SCREEN_XL,

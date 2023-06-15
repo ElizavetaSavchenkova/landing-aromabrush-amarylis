@@ -1,17 +1,20 @@
-.carousel {
-  width: 430px;
-  height: 300px;
+.carousel-markets {
+  width: 700px;
+  height: 160px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   z-index: 2;
+
 }
 
 .window {
   width: 100%;
   height: 100%;
   overflow: hidden;
+
+
 
 }
 
@@ -20,7 +23,7 @@
   display: flex;
   transition: translate;
   transition-property: transform ;
-  transition-duration: 300ms;
+  transition-duration: 600ms;
   transition-timing-function: ease-in-out;
 
 }
@@ -28,6 +31,95 @@
 .arrow {
   cursor: pointer;
   margin:0;
-  padding:0;
+  padding:0 10px 0 0;
   background-color: white;
+}
+
+.arrow_right{
+  padding:0 0 0 10px;
+}
+
+
+@media screen and (max-width:760px) and (min-width:450px){
+  .carousel-markets {
+    width: 400px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+  }
+
+  .window {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+  }
+
+  .elements {
+    height: 100%;
+    display: flex;
+    transition: translate;
+    transition-property: transform ;
+    transition-duration: 600ms;
+    transition-timing-function: ease-in-out;
+
+  }
+
+  .arrow {
+    cursor: pointer;
+    margin:0;
+    padding:0 10px 0 0;
+    background-color: white;
+  }
+
+  .arrow_right{
+    padding:0 0 0 10px;
+  }
+
+}
+
+
+@media screen and (max-width:450px) and (min-width:300px){
+  .carousel-markets {
+    width: 310px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+  }
+
+  .window {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+  }
+
+  .elements {
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    transition: translate;
+    transition-property: transform ;
+    transition-duration: 600ms;
+    transition-timing-function: ease-in-out;
+
+  }
+
+  .arrow {
+    cursor: pointer;
+    margin:0;
+    padding:0 10px 0 0;
+    background-color: white;
+  }
+
+  .arrow_right{
+    padding:0 0 0 10px;
+  }
+
 }

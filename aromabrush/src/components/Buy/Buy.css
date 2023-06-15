@@ -58,3 +58,135 @@
 .buy__markets-element-img {
   width: 100%;
 }
+
+.buy__carousel {
+  margin: 0;
+  padding: 30px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  gap: 30px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width:1300px) and (min-width:760px) {
+  .buy__markets-container {
+    margin: 0;
+    padding: 0 0 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .buy__markets-element {
+    border-radius: 50%;
+    height: 140px;
+    width: 140px;
+    box-shadow: 9px 0px 24px -11px rgba(34, 60, 80, 0.51);
+  }
+
+  .buy__markets-element-img {
+    width: 140px;
+    width: 140px;
+  }
+
+  .buy__markets-container_carousel {
+    padding: 0 0 0 110px;
+  }
+
+  .buy__container {
+    margin: 0;
+    padding: 0;
+    max-width: 800px;
+
+  }
+
+}
+
+
+@media screen and (max-width: 1155px) and (min-width: 760px) {
+
+  .buy__title {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+  }
+}
+
+@media screen and (max-width:760px) and (min-width:451px) {
+  .buy__markets-container {
+    margin: 0;
+    padding:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    overflow: hidden;
+  }
+
+  .buy__markets-element {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    box-shadow: 9px 0px 24px -11px rgba(34, 60, 80, 0.51);
+  }
+
+  .buy__markets-element-img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .buy__markets-container_carousel {
+    padding:0;
+  }
+
+  .buy__container {
+    margin: 0;
+    padding: 0;
+    max-width: 500px;
+  }
+
+}
+
+
+@media screen and (max-width:450px) and (min-width:300px) {
+  .buy__markets-container {
+    margin: 0;
+    padding:0 0 0 25px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 5px;
+    overflow: hidden;
+  }
+
+  .buy__markets-element {
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    box-shadow: 9px 0px 24px -11px rgba(34, 60, 80, 0.51);
+  }
+
+  .buy__markets-element-img {
+    width: 55px;
+    height: 55px;
+  }
+
+  .buy__markets-container_carousel {
+    padding:0 0 0 15px;
+  }
+
+  .buy__container {
+    margin: 0;
+    padding: 0;
+    max-width: 330px;
+  }
+
+  .buy__markets-container_three{
+    padding:0 0 0 50px;
+  }
+
+}
+

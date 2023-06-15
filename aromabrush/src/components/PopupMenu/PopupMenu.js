@@ -24,7 +24,6 @@ function PopupMenu({ isOpen, onMenuClick }) {
   return (
     <section className={`popup-menu ${isOpen ? 'popup-menu_is-opened' : ''}`} id="popup">
       <div className="popup-menu__container">
-        <button className="popup-menu__close-button" type="button" onClick={onMenuClick} id="x" />
         <ul className="popup-menu__list">
           <li className="popup-menu__list-container">
             <p className="popup-menu__list-link popup-menu__list-link_red" onClick={onMenuClick}>О РАСЧЁСКАХ</p>
@@ -32,6 +31,8 @@ function PopupMenu({ isOpen, onMenuClick }) {
             <p className="popup-menu__list-link" onClick={onMenuClick}>КОНТАКТЫ</p>
           </li>
         </ul>
+        <button className="popup-menu__close-button" type="button" onClick={onMenuClick} id="x" />
+
       </div>
     </section>
   );

@@ -130,6 +130,7 @@ header:after {
   height: 40px;
 
 
+
 }
 
 
@@ -177,6 +178,7 @@ header:after {
   .header__logo {
     width: 204px;
     height: 36px;
+    z-index: 5;
   }
 
   .header__list-link {

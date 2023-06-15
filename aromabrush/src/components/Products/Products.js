@@ -1,4 +1,5 @@
 import React from 'react';
+import { useEffect } from 'react';
 
 
 import black from '../../images/brush-promo.svg';
@@ -94,7 +95,9 @@ function Products() {
 ///<span class="dot" onclick={currentSlide(2)}></span>
 ///<span class="dot" onclick={currentSlide(3)}></span>
 //</div>
-
+ useEffect(()=>{
+  console.log(width)
+ }, [width])
 
 
   return (
