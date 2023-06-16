@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/landing-aromabrush-amarylis/static/css/main.66be18a3.css",
-    "main.js": "/landing-aromabrush-amarylis/static/js/main.1b581de6.js",
+    "main.css": "/landing-aromabrush-amarylis/static/css/main.bfa8f5c3.css",
+    "main.js": "/landing-aromabrush-amarylis/static/js/main.51801dbe.js",
     "static/js/787.a4342853.chunk.js": "/landing-aromabrush-amarylis/static/js/787.a4342853.chunk.js",
     "static/media/brushblue-promo-img.svg": "/landing-aromabrush-amarylis/static/media/brushblue-promo-img.378b9001806e6e54c9600f93fda859a9.svg",
     "static/media/ras-review.svg": "/landing-aromabrush-amarylis/static/media/ras-review.85deb422d9a3623c193b0be9f97c4ab7.svg",
@@ -22,7 +22,6 @@
     "static/media/brush3.png": "/landing-aromabrush-amarylis/static/media/brush3.c546172838e419811817.png",
     "static/media/raduga-mag.svg": "/landing-aromabrush-amarylis/static/media/raduga-mag.05a16ebbc5bdb5cdf9bd588ae62fe909.svg",
     "static/media/yandex-market.svg": "/landing-aromabrush-amarylis/static/media/yandex-market.92e78777fa183572e56d213d372315df.svg",
-    "static/media/444.png": "/landing-aromabrush-amarylis/static/media/444.779b9e183e81b046c68c.png",
     "static/media/brush1.png": "/landing-aromabrush-amarylis/static/media/brush1.a175f06cb1efccc5cdc9.png",
     "static/media/brush4.png": "/landing-aromabrush-amarylis/static/media/brush4.115b5515a9a6bb418d73.png",
     "static/media/brush7.png": "/landing-aromabrush-amarylis/static/media/brush7.987391f7ff86ab587a1c.png",
@@ -72,12 +71,12 @@
     "static/media/youtube-footer-icon.svg": "/landing-aromabrush-amarylis/static/media/youtube-footer-icon.16e0ebe8b0ba6d84152959618ef90c48.svg",
     "static/media/burger.svg": "/landing-aromabrush-amarylis/static/media/burger.517cdae3c2796c73ec76a04d8f452975.svg",
     "static/media/arrow-header.svg": "/landing-aromabrush-amarylis/static/media/arrow-header.dfb75bc201358dd5942e.svg",
-    "main.66be18a3.css.map": "/landing-aromabrush-amarylis/static/css/main.66be18a3.css.map",
-    "main.1b581de6.js.map": "/landing-aromabrush-amarylis/static/js/main.1b581de6.js.map",
+    "main.bfa8f5c3.css.map": "/landing-aromabrush-amarylis/static/css/main.bfa8f5c3.css.map",
+    "main.51801dbe.js.map": "/landing-aromabrush-amarylis/static/js/main.51801dbe.js.map",
     "787.a4342853.chunk.js.map": "/landing-aromabrush-amarylis/static/js/787.a4342853.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.66be18a3.css",
-    "static/js/main.1b581de6.js"
+    "static/css/main.bfa8f5c3.css",
+    "static/js/main.51801dbe.js"
   ]
 }
