@@ -17,13 +17,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 
 
 }
 
 .products__title {
   margin: 0;
-  padding: 0;
+  padding: 0 0 60px 0;
   font-style: normal;
   font-weight: 500;
   font-size: 42px;
@@ -37,21 +38,30 @@
   max-width: 94.44%;
   display: grid;
   grid-template-columns: 25% 50% 25%;
-  grid-template-columns: repeat(3, minmax(317px, 1fr));
+  grid-template-columns: repeat(3, minmax(300px, 1fr));
   align-items: center;
   justify-items: center;
+  align-self: center;
 
 }
 
 .products__tagline-desc {
   margin: 0;
-  padding: 0;
+  padding: 0 0 0 100px;
   width: 100%;
   display: flex;
   flex-direction: column;
   gap: 60px;
+  z-index: 2;
+  box-sizing: border-box;
 
 
+}
+
+.products__tagline-desc_left {
+  padding: 0 120px 0 0;
+  z-index: 2;
+  box-sizing: border-box;
 }
 
 .products__figure {
@@ -152,14 +162,22 @@
 }
 
 .products__brush-image {
-  padding: 0 0 0 30px;
+  padding: 0;
   margin: 0;
-  width: 572px;
-  height: 649px;
+  width: 546px;
+  height: 589px;
   box-sizing: border-box;
 }
 
-@media screen and (max-width:1095px) and (min-width:760px) {
+.products__imggg {
+  background-image: url(../../images/444.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 1
+}
+
+@media screen and (max-width:1195px) and (min-width:760px) {
   .products__container {
     margin: 0;
     padding: 0;
@@ -209,7 +227,7 @@
   }
 
   .products__brush-image {
-    padding: 0 0 0 30px;
+    padding:0;
     margin: 0;
     width: 523px;
     height: 594px;
@@ -277,40 +295,32 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color:chartreuse;
-
-
-
   }
 
   .products__taste-el {
     gap: 0;
   }
 
-
   .products {
     padding: 40px 0 40px 0;
   }
 
   .products__brush-image {
-    padding: 0 0 0 30px;
+    padding: 0;
     margin: 0;
     width: 410px;
     height: 466px;
     box-sizing: border-box;
   }
 
-
   .products__tagline-container {
     margin: 0;
     padding: 0;
     width: 100%;
     display: flex;
-
     flex-direction: column;
     align-items: center;
     justify-items: center;
-
 
   }
 
@@ -379,7 +389,7 @@
 }
 
 
-@media screen and (max-width:450px) and (min-width:300px) {
+@media screen and (max-width:450px) {
   .products__container {
     margin: 0;
     padding: 0;
@@ -404,7 +414,7 @@
   }
 
   .products__brush-image {
-    padding: 0 0 0 30px;
+    padding:0;
     margin: 0;
     width: 265px;
     height: 301px;

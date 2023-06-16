@@ -136,34 +136,34 @@ function Carousel({ children }) {
     <div className="carousel-markets">
       {isScreenMy14 &&
         <>
-          <FaChevronLeft className="arrow" onClick={handleLeftArrowClick}></FaChevronLeft>
+          <FaChevronLeft className="arrow2" onClick={handleLeftArrowClick}></FaChevronLeft>
           <div className="window">
             <div className="elements" style={{
               transform: `translateX(${offset}px)`
             }}>{pages}</div>
           </div>
-          <FaChevronRight className="arrow arrow_right" onClick={handleRightArrowClick}></FaChevronRight>
+          <FaChevronRight className="arrow2 arrow2_right" onClick={handleRightArrowClick}></FaChevronRight>
         </>}
 
       {isScreenMy15 &&
         <>
-          <FaChevronLeft className="arrow" onClick={handleLeftArrowClick760}></FaChevronLeft>
+          <FaChevronLeft className="arrow2" onClick={handleLeftArrowClick760}></FaChevronLeft>
           <div className="window">
             <div className="elements" style={{
               transform: `translateX(${offset}px)`
             }}>{pages}</div>
           </div>
-          <FaChevronRight className="arrow arrow_right" onClick={handleRightArrowClick760}></FaChevronRight>
+          <FaChevronRight className="arrow2 arrow2_right" onClick={handleRightArrowClick760}></FaChevronRight>
         </>}
       {isScreenMy16 &&
         <>
-          <FaChevronLeft className="arrow" onClick={handleLeftArrowClick450}></FaChevronLeft>
+          <FaChevronLeft className="arrow2" onClick={handleLeftArrowClick450}></FaChevronLeft>
           <div className="window">
             <div className="elements" style={{
               transform: `translateX(${offset}px)`
             }}>{pages}</div>
           </div>
-          <FaChevronRight className="arrow arrow_right" onClick={handleRightArrowClick450}></FaChevronRight>
+          <FaChevronRight className="arrow2 arrow2_right" onClick={handleRightArrowClick450}></FaChevronRight>
         </>}
 
     </div>

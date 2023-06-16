@@ -104,17 +104,28 @@ function App({ onMenuClick }) {
     const promo = document.getElementById('main')
     console.log(promo)
     promo.classList.add('main_blur')
+    const buttonx = document.getElementById('x');
+    console.log(buttonx)
+    buttonx.classList.remove("popup-menu__close-button_anim")
+    const menu = document.getElementById('popup-menu');
+    menu.classList.remove('popup-menu__container_anim')
   }
 
 
 
   function handleCloseMenu() {
     setIsPopupMenuOpen(false);
-    const buttonx = Array.from(document.querySelectorAll('.x'));
+    const buttonx = document.getElementById('x');
+    console.log(buttonx)
+    buttonx.classList.add("popup-menu__close-button_anim")
     const promo = document.getElementById('main')
     promo.classList.remove('main_blur')
+    const menu = document.getElementById('popup-menu');
+    menu.classList.add('popup-menu__container_anim')
+    const popup = document.getElementById('popup')
+    popup.classList.add('popup-menu_exit')
+    }
 
-  }
 
 
 

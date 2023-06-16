@@ -1,11 +1,11 @@
 .carousel {
-  width: 542px;
-  height: 665px;
+  width: 580px;
+  height: 589px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  z-index: 2;
+  z-index: 3;
 }
 
 .window {
@@ -22,6 +22,7 @@
   transition-property: transform ;
   transition-duration: 300ms;
   transition-timing-function: ease-in-out;
+  z-index:1;
 
 }
 
@@ -31,3 +32,80 @@
   padding:0;
   background-color: white;
 }
+
+@media screen and (max-width:760px) and (min-width:450px){
+  .carousel {
+    width: 440px;
+    height: 466px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+  }
+
+  .window {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+  }
+
+  .elements {
+    height: 100%;
+    display: flex;
+    transition: translate;
+    transition-property: transform ;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+    z-index:1;
+
+  }
+
+  .arrow {
+    cursor: pointer;
+    margin:0;
+    padding:0;
+    background-color: white;
+  }
+}
+
+
+@media screen and (max-width:450px) and (min-width:300px){
+  .carousel {
+    width: 300px;
+    height: 301px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+  }
+
+  .window {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+  }
+
+  .elements {
+    height: 100%;
+    display: flex;
+    transition: translate;
+    transition-property: transform ;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+    z-index:1;
+
+  }
+
+  .arrow {
+    cursor: pointer;
+    margin:0;
+    padding:0;
+    background-color: white;
+  }
+}
+
+

@@ -13,8 +13,8 @@ export const SCREEN_MY = 1100;
 export const SCREEN_MY2 = 1101;
 
 //products
-export const SCREEN_MY4 = 1095;
-export const SCREEN_MY5 = 1096;
+export const SCREEN_MY4 = 1195;
+export const SCREEN_MY5 = 1196;
 //order
 export const SCREEN_MY6 = 1155;
 export const SCREEN_MY7 = 1156;
@@ -36,6 +36,8 @@ export const SCREEN_MY14 = 761
 export const SCREEN_MY15 = 760
 
 export const SCREEN_MY16 = 450
+export const SCREEN_MY17 = 451
+export const SCREEN_MY18 = 449
 
     //isScreenSm: width >= SCREEN_SM,
   //  isScreenLg: width >= SCREEN_LG,

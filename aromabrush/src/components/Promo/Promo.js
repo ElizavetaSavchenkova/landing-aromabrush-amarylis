@@ -1,5 +1,6 @@
 import React, { useCallback } from 'react';
 import { useState, useEffect } from 'react';
+/*import brushpink from '../../images/brushpink-promo-img.svg';*/
 import brushpink from '../../images/brushpink-promo-img.svg';
 import brushblue from '../../images/brushblue-promo-img.svg';
 import brushyellow from '../../images/brushyellow-promo-img.svg';

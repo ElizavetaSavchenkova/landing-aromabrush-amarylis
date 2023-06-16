@@ -12,10 +12,10 @@
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
- /* background: linear-gradient(to right,#fa6579, #f43850);*/
+  text-size-adjust: 100%;
+  /* background: linear-gradient(to right,#fa6579, #f43850);*/
 }
 
 .page_blur {
   filter: blur(10px);
 }
-
