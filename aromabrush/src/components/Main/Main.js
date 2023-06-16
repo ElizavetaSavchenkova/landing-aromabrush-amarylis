@@ -12,12 +12,12 @@ import AboutCompany from '../AboutCompany/AboutCompany';
 import Carousel from '../Carousel/Carousel';
 import './Main.css'
 
-function Main({ start }) {
+function Main({ start, width }) {
   return (
     <main className="main" id="main">
       <Promo
         start={start} />
-      <Products />
+      <Products width={width}/>
       <Order />
       <Banner />
       <AboutBrush />

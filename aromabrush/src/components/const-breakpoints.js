@@ -35,9 +35,9 @@ export const SCREEN_MY13 = 1300
 export const SCREEN_MY14 = 761
 export const SCREEN_MY15 = 760
 
-export const SCREEN_MY16 = 450
-export const SCREEN_MY17 = 451
-export const SCREEN_MY18 = 449
+export const SCREEN_MY16 = 480
+export const SCREEN_MY17 = 481
+export const SCREEN_MY18 = 479
 
     //isScreenSm: width >= SCREEN_SM,
   //  isScreenLg: width >= SCREEN_LG,

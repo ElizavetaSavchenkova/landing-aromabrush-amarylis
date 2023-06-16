@@ -169,13 +169,13 @@
   box-sizing: border-box;
 }
 
-.products__imggg {
+/*.products__imggg {
   background-image: url(../../images/444.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   z-index: 1
-}
+}*/
 
 @media screen and (max-width:1195px) and (min-width:760px) {
   .products__container {
@@ -389,7 +389,7 @@
 }
 
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:480px) {
   .products__container {
     margin: 0;
     padding: 0;

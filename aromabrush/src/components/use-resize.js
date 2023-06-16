@@ -36,7 +36,7 @@ export const useResize = () => {
     return () => {
       window.removeEventListener('resize', handleResize);
     };
-  }, []);
+  }, [width]);
 
  // const SCREEN_MY19 = 449
 
@@ -67,8 +67,8 @@ export const useResize = () => {
     isScreenMy14: width >= SCREEN_MY14, //761
     isScreenMy15: width <= SCREEN_MY15 && width > SCREEN_MY16,  //меньше или равно 760 и больше 451
 
-    isScreenMy16: width <= 450,
-    isScreenMy19: width >= 451,//450
+    isScreenMy16: width <= 480,
+    isScreenMy19: width >= 481,//450
 
     isScreenMy17: width <= SCREEN_MY4 && width > SCREEN_MY15,
 

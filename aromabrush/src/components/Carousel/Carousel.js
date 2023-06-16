@@ -86,7 +86,7 @@ function Carousel({ children }) {
         })
       })
     )
-  }, [children])
+  }, [children,])
 
 
   useEffect(() => {
@@ -109,7 +109,7 @@ function Carousel({ children }) {
 
 
     useEffect(() => {
-    if (width <= 450) {
+    if (width <= 480) {
       setPages(
         Children.map(children, child => {
           return cloneElement(child, {

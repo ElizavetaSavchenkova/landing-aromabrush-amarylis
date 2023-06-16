@@ -41,79 +41,15 @@ import brush11 from '../../images/brush11.png'
 function Products() {
   const { width, isScreenMy5, isScreenMy17, isScreenMy15, isScreenMy16, isScreenMy19, isScreenLg, isScreenXl } = useResize();
   var slideIndex = 1;
-  // showSlides(slideIndex);
 
-  // Next/previous controls
-
-  //var slideIndex = 1;
-  // showSlides(slideIndex);
-
-  //function plusSlides(n) {
-  //  showSlides(slideIndex += n);
-  //}
-
-  //function currentSlide(n) {
-  //  showSlides(slideIndex = n);
-  // }
-
-  // function showSlides(n) {
-  //  var i;
-  //var slides = document.getElementsByClassName("mySlides");
-  // var dots = document.getElementsByClassName("dot");
-  // if (n > slides.length) {slideIndex = 1}
-  // console.log('fff')
-  // if (n < 1) {slideIndex = slides.length}
-  //console.log('fff')
-  // f//or (i = 0; i < slides.length; i++) {
-  //    slides[i].style.display = "none";
-  //  console.log('fff')
-  //}
-  //for (i = 0; i < dots.length; i++) {
-  //    dots[i].className = dots[i].className.replace(" active", "");
-  //   console.log('fff')
-  //}//
-  // slides[slideIndex-1].style.display = "block";
-  //dots[slideIndex-1].className += " active";
-  // }
-
-  //<div class="slideshow-container">
-
-  //<div class="mySlides fade">
-  // <div class="numbertext">1 / 3</div>
-  //<img className="img" src={photo} ></img>
-  // <div class="text">Caption Text</div>
-  //</div>
-
-  ////<div class="mySlides fade">
-  //<div class="numbertext">2 / 3</div>
-  //<img className="img" src={photo2} ></img>
-  //<div class="text">Caption Two</div>
-  ///div>
-
-  //<div class="mySlides fade">
-  //<div class="numbertext">3 / 3</div>
-  // <img className="img" src={photo3}  ></img>
-  // <div class="text">Caption Three</div>
-  //</div>
-
-  ////<a class="prev" onclick={plusSlides(-1)}>&#10094;</a>
-  ///<a class="next" onclick={plusSlides(1)}>&#10095;</a>
-  ///</div>
-  ///<br></br>
-
-
-  //<div >
-  /////<span class="dot" onclick={currentSlide(1)}></span>
-  ///<span class="dot" onclick={currentSlide(2)}></span>
-  ///<span class="dot" onclick={currentSlide(3)}></span>
-  //</div>
   useEffect(() => {
+    console.log(width)
     console.log(width)
   }, [width])
 
 
   return (
-    <section className="products">
+    <section className="products" >
 
 
 
@@ -133,6 +69,7 @@ function Products() {
               </div>
             </div>
             <Carousel>
+
               <img className="products__brush-image" src={brush1}></img>
               <img className="products__brush-image" src={brush2}></img>
               <img className="products__brush-image" src={brush3}></img>
@@ -194,6 +131,7 @@ function Products() {
           <div className="products__tagline-container">
 
             <Carousel>
+
               <img className="products__brush-image" src={brush1}></img>
               <img className="products__brush-image" src={brush2}></img>
               <img className="products__brush-image" src={brush3}></img>
@@ -264,7 +202,8 @@ function Products() {
           <div className="products__tagline-container">
 
             <Carousel>
-              <div className="products__imggg"></div>
+
+
               <img className="products__brush-image" src={brush1}></img>
               <img className="products__brush-image" src={brush2}></img>
               <img className="products__brush-image" src={brush3}></img>
@@ -329,13 +268,14 @@ function Products() {
 
         </div>}
 
-        {isScreenMy16 &&
-        <div className="products__container"> width:{width}
+      {isScreenMy16 &&
+        <div className="products__container">
           <h2 className="products__title">ВЫБЕРИ СВОЙ АРОМАТ</h2>
 
           <div className="products__tagline-container">
 
             <Carousel>
+
               <img className="products__brush-image" src={brush1}></img>
               <img className="products__brush-image" src={brush2}></img>
               <img className="products__brush-image" src={brush3}></img>
@@ -404,5 +344,72 @@ function Products() {
 }
 
 export default Products
+
+// showSlides(slideIndex);
+
+  // Next/previous controls
+
+  //var slideIndex = 1;
+  // showSlides(slideIndex);
+
+  //function plusSlides(n) {
+  //  showSlides(slideIndex += n);
+  //}
+
+  //function currentSlide(n) {
+  //  showSlides(slideIndex = n);
+  // }
+
+  // function showSlides(n) {
+  //  var i;
+  //var slides = document.getElementsByClassName("mySlides");
+  // var dots = document.getElementsByClassName("dot");
+  // if (n > slides.length) {slideIndex = 1}
+  // console.log('fff')
+  // if (n < 1) {slideIndex = slides.length}
+  //console.log('fff')
+  // f//or (i = 0; i < slides.length; i++) {
+  //    slides[i].style.display = "none";
+  //  console.log('fff')
+  //}
+  //for (i = 0; i < dots.length; i++) {
+  //    dots[i].className = dots[i].className.replace(" active", "");
+  //   console.log('fff')
+  //}//
+  // slides[slideIndex-1].style.display = "block";
+  //dots[slideIndex-1].className += " active";
+  // }
+
+  //<div class="slideshow-container">
+
+  //<div class="mySlides fade">
+  // <div class="numbertext">1 / 3</div>
+  //<img className="img" src={photo} ></img>
+  // <div class="text">Caption Text</div>
+  //</div>
+
+  ////<div class="mySlides fade">
+  //<div class="numbertext">2 / 3</div>
+  //<img className="img" src={photo2} ></img>
+  //<div class="text">Caption Two</div>
+  ///div>
+
+  //<div class="mySlides fade">
+  //<div class="numbertext">3 / 3</div>
+  // <img className="img" src={photo3}  ></img>
+  // <div class="text">Caption Three</div>
+  //</div>
+
+  ////<a class="prev" onclick={plusSlides(-1)}>&#10094;</a>
+  ///<a class="next" onclick={plusSlides(1)}>&#10095;</a>
+  ///</div>
+  ///<br></br>
+
+
+  //<div >
+  /////<span class="dot" onclick={currentSlide(1)}></span>
+  ///<span class="dot" onclick={currentSlide(2)}></span>
+  ///<span class="dot" onclick={currentSlide(3)}></span>
+  //</div>
 
 // <span className="products__figure-text">ПРИЯТНЫЙ АРОМАТ</span>

@@ -2,6 +2,7 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
+import { useResize } from '../use-resize';
 //import { useResize } from './use-resize';
 //import { Helmet } from 'react-helmet';
 //import { hydrate, render } from "react-dom";
@@ -15,6 +16,8 @@ import PopupMenu from '../PopupMenu/PopupMenu'
 
 
 function App({ onMenuClick }) {
+
+  const { width } = useResize();
 
   const [start, setStart] = useState(false)
   const [isPopupMenuOpen, setIsPopupMenuOpen] = useState(false);
@@ -40,6 +43,11 @@ function App({ onMenuClick }) {
   //};
 
   //}
+
+  useEffect(()=> {
+    console.log(width)
+    console.log('width')
+  }, [width])
 
   console.log(window.innerWidth);
 
@@ -134,13 +142,14 @@ function App({ onMenuClick }) {
   //const { width, isScreenSm, isScreenMd, isScreenLg, isScreenXl } = useResize();
 
   return (
-    <div className="page" id="page">
+    <div className="page" id="page" >width:{width}
 
       <Header onMenuClick={handleMenuClick} />
       <PopupMenu isOpen={isPopupMenuOpen} onMenuClick={handleCloseMenu} />
 
       <Main
-        start={start} />
+        start={start}
+        width={width}/>
 
       <Footer />
 
