@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/landing-aromabrush-amarylis/static/css/main.bfa8f5c3.css",
-    "main.js": "/landing-aromabrush-amarylis/static/js/main.bbfe8355.js",
+    "main.css": "/landing-aromabrush-amarylis/static/css/main.d7225f79.css",
+    "main.js": "/landing-aromabrush-amarylis/static/js/main.e0afbb5d.js",
     "static/js/787.a4342853.chunk.js": "/landing-aromabrush-amarylis/static/js/787.a4342853.chunk.js",
     "static/media/brushblue-promo-img.svg": "/landing-aromabrush-amarylis/static/media/brushblue-promo-img.378b9001806e6e54c9600f93fda859a9.svg",
     "static/media/ras-review.svg": "/landing-aromabrush-amarylis/static/media/ras-review.85deb422d9a3623c193b0be9f97c4ab7.svg",
@@ -71,12 +71,12 @@
     "static/media/youtube-footer-icon.svg": "/landing-aromabrush-amarylis/static/media/youtube-footer-icon.16e0ebe8b0ba6d84152959618ef90c48.svg",
     "static/media/burger.svg": "/landing-aromabrush-amarylis/static/media/burger.517cdae3c2796c73ec76a04d8f452975.svg",
     "static/media/arrow-header.svg": "/landing-aromabrush-amarylis/static/media/arrow-header.dfb75bc201358dd5942e.svg",
-    "main.bfa8f5c3.css.map": "/landing-aromabrush-amarylis/static/css/main.bfa8f5c3.css.map",
-    "main.bbfe8355.js.map": "/landing-aromabrush-amarylis/static/js/main.bbfe8355.js.map",
+    "main.d7225f79.css.map": "/landing-aromabrush-amarylis/static/css/main.d7225f79.css.map",
+    "main.e0afbb5d.js.map": "/landing-aromabrush-amarylis/static/js/main.e0afbb5d.js.map",
     "787.a4342853.chunk.js.map": "/landing-aromabrush-amarylis/static/js/787.a4342853.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bfa8f5c3.css",
-    "static/js/main.bbfe8355.js"
+    "static/css/main.d7225f79.css",
+    "static/js/main.e0afbb5d.js"
   ]
 }
