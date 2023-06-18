@@ -123,7 +123,7 @@ function Contacts() {
               <li className="contacts__info-desc">+7 (800) 511-98-97</li>
               <li className="contacts__info-title">Санкт-Петербург</li>
               <li className="contacts__info-desc">+7 (812) 424-18-64</li>
-              <li className="contacts__info-title">Адрес</li>
+              <li className="contacts__info-title contacts__info-title_address">Адрес</li>
               <li className="contacts__info-desc contacts__info-desc__address">г. Москва ул. Фомичевой д.5 корп.2</li>
               <li className="contacts__info-desc contacts__info-desc_center">sales@amarylis.ru</li>
               <li className="contacts__info-title contacts__info-title_right">Режим работы</li>

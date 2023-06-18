@@ -128,7 +128,10 @@ header:after {
 .header__logo {
   width: 208px;
   height: 40px;
-
+  padding:0;
+  margin:0;
+  border: initial;
+  outline: none;
 
 
 }
@@ -239,7 +242,7 @@ header:after {
 @media screen and (max-width:800px) and (min-width:570px) {
   .header__container {
     margin: 0 auto;
-    padding: 30px 0 32px 0;
+    padding: 50px 0 32px 0;
     width: 85%;
     display: flex;
     justify-content: space-between;

@@ -26,9 +26,9 @@ function PopupMenu({ isOpen, onMenuClick }) {
       <div className="popup-menu__container">
         <ul className="popup-menu__list">
           <li className="popup-menu__list-container" id="popup-menu">
-            <p className="popup-menu__list-link popup-menu__list-link_red" onClick={onMenuClick}>О РАСЧЁСКАХ</p>
-            <p className="popup-menu__list-link" onClick={onMenuClick}>О КОМПАНИИ</p>
-            <p className="popup-menu__list-link" onClick={onMenuClick}>КОНТАКТЫ</p>
+            <p className="popup-menu__list-link popup-menu__list-link_red" onClick={onMenuClick}><a className="popup-menu__list-links" href="#aboutbrush">О РАСЧЁСКАХ</a></p>
+            <p className="popup-menu__list-link" onClick={onMenuClick}><a className="popup-menu__list-links" href="#aboutcompany">О КОМПАНИИ</a></p>
+            <p className="popup-menu__list-link" onClick={onMenuClick}><a className="popup-menu__list-links" href="#contacts">КОНТАКТЫ</a></p>
           </li>
         </ul>
         <button className="popup-menu__close-button" type="button" onClick={onMenuClick} id="x" />

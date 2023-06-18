@@ -1,10 +1,10 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import headerLogo from '../../images/header-logo.svg';
-import telegramIcon from '../../images/header-icon-telegram.svg';
-import whatsappIcon from '../../images/header-icon-whatsapp.svg';
+import telegramIcon from '../../images/tel.svg';
+import whatsappIcon from '../../images/whats.svg';
 import './Header.css';
-import BurgerMenu from '../BurgerMenu/BurggerMenu';
+import BurgerMenu from '../BurgerMenu/BurgerMenu';
 import { useResize } from '../use-resize';
 
 function Header({onMenuClick}) {

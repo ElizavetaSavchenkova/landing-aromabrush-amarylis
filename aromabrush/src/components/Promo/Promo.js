@@ -1,9 +1,9 @@
 import React, { useCallback } from 'react';
 import { useState, useEffect } from 'react';
 /*import brushpink from '../../images/brushpink-promo-img.svg';*/
-import brushpink from '../../images/brushpink-promo-img.svg';
-import brushblue from '../../images/brushblue-promo-img.svg';
-import brushyellow from '../../images/brushyellow-promo-img.svg';
+import brushpink from '../../images/777.png';
+import brushblue from '../../images/888.png';
+import brushyellow from '../../images/999.png';
 import './Promo.css'
 import { useResize } from '../use-resize';
 
@@ -115,7 +115,10 @@ function Promo() {
         </div>
         <ul className="promo__bestseller-container">
           <li className="promo__bestseller"><h2 className="promo__bestseller-title">ХИТ ПРОДАЖ</h2></li>
-          <li className="promo__button-buy"><a className="promo__button-link-buy" href="https://amarylis.ru/search/?q=%d0%b0%d1%80%d0%be%d0%bc%d0%b0+%d1%80%d0%b0%d1%81%d1%87%d0%b5%d1%81%d0%ba%d0%b8&utm_source=amarylis.ru&utm_medium=posadochnaya_stranitsi&utm_campaign=aroma-rascheski">КУПИТЬ</a></li>
+          <li className="promo__button-buy">
+            <a className="promo__button-link-buy" href="https://amarylis.ru/search/?q=%d0%b0%d1%80%d0%be%d0%bc%d0%b0+%d1%80%d0%b0%d1%81%d1%87%d0%b5%d1%81%d0%ba%d0%b8&utm_source=amarylis.ru&utm_medium=posadochnaya_stranitsi&utm_campaign=aroma-rascheski">КУПИТЬ
+            </a>
+            </li>
           <li className="promo__bestseller-desc">У ОФИЦИАЛЬНОГО</li>
           <li className="promo__bestseller-desc promo__bestseller-desc_newline">ДИСТРИБЬЮТЕРА</li>
         </ul>

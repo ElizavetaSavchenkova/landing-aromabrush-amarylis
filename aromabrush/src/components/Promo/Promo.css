@@ -126,7 +126,7 @@
   padding: 23px 65px 23px 65px;
   /* width: 255px;
   height: 66px;*/
-  background: #7DD3DF;
+  background-color: #7DD3DF;
   border-radius: 20.768px;
   border: inherit;
   font-style: normal;
@@ -135,6 +135,16 @@
   line-height: 20px;
   align-self: flex-start;
   box-sizing: border-box;
+  cursor: pointer;
+  transition: background-color 0.3s linear;
+}
+
+.promo__button-buy:hover{
+  background-color: #6EB6CD;
+}
+
+.promo__button-buy:active{
+  background-color: #2CA4BE;
 }
 
 .promo__button-link-buy {
@@ -142,8 +152,13 @@
   padding: 0;
   text-decoration: none;
   color: #ffffff;
+  width:100%;
+  height: 100%;
+  display: block;
+  cursor: pointer;
 
 }
+
 
 .promo__bestseller-desc {
   margin: 0;

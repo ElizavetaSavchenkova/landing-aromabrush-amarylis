@@ -206,7 +206,7 @@
 
   .contacts__info-container {
     margin: 0;
-    padding: 0 0 0 10px;
+    padding: 0 0 0 30px;
     display: flex;
     flex-direction: column;
     justify-content: right;
@@ -215,13 +215,18 @@
   }
 
 
-  .contacts__info-title {
+  .contacts__info-title_address {
     font-size: 10px;
     line-height: 32px;
     display: block;
     text-align: left;
     vertical-align: top;
-    padding: 0 0 0 5px;
+    padding:0;
+    align-self: flex-start;
+  }
+
+  .contacts__info-title_address {
+   padding: 40px 0 0 0;
   }
 
   .contacts__info-desc {
@@ -230,25 +235,26 @@
     display: block;
     text-align: left;
     vertical-align: top;
-    padding: 0 107px 20px 0;
+    padding: 0;
+    align-self: flex-start;
   }
 
 
   .contacts__info-desc_center {
-    padding: 0 107px 20px 0;
+    padding: 0 0 20px 0;
+    align-self:flex-start;
+    justify-self: center;
   }
 
   .contacts__info-desc__address {
-    padding: 0 10px 20px 5px;
-
+    padding: 0 0 30px 0;
   }
 
   .contacts__info-desc_right {
     padding: 0;
     align-self: flex-start;
-    padding: 0 0 0 4px;
+    padding: 0;
   }
-
 }
 
 

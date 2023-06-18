@@ -117,6 +117,10 @@ function App({ onMenuClick }) {
     buttonx.classList.remove("popup-menu__close-button_anim")
     const menu = document.getElementById('popup-menu');
     menu.classList.remove('popup-menu__container_anim')
+    const burger = document.getElementById('burger');
+    console.log(burger)
+    burger.classList.add('burger_open')
+
   }
 
 
@@ -132,6 +136,8 @@ function App({ onMenuClick }) {
     menu.classList.add('popup-menu__container_anim')
     const popup = document.getElementById('popup')
     popup.classList.add('popup-menu_exit')
+    const burger = document.getElementById('burger');
+    burger.classList.remove('burger_open')
     }
 
 
@@ -142,7 +148,7 @@ function App({ onMenuClick }) {
   //const { width, isScreenSm, isScreenMd, isScreenLg, isScreenXl } = useResize();
 
   return (
-    <div className="page" id="page" >width:{width}
+    <div className="page" id="page" >
 
       <Header onMenuClick={handleMenuClick} />
       <PopupMenu isOpen={isPopupMenuOpen} onMenuClick={handleCloseMenu} />

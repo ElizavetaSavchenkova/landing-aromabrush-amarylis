@@ -24,15 +24,14 @@
 .review__fugure-circle{
   margin: 0;
   padding: 0;
-  background-image: url('../../images/krug6.svg');
+  background-image: url('../../images/pinkkk.svg');
   background-size: contain;
   background-repeat: no-repeat;
   width: 417px;
   height: 417px;
   position: absolute;
-
   z-index: -1;
-  transform: translateX(-40%) translateY(-30%);
+  transform: translateX(-62%) translateY(-30%);
 
 }
 
@@ -50,7 +49,8 @@
   margin: 0;
   padding: 0;
   justify-self: center;
-  width: 28%;
+  width: 59px;
+  width:41px;
 }
 
 .review__container-info {
@@ -159,7 +159,10 @@
     height: 30px;
   }*/
 
-
+  .review__figure-quotes {
+    width: 48px;
+    height:33px;
+  }
 
 }
 
@@ -167,7 +170,7 @@
   .review__fugure-circle{
     width: 370px;
     height: 370px;
-    transform: translateX(-45%) translateY(-30%);
+    transform: translateX(-55%) translateY(-30%);
   }
 }
 
@@ -175,7 +178,7 @@
   .review__fugure-circle{
     width: 370px;
     height: 370px;
-    transform: translateX(-45%) translateY(-30%);
+    transform: translateX(-65%) translateY(-30%);
   }
 }
 
@@ -183,7 +186,7 @@
   .review__fugure-circle{
     width: 370px;
     height: 370px;
-    transform: translateX(-68%) translateY(-30%);
+    transform: translateX(-78%) translateY(-30%);
   }
 }
 
@@ -191,7 +194,7 @@
   .review__fugure-circle{
     width: 370px;
     height: 370px;
-    transform: translateX(-69%) translateY(-30%);
+    transform: translateX(-82%) translateY(-30%);
   }
 }
 
@@ -199,7 +202,7 @@
   .review__fugure-circle{
     width: 370px;
     height: 370px;
-    transform: translateX(-60%) translateY(-30%);
+    transform: translateX(-75%) translateY(-30%);
   }
 }
 
@@ -207,7 +210,7 @@
   .review__fugure-circle{
     width: 240px;
     height: 240px;
-    transform: translateX(-60%) translateY(-30%);
+    transform: translateX(-70%) translateY(-30%);
   }
 }
 
@@ -215,7 +218,7 @@
   .review__fugure-circle{
     width: 240px;
     height: 240px;
-    transform: translateX(-70%) translateY(-30%);
+    transform: translateX(-83%) translateY(-30%);
   }
 }
 
@@ -223,7 +226,7 @@
   .review__fugure-circle{
     width: 240px;
     height: 240px;
-    transform: translateX(-74%) translateY(-30%);
+    transform: translateX(-85%) translateY(-30%);
   }
 }
 
@@ -231,7 +234,7 @@
   .review__fugure-circle{
     width: 177px;
     height: 177px;
-    transform: translateX(-73%) translateY(-30%);
+    transform: translateX(-84%) translateY(-30%);
   }
 }
 
@@ -281,6 +284,11 @@
     height: 27px;
   }*/
 
+  .review__figure-quotes {
+    width: 30px;
+    height:21px;
+  }
+
 
 }
 
@@ -307,4 +315,9 @@
     width: 30px;
     height: 14px;
   }*/
+
+  .review__figure-quotes {
+    width: 20px;
+    height:14px;
+  }
 }

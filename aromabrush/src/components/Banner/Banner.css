@@ -1,15 +1,119 @@
 .banner {
   background-color: #363636;
   width: 100%;
-  height: 400px;
+
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  background-color:gold;
+  overflow: hidden;
 }
 
 .banner__container {
   background-color: #363636;
-  max-width: 1440px;
+  width: 1440px;
+
+  background-color: aqua;
+  align-self: center;
+  justify-content: center;
+  /*align-self: center;
+  background-image: url(../../images/banner.jpg);
+  background-position:center ;
+  background-repeat: no-repeat;*/
+  overflow: hidden;
 
 }
 
-.banner__title{
+
+
+.banner__img {
+  width: 100%;
+
+  margin:0;
+  padding:0;
+}
+
+
+
+
+.banner__img2{
+  background-image: url(../../images/banner.jpg);
   width:100%;
+  height: 400px;
+
+  background-position:center ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+/*@media screen and (max-width:)*/
+.banner__title {
+  width: 1220px;
+  margin:0;
+  padding:0;
+}
+
+@media screen and (max-width:910px) and (min-width:600px) {
+  .banner__img2{
+    background-image: url(../../images/you.jpg);
+    width:100%;
+    height: 330px;
+
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    align-self: center;
+    justify-self: center;
+  }
+
+  .banner__container {
+    background-color: #363636;
+    width: 910px;
+
+    background-color: aqua;
+    align-self: center;
+    justify-content: center;
+    /*align-self: center;
+    background-image: url(../../images/banner.jpg);
+    background-position:center ;
+    background-repeat: no-repeat;*/
+    overflow: hidden;
+
+  }
+
+}
+
+
+@media screen and (max-width:600px) {
+  .banner__img2{
+    background-image: url(../../images/101.jpg);
+    width:100%;
+    height: 200px;
+
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    align-self: center;
+    justify-self: center;
+  }
+
+  .banner__container {
+    background-color: #363636;
+    width: 600px;
+
+    background-color: aqua;
+    align-self: center;
+    justify-content: center;
+    /*align-self: center;
+    background-image: url(../../images/banner.jpg);
+    background-position:center ;
+    background-repeat: no-repeat;*/
+    overflow: hidden;
+
+  }
+
 }

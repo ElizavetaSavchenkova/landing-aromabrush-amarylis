@@ -29,7 +29,7 @@ function Order() {
           </li>
 
           <li className="order__market-element">
-            <a className="order__market-link" href="https://amarylis.ru/" target="_blank">
+            <a className="order__market-link" href="https://www.ozon.ru/seller/ip-vasilechko-i-z-245712/rascheski-i-shchetki-6629/?miniapp=seller_245712" target="_blank">
               <img className="order__icon" src={ozon1} alt="Озон"></img>
             </a>
 
