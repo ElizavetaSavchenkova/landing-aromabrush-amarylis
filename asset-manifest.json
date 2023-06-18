@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/landing-aromabrush-amarylis/static/css/main.d7225f79.css",
-    "main.js": "/landing-aromabrush-amarylis/static/js/main.9937651e.js",
+    "main.css": "/landing-aromabrush-amarylis/static/css/main.bcefdb5b.css",
+    "main.js": "/landing-aromabrush-amarylis/static/js/main.883e2002.js",
     "static/js/787.a4342853.chunk.js": "/landing-aromabrush-amarylis/static/js/787.a4342853.chunk.js",
     "static/media/brushblue-promo-img.svg": "/landing-aromabrush-amarylis/static/media/brushblue-promo-img.378b9001806e6e54c9600f93fda859a9.svg",
     "static/media/ras-review.svg": "/landing-aromabrush-amarylis/static/media/ras-review.85deb422d9a3623c193b0be9f97c4ab7.svg",
@@ -47,10 +47,18 @@
     "static/media/ozon-market.svg": "/landing-aromabrush-amarylis/static/media/ozon-market.8aa3518eb1f0ed7510207d17e5efb80e.svg",
     "static/media/krug4.svg": "/landing-aromabrush-amarylis/static/media/krug4.a28862ae9553b245dd7b.svg",
     "static/media/sberm-mag.svg": "/landing-aromabrush-amarylis/static/media/sberm-mag.286751a3c48222756c4994e7b5f9abc6.svg",
+    "static/media/Montserrat-Bold.woff": "/landing-aromabrush-amarylis/static/media/Montserrat-Bold.b22fe5caeddce930c9e1.woff",
+    "static/media/Montserrat-Medium.woff": "/landing-aromabrush-amarylis/static/media/Montserrat-Medium.63cf06b6d0089512ad07.woff",
+    "static/media/Montserrat-Regular.woff": "/landing-aromabrush-amarylis/static/media/Montserrat-Regular.d6faae4f5b1637779ae9.woff",
     "static/media/solomeya.svg": "/landing-aromabrush-amarylis/static/media/solomeya.c1eff76f69aadb15814f.svg",
+    "static/media/Montserrat-Black.woff": "/landing-aromabrush-amarylis/static/media/Montserrat-Black.76e385ae33c284fdc6f3.woff",
     "static/media/goldenapple-mag.svg": "/landing-aromabrush-amarylis/static/media/goldenapple-mag.1f81f43e56368e6ba50204e6aaa7d092.svg",
     "static/media/strawberry.svg": "/landing-aromabrush-amarylis/static/media/strawberry.a98b7e380792effaad7333ab45987de0.svg",
+    "static/media/Montserrat-Bold.woff2": "/landing-aromabrush-amarylis/static/media/Montserrat-Bold.9f00bc2d8a7beeda093a.woff2",
+    "static/media/Montserrat-Medium.woff2": "/landing-aromabrush-amarylis/static/media/Montserrat-Medium.c0eae82d207026ba4426.woff2",
+    "static/media/Montserrat-Regular.woff2": "/landing-aromabrush-amarylis/static/media/Montserrat-Regular.fcb334ae86289352c6f6.woff2",
     "static/media/lavender.svg": "/landing-aromabrush-amarylis/static/media/lavender.5904dbb20fb822b721e47d59789cff0c.svg",
+    "static/media/Montserrat-Black.woff2": "/landing-aromabrush-amarylis/static/media/Montserrat-Black.d1be0c008d312539b685.woff2",
     "static/media/krug2.svg": "/landing-aromabrush-amarylis/static/media/krug2.fe53f49e81702d23ac44.svg",
     "static/media/grape.svg": "/landing-aromabrush-amarylis/static/media/grape.65f061730c1568a64b8b5e9cb110e001.svg",
     "static/media/mango.svg": "/landing-aromabrush-amarylis/static/media/mango.dc06fe4baa2be4d277ff572525077391.svg",
@@ -71,12 +79,12 @@
     "static/media/youtube-footer-icon.svg": "/landing-aromabrush-amarylis/static/media/youtube-footer-icon.16e0ebe8b0ba6d84152959618ef90c48.svg",
     "static/media/burger.svg": "/landing-aromabrush-amarylis/static/media/burger.517cdae3c2796c73ec76a04d8f452975.svg",
     "static/media/arrow-header.svg": "/landing-aromabrush-amarylis/static/media/arrow-header.dfb75bc201358dd5942e.svg",
-    "main.d7225f79.css.map": "/landing-aromabrush-amarylis/static/css/main.d7225f79.css.map",
-    "main.9937651e.js.map": "/landing-aromabrush-amarylis/static/js/main.9937651e.js.map",
+    "main.bcefdb5b.css.map": "/landing-aromabrush-amarylis/static/css/main.bcefdb5b.css.map",
+    "main.883e2002.js.map": "/landing-aromabrush-amarylis/static/js/main.883e2002.js.map",
     "787.a4342853.chunk.js.map": "/landing-aromabrush-amarylis/static/js/787.a4342853.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7225f79.css",
-    "static/js/main.9937651e.js"
+    "static/css/main.bcefdb5b.css",
+    "static/js/main.883e2002.js"
   ]
 }
