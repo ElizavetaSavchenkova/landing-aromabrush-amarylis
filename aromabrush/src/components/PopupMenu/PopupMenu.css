@@ -93,7 +93,7 @@
     line-height: 18px;
     color: #ffffff;
     text-decoration: none;
-    border-bottom: 3px solid initial;
+    border-bottom: 3px solid transparent;
     cursor: pointer;
     transition: opacity 1s ease-in;
     margin: 0;
@@ -249,7 +249,7 @@
     line-height: 18px;
     color: #ffffff;
     text-decoration: none;
-    border-bottom: 3px solid initial;
+    border-bottom: 3px solid transparent;
     cursor: pointer;
     transition: opacity 1s ease-in;
     margin: 0;
@@ -406,7 +406,7 @@
     line-height: 18px;
     color: #ffffff;
     text-decoration: none;
-    border-bottom: 3px solid initial;
+    border-bottom: 3px solid transparent;
     cursor: pointer;
     transition: opacity 1s ease-in;
     margin: 0;
@@ -563,7 +563,7 @@
     line-height: 18px;
     color: #ffffff;
     text-decoration: none;
-    border-bottom: 3px solid initial;
+    border-bottom: 3px solid transparent;
     cursor: pointer;
     transition: opacity 1s ease-in;
     margin: 0;
@@ -732,9 +732,9 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-    color: #ffffff;
+    color: transparent;
     text-decoration: none;
-    border-bottom: 3px solid initial;
+    border-bottom: 3px solid inherit;
     cursor: pointer;
     transition: opacity 1s ease-in;
     margin: 0;
