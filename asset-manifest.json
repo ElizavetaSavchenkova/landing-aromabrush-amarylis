@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/landing-aromabrush-amarylis/static/css/main.d8ac65c4.css",
-    "main.js": "/landing-aromabrush-amarylis/static/js/main.a17c0eef.js",
+    "main.js": "/landing-aromabrush-amarylis/static/js/main.92a3bbb3.js",
     "static/js/787.a4342853.chunk.js": "/landing-aromabrush-amarylis/static/js/787.a4342853.chunk.js",
     "static/media/ras-review.svg": "/landing-aromabrush-amarylis/static/media/ras-review.85deb422d9a3623c193b0be9f97c4ab7.svg",
     "static/media/newlogo.svg": "/landing-aromabrush-amarylis/static/media/newlogo.68b0cc520b11436ec3aebc705049569b.svg",
@@ -88,11 +88,11 @@
     "static/media/burger-three1.svg": "/landing-aromabrush-amarylis/static/media/burger-three1.69135826d3eb7795aadc.svg",
     "static/media/arrow-header.svg": "/landing-aromabrush-amarylis/static/media/arrow-header.dfb75bc201358dd5942e.svg",
     "main.d8ac65c4.css.map": "/landing-aromabrush-amarylis/static/css/main.d8ac65c4.css.map",
-    "main.a17c0eef.js.map": "/landing-aromabrush-amarylis/static/js/main.a17c0eef.js.map",
+    "main.92a3bbb3.js.map": "/landing-aromabrush-amarylis/static/js/main.92a3bbb3.js.map",
     "787.a4342853.chunk.js.map": "/landing-aromabrush-amarylis/static/js/787.a4342853.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d8ac65c4.css",
-    "static/js/main.a17c0eef.js"
+    "static/js/main.92a3bbb3.js"
   ]
 }
