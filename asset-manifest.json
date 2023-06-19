@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/landing-aromabrush-amarylis/static/css/main.c0473d32.css",
-    "main.js": "/landing-aromabrush-amarylis/static/js/main.6db4df57.js",
+    "main.css": "/landing-aromabrush-amarylis/static/css/main.a1455eb4.css",
+    "main.js": "/landing-aromabrush-amarylis/static/js/main.a17c0eef.js",
     "static/js/787.a4342853.chunk.js": "/landing-aromabrush-amarylis/static/js/787.a4342853.chunk.js",
     "static/media/ras-review.svg": "/landing-aromabrush-amarylis/static/media/ras-review.85deb422d9a3623c193b0be9f97c4ab7.svg",
     "static/media/newlogo.svg": "/landing-aromabrush-amarylis/static/media/newlogo.68b0cc520b11436ec3aebc705049569b.svg",
@@ -79,20 +79,20 @@
     "static/media/4s.svg": "/landing-aromabrush-amarylis/static/media/4s.075057cab8c6df94c82f8403341e8caf.svg",
     "static/media/1.svg": "/landing-aromabrush-amarylis/static/media/1.0618446bcda7d84a8a30d7cd3fe60926.svg",
     "static/media/kaw.svg": "/landing-aromabrush-amarylis/static/media/kaw.3fe98a15d610cd96850c1cd8597593cc.svg",
-    "index.html": "/landing-aromabrush-amarylis/index.html",
     "static/media/whats.svg": "/landing-aromabrush-amarylis/static/media/whats.f6adc5e08dfe18d5e4c4325e5d7f4b4c.svg",
+    "index.html": "/landing-aromabrush-amarylis/index.html",
     "static/media/violet.svg": "/landing-aromabrush-amarylis/static/media/violet.6dadd5cb59bb9d924d8f.svg",
     "static/media/youtube-footer-icon.svg": "/landing-aromabrush-amarylis/static/media/youtube-footer-icon.16e0ebe8b0ba6d84152959618ef90c48.svg",
     "static/media/tel.svg": "/landing-aromabrush-amarylis/static/media/tel.63f6e0264821b0c1a348d0ce09764242.svg",
     "static/media/burger-two.svg": "/landing-aromabrush-amarylis/static/media/burger-two.0b9e4adb9e85b1c1d01d.svg",
     "static/media/burger-three1.svg": "/landing-aromabrush-amarylis/static/media/burger-three1.69135826d3eb7795aadc.svg",
     "static/media/arrow-header.svg": "/landing-aromabrush-amarylis/static/media/arrow-header.dfb75bc201358dd5942e.svg",
-    "main.c0473d32.css.map": "/landing-aromabrush-amarylis/static/css/main.c0473d32.css.map",
-    "main.6db4df57.js.map": "/landing-aromabrush-amarylis/static/js/main.6db4df57.js.map",
+    "main.a1455eb4.css.map": "/landing-aromabrush-amarylis/static/css/main.a1455eb4.css.map",
+    "main.a17c0eef.js.map": "/landing-aromabrush-amarylis/static/js/main.a17c0eef.js.map",
     "787.a4342853.chunk.js.map": "/landing-aromabrush-amarylis/static/js/787.a4342853.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0473d32.css",
-    "static/js/main.6db4df57.js"
+    "static/css/main.a1455eb4.css",
+    "static/js/main.a17c0eef.js"
   ]
 }
