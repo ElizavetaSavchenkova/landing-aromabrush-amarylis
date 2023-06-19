@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/landing-aromabrush-amarylis/static/css/main.72d4f164.css",
-    "main.js": "/landing-aromabrush-amarylis/static/js/main.36a95f04.js",
+    "main.css": "/landing-aromabrush-amarylis/static/css/main.820bd229.css",
+    "main.js": "/landing-aromabrush-amarylis/static/js/main.6db4df57.js",
     "static/js/787.a4342853.chunk.js": "/landing-aromabrush-amarylis/static/js/787.a4342853.chunk.js",
     "static/media/ras-review.svg": "/landing-aromabrush-amarylis/static/media/ras-review.85deb422d9a3623c193b0be9f97c4ab7.svg",
     "static/media/newlogo.svg": "/landing-aromabrush-amarylis/static/media/newlogo.68b0cc520b11436ec3aebc705049569b.svg",
@@ -24,8 +24,12 @@
     "static/media/brush1.png": "/landing-aromabrush-amarylis/static/media/brush1.a175f06cb1efccc5cdc9.png",
     "static/media/brush4.png": "/landing-aromabrush-amarylis/static/media/brush4.115b5515a9a6bb418d73.png",
     "static/media/brush7.png": "/landing-aromabrush-amarylis/static/media/brush7.987391f7ff86ab587a1c.png",
+    "static/media/scroll3.svg": "/landing-aromabrush-amarylis/static/media/scroll3.901bb2233f90393e08ab.svg",
+    "static/media/scroll2.svg": "/landing-aromabrush-amarylis/static/media/scroll2.a33f50e40c7ba8d32530.svg",
+    "static/media/scroll1.svg": "/landing-aromabrush-amarylis/static/media/scroll1.374e4aba67d9e4dc42d119e9ebf9b6e3.svg",
     "static/media/yandex.svg": "/landing-aromabrush-amarylis/static/media/yandex.2ba083123619c536a5659a7af6f4a359.svg",
     "static/media/vk-footer-icon.svg": "/landing-aromabrush-amarylis/static/media/vk-footer-icon.8bf1bd38ad0c70db9ac32fad83e7bb64.svg",
+    "static/media/banner1.png": "/landing-aromabrush-amarylis/static/media/banner1.af3cbdfaac7f9db1ee22.png",
     "static/media/banner.jpg": "/landing-aromabrush-amarylis/static/media/banner.7e33a8df0eab01337469.jpg",
     "static/media/777.png": "/landing-aromabrush-amarylis/static/media/777.67aeff3e55a0120f5f22.png",
     "static/media/erka-mag.svg": "/landing-aromabrush-amarylis/static/media/erka-mag.8685b533107998f0e268884a33402d19.svg",
@@ -34,12 +38,12 @@
     "static/media/yandexm-mag.svg": "/landing-aromabrush-amarylis/static/media/yandexm-mag.a44b0edb8ba35e81f73872ad10edbdb9.svg",
     "static/media/sber.svg": "/landing-aromabrush-amarylis/static/media/sber.1784030d625a6dbf2a1aab75e264834c.svg",
     "static/media/ozon-mag.svg": "/landing-aromabrush-amarylis/static/media/ozon-mag.679e62453b02fcd0bb7946960740bd99.svg",
+    "static/media/banner2.png": "/landing-aromabrush-amarylis/static/media/banner2.e3aa3677c85940be339e.png",
     "static/media/auchan-mag.svg": "/landing-aromabrush-amarylis/static/media/auchan-mag.8dc5ab1ad343e38f6cb20c198c3e7a80.svg",
     "static/media/rivgosh-mag.svg": "/landing-aromabrush-amarylis/static/media/rivgosh-mag.e505ccd9239019acd8aead1b884a6d04.svg",
     "static/media/ozon.svg": "/landing-aromabrush-amarylis/static/media/ozon.949cb13197631620a3ea9d2ba464858b.svg",
     "static/media/neofarm-mag.svg": "/landing-aromabrush-amarylis/static/media/neofarm-mag.26cc15822d64cef905d10c3f3bf93b7b.svg",
     "static/media/999.png": "/landing-aromabrush-amarylis/static/media/999.bf055b562be9c0a15618.png",
-    "static/media/you.jpg": "/landing-aromabrush-amarylis/static/media/you.7ba42d7dba7339350462.jpg",
     "static/media/av-mag.svg": "/landing-aromabrush-amarylis/static/media/av-mag.a1c2813aee1d9c487e906dfd64c9822e.svg",
     "static/media/krug.svg": "/landing-aromabrush-amarylis/static/media/krug.9879bd2987a2443a9c1ed516d7fd175a.svg",
     "static/media/pinkkk.svg": "/landing-aromabrush-amarylis/static/media/pinkkk.9879bd2987a2443a9c1e.svg",
@@ -49,7 +53,7 @@
     "static/media/ozon-market.svg": "/landing-aromabrush-amarylis/static/media/ozon-market.8aa3518eb1f0ed7510207d17e5efb80e.svg",
     "static/media/krug4.svg": "/landing-aromabrush-amarylis/static/media/krug4.a28862ae9553b245dd7b.svg",
     "static/media/sberm-mag.svg": "/landing-aromabrush-amarylis/static/media/sberm-mag.286751a3c48222756c4994e7b5f9abc6.svg",
-    "static/media/101.jpg": "/landing-aromabrush-amarylis/static/media/101.fac8bef8a8af681b7a84.jpg",
+    "static/media/banner3.png": "/landing-aromabrush-amarylis/static/media/banner3.a4bc783b35c51e2511e5.png",
     "static/media/Montserrat-Bold.woff": "/landing-aromabrush-amarylis/static/media/Montserrat-Bold.b22fe5caeddce930c9e1.woff",
     "static/media/Montserrat-Medium.woff": "/landing-aromabrush-amarylis/static/media/Montserrat-Medium.63cf06b6d0089512ad07.woff",
     "static/media/Montserrat-Regular.woff": "/landing-aromabrush-amarylis/static/media/Montserrat-Regular.d6faae4f5b1637779ae9.woff",
@@ -83,12 +87,12 @@
     "static/media/burger-two.svg": "/landing-aromabrush-amarylis/static/media/burger-two.0b9e4adb9e85b1c1d01d.svg",
     "static/media/burger-three1.svg": "/landing-aromabrush-amarylis/static/media/burger-three1.69135826d3eb7795aadc.svg",
     "static/media/arrow-header.svg": "/landing-aromabrush-amarylis/static/media/arrow-header.dfb75bc201358dd5942e.svg",
-    "main.72d4f164.css.map": "/landing-aromabrush-amarylis/static/css/main.72d4f164.css.map",
-    "main.36a95f04.js.map": "/landing-aromabrush-amarylis/static/js/main.36a95f04.js.map",
+    "main.820bd229.css.map": "/landing-aromabrush-amarylis/static/css/main.820bd229.css.map",
+    "main.6db4df57.js.map": "/landing-aromabrush-amarylis/static/js/main.6db4df57.js.map",
     "787.a4342853.chunk.js.map": "/landing-aromabrush-amarylis/static/js/787.a4342853.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.72d4f164.css",
-    "static/js/main.36a95f04.js"
+    "static/css/main.820bd229.css",
+    "static/js/main.6db4df57.js"
   ]
 }
