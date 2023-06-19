@@ -12,6 +12,7 @@ import Main from '../Main/Main';
 import icon from '../../images/krug.svg'
 import Footer from '../Footer/Footer';
 import PopupMenu from '../PopupMenu/PopupMenu'
+import img from '../../images/scroll1.svg'
 
 
 
@@ -44,7 +45,21 @@ function App({ onMenuClick }) {
 
   //}
 
-  useEffect(()=> {
+  const btnUp = document.querySelector('.page__button')
+  console.log(btnUp)
+
+  useEffect(() => {
+    if (btnUp === null) {
+      console.log(btnUp)
+    } else {
+      console.log(btnUp)
+      console.log('btnUp')
+    }
+
+  }, [btnUp])
+
+
+  useEffect(() => {
     console.log(width)
     console.log('width')
   }, [width])
@@ -64,15 +79,26 @@ function App({ onMenuClick }) {
   window.addEventListener('scroll', () => {
     let scrollDistance = window.scrollY
     console.log(scrollDistance)
-    if ((scrollDistance > 1000) && (scrollDistance < 2000)) {
-      console.log(scrollDistance)
-      const header = document.querySelector('header');
-      console.log(header)
-      header.classList.add('header__black')
-    } else {
-      const header = document.querySelector('header');
-      header.classList.remove('header__black')
+    const btnUp = document.querySelector('.page__button')
+    console.log(btnUp)
+    btnUp.onclick = () => {
+      // переместим в начало страницы
+      window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+      });
     }
+
+    //if ((scrollDistance > 1000) && (scrollDistance < 2000)) {
+    //console.log(scrollDistance)
+    // const header = document.querySelector('header');
+
+    //  header.classList.add('header__black')
+    //}// else {
+    //const header = document.querySelector('header');
+    //  header.classList.remove('header__black')
+    // }
   })
 
   //
@@ -110,15 +136,15 @@ function App({ onMenuClick }) {
   function handleMenuClick() {
     setIsPopupMenuOpen(true);
     const promo = document.getElementById('main')
-    console.log(promo)
+
     promo.classList.add('main_blur')
     const buttonx = document.getElementById('x');
-    console.log(buttonx)
+
     buttonx.classList.remove("popup-menu__close-button_anim")
     const menu = document.getElementById('popup-menu');
     menu.classList.remove('popup-menu__container_anim')
     const burger = document.getElementById('burger');
-    console.log(burger)
+
     burger.classList.add('burger_open')
 
   }
@@ -138,7 +164,55 @@ function App({ onMenuClick }) {
     popup.classList.add('popup-menu_exit')
     const burger = document.getElementById('burger');
     burger.classList.remove('burger_open')
-    }
+  }
+
+  //const btnUp = {
+  // el: document.querySelector('.btn-up'),
+  // show() {
+  //  // удалим у кнопки класс btn-up_hide
+  //   this.el.classList.remove('btn-up_hide');
+  //},
+  // hide() {
+  // добавим к кнопке класс btn-up_hide
+  //  this.el.classList.add('btn-up_hide');
+  //},
+  // addEventListener() {
+  // при прокрутке содержимого страницы
+  // window.addEventListener('scroll', () => {
+  // определяем величину прокрутки
+  //  const scrollY = window.scrollY || document.documentElement.scrollTop;
+  // если страница прокручена больше чем на 400px, то делаем кнопку видимой, иначе скрываем
+  //  scrollY > 400 ? this.show() : this.hide();
+  // });
+  // при нажатии на кнопку .btn-up
+  // document.querySelector('.btn-up').onclick = () => {
+  // переместим в начало страницы
+  // window.scrollTo({
+  //   top: 0,
+  //  left: 0,
+  //  behavior: 'smooth'
+  // });
+  // }
+  //}
+  // }
+
+  // btnUp.addEventListener();
+
+  //const btnUp = {
+  //el: document.querySelector('.page__button'),
+  //addEventListener() {
+  // document.querySelector('.page__button').onclick = () => {
+  //   window.scrollTo({
+  //  top: 0,
+  //   left: 0,
+  //  behavior: 'smooth'
+  //  });
+  //  // }
+  //  }
+  //}
+
+  //btnUp.addEventListener();
+
 
 
 
@@ -149,14 +223,13 @@ function App({ onMenuClick }) {
 
   return (
     <div className="page" id="page" >
+      <div className="page__button" id="scroll"></div>
 
       <Header onMenuClick={handleMenuClick} />
       <PopupMenu isOpen={isPopupMenuOpen} onMenuClick={handleCloseMenu} />
-
       <Main
         start={start}
-        width={width}/>
-
+        width={width} />
       <Footer />
 
 

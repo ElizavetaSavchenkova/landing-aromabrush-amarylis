@@ -93,6 +93,9 @@
 @media screen and (max-width:1155px) and (min-width:850px) {
 
   .aboutbrush__subtitle {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
     width: 65.54%;
   }
 
@@ -102,8 +105,8 @@
 
   .aboutbrush__subtitle {
     font-weight: 400;
-    font-size: 15px;
-    line-height: 22px;
+    font-size: 17px;
+    line-height: 27px;
     width: 66.54%;
   }
 
