@@ -13,6 +13,7 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
   position: relative;
 
   /* background: linear-gradient(to right,#fa6579, #f43850);*/
@@ -22,19 +23,19 @@
   filter: blur(10px);
 }
 
-.page__button{
-  margin:0;
+.page__button {
+  margin: 0;
   padding: 0;
   width: 150px;
   height: 150px;
-  border-radius: 50% ;
+  border-radius: 50%;
 
-background-image: url(../../images/scroll1.svg);
+  background-image: url(../../images/scroll1.svg);
   border: none;
-  position:fixed;
-  left: 90%;
+  position: fixed;
+  right: 0;
   bottom: 0;
-  z-index:6;
+  z-index: 6;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -42,19 +43,19 @@ background-image: url(../../images/scroll1.svg);
   cursor: pointer
 }
 
-.page__button:hover{
-  margin:0;
+.page__button:hover {
+  margin: 0;
   padding: 0;
   width: 150px;
   height: 150px;
-  border-radius: 50% ;
+  border-radius: 50%;
 
-background-image: url(../../images/scroll2.svg);
+  background-image: url(../../images/scroll2.svg);
   border: none;
-  position:fixed;
-  left: 90%;
+  position: fixed;
+  right: 0;
   bottom: 0;
-  z-index:6;
+  z-index: 6;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -62,19 +63,18 @@ background-image: url(../../images/scroll2.svg);
   cursor: pointer
 }
 
-.page__button:active{
-  margin:0;
+.page__button:active {
+  margin: 0;
   padding: 0;
   width: 150px;
   height: 150px;
-  border-radius: 50% ;
-
-background-image: url(../../images/scroll3.svg);
+  border-radius: 50%;
+  background-image: url(../../images/scroll3.svg);
   border: none;
-  position:fixed;
-  left: 90%;
+  position: fixed;
+  right: 0;
   bottom: 0;
-  z-index:6;
+  z-index: 6;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -82,10 +82,180 @@ background-image: url(../../images/scroll3.svg);
   cursor: pointer
 }
 
-.page__img{
-  width: 250px;
-  height: 250px;
-  border-radius: 50% ;
+@media screen and (max-width:900px) and (min-width:550px){
+  .page__button {
+    margin: 0;
+    padding: 0;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-image: url(../../images/scroll1.svg);
+    border: none;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: baseline;
+    cursor: pointer
+  }
+
+  .page__button:hover {
+    margin: 0;
+    padding: 0;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-image: url(../../images/scroll2.svg);
+    border: none;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: baseline;
+    cursor: pointer
+  }
+
+  .page__button:active {
+    margin: 0;
+    padding: 0;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-image: url(../../images/scroll3.svg);
+    border: none;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: baseline;
+    cursor: pointer
+  }
+}
+
+@media screen and (max-width:550px) and (min-width:420px){
+  .page__button {
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(../../images/scroll1.svg);
+    border: none;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: baseline;
+    cursor: pointer
+  }
+
+  .page__button:hover {
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(../../images/scroll2.svg);
+    border: none;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: baseline;
+    cursor: pointer
+  }
+
+  .page__button:active {
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(../../images/scroll3.svg);
+    border: none;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: baseline;
+    cursor: pointer
+  }
+}
 
 
+@media screen and (max-width:420px) and (min-width:300px){
+  .page__button {
+    margin: 0;
+    padding: 0;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-image: url(../../images/scroll1.svg);
+    border: none;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: baseline;
+    cursor: pointer
+  }
+
+  .page__button:hover {
+    margin: 0;
+    padding: 0;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-image: url(../../images/scroll2.svg);
+    border: none;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: baseline;
+    cursor: pointer
+  }
+
+  .page__button:active {
+    margin: 0;
+    padding: 0;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-image: url(../../images/scroll3.svg);
+    border: none;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: baseline;
+    cursor: pointer
+  }
 }

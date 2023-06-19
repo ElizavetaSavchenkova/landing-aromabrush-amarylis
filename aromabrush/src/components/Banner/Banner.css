@@ -1,20 +1,21 @@
 .banner {
-  background-color: #363636;
+
   width: 100%;
 
   display: flex;
   flex-direction: column;
   align-self: center;
   justify-content: center;
-  background-color: gold;
+
   overflow: hidden;
+  background: linear-gradient(to right,#ffbacf, #ff9ab6);
 }
 
 .banner__container {
-  background-color: #363636;
+
   width: 1440px;
 
-  background-color: aqua;
+
   align-self: center;
   justify-content: center;
   /*align-self: center;
@@ -76,10 +77,9 @@
   }
 
   .banner__container {
-    background-color: #363636;
+
     width: 910px;
 
-    background-color: aqua;
     align-self: center;
     justify-content: center;
     /*align-self: center;
@@ -108,10 +108,10 @@
   }
 
   .banner__container {
-    background-color: #363636;
+
     width: 600px;
 
-    background-color: aqua;
+
     align-self: center;
     justify-content: center;
     /*align-self: center;

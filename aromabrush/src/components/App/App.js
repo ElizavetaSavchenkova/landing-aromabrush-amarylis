@@ -1,8 +1,11 @@
 //import logo from './logo.svg';
 import React from 'react';
+import { Helmet } from 'react-helmet'
 import { useEffect } from 'react';
 import { useState } from 'react';
 import { useResize } from '../use-resize';
+
+
 //import { useResize } from './use-resize';
 //import { Helmet } from 'react-helmet';
 //import { hydrate, render } from "react-dom";
@@ -222,6 +225,7 @@ function App({ onMenuClick }) {
   //const { width, isScreenSm, isScreenMd, isScreenLg, isScreenXl } = useResize();
 
   return (
+
     <div className="page" id="page" >
       <div className="page__button" id="scroll"></div>
 
@@ -231,6 +235,12 @@ function App({ onMenuClick }) {
         start={start}
         width={width} />
       <Footer />
+      <Helmet>
+        <html lang="ru"></html>
+        <title>Арома-расчёски от бренда Solomeya</title>
+        <meta name="description" content="Арома-расчёски компании Амарилис от бренда Solomeya"></meta>
+
+      </Helmet>
 
 
     </div>
