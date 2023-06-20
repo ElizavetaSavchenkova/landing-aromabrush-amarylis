@@ -66,7 +66,9 @@ function App() {
           <Helmet>
             <html lang="ru"></html>
             <title>Арома-расчёски бренда Solomeya</title>
-            <meta name="description" content="Расчёски с ароматом  SOLOMEYA  от официального дистрибьютора в России компании Амарилис. Акции при покупке на сайте. Доставка: Москва и другие города."></meta>
+            <meta name="description"
+              content="Расчёски с ароматом SOLOMEYA от официального дистрибьютора в России компании Амарилис. Акции при покупке на сайте. Доставка: Москва и другие города.">
+            </meta>
           </Helmet>
         </div>
       </HelmetProvider>
