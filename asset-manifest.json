@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/landing-aromabrush-amarylis/static/css/main.fe3d247e.css",
-    "main.js": "/landing-aromabrush-amarylis/static/js/main.22361fee.js",
+    "main.js": "/landing-aromabrush-amarylis/static/js/main.48ff1dce.js",
     "static/js/787.a4342853.chunk.js": "/landing-aromabrush-amarylis/static/js/787.a4342853.chunk.js",
     "static/media/brush-review.svg": "/landing-aromabrush-amarylis/static/media/brush-review.85deb422d9a3623c193b0be9f97c4ab7.svg",
     "static/media/ave-mag.svg": "/landing-aromabrush-amarylis/static/media/ave-mag.4bd9d358bb3caf569bd01b798a4e5033.svg",
@@ -71,9 +71,9 @@
     "static/media/figure-caption-travelformat-products.svg": "/landing-aromabrush-amarylis/static/media/figure-caption-travelformat-products.dea0681839301ab653a6f5950ba7ad84.svg",
     "static/media/figure-caption-lightanddurable-products.svg": "/landing-aromabrush-amarylis/static/media/figure-caption-lightanddurable-products.075057cab8c6df94c82f8403341e8caf.svg",
     "static/media/figure-caption-fragrance-products.svg": "/landing-aromabrush-amarylis/static/media/figure-caption-fragrance-products.0618446bcda7d84a8a30d7cd3fe60926.svg",
+    "index.html": "/landing-aromabrush-amarylis/index.html",
     "static/media/quotes-review.svg": "/landing-aromabrush-amarylis/static/media/quotes-review.3fe98a15d610cd96850c1cd8597593cc.svg",
     "static/media/whats-header.svg": "/landing-aromabrush-amarylis/static/media/whats-header.f6adc5e08dfe18d5e4c4325e5d7f4b4c.svg",
-    "index.html": "/landing-aromabrush-amarylis/index.html",
     "static/media/violet.svg": "/landing-aromabrush-amarylis/static/media/violet.6dadd5cb59bb9d924d8f.svg",
     "static/media/youtube-footer-icon.svg": "/landing-aromabrush-amarylis/static/media/youtube-footer-icon.16e0ebe8b0ba6d84152959618ef90c48.svg",
     "static/media/tel-header.svg": "/landing-aromabrush-amarylis/static/media/tel-header.63f6e0264821b0c1a348d0ce09764242.svg",
@@ -81,11 +81,11 @@
     "static/media/burgermenu-icon.svg": "/landing-aromabrush-amarylis/static/media/burgermenu-icon.69135826d3eb7795aadc.svg",
     "static/media/arrow-header.svg": "/landing-aromabrush-amarylis/static/media/arrow-header.dfb75bc201358dd5942e.svg",
     "main.fe3d247e.css.map": "/landing-aromabrush-amarylis/static/css/main.fe3d247e.css.map",
-    "main.22361fee.js.map": "/landing-aromabrush-amarylis/static/js/main.22361fee.js.map",
+    "main.48ff1dce.js.map": "/landing-aromabrush-amarylis/static/js/main.48ff1dce.js.map",
     "787.a4342853.chunk.js.map": "/landing-aromabrush-amarylis/static/js/787.a4342853.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fe3d247e.css",
-    "static/js/main.22361fee.js"
+    "static/js/main.48ff1dce.js"
   ]
 }
