@@ -21,10 +21,10 @@
   position: relative;
 }
 
-.review__fugure-circle{
+.review__fugure-circle {
   margin: 0;
   padding: 0;
-  background-image: url('../../images/pinkkk.svg');
+  background-image: url('../../images/pink-circle-review.svg');
   background-size: contain;
   background-repeat: no-repeat;
   width: 417px;
@@ -32,7 +32,6 @@
   position: absolute;
   z-index: -1;
   transform: translateX(-62%) translateY(-30%);
-
 }
 
 .review__container-figure {
@@ -50,7 +49,7 @@
   padding: 0;
   justify-self: center;
   width: 59px;
-  width:41px;
+  width: 41px;
 }
 
 .review__container-info {
@@ -64,7 +63,6 @@
 .review__quote {
   margin: 0;
   padding: 0;
-
 }
 
 .review__quote-text {
@@ -84,10 +82,6 @@
   grid-template-columns: 25% 75%;
   grid-template-rows: 25% 75%;
   gap: 1px 1px;
-  /* grid-template-columns: 35% 65%;*/
-  /*display: flex;
-  gap:50px;*/
-
 }
 
 .review__user-container_grid {
@@ -133,9 +127,6 @@
   grid-row-end: 3;
 }
 
-@media screen and (max-width:1355px) and (min-width:760px) {}
-
-
 @media screen and (max-width:1155px) and (min-width:760px) {
   .review__brush-img {
     width: 246px;
@@ -154,92 +145,83 @@
     line-height: 25px;
   }
 
-  /*.review__figure-img {
-    width: 50px;
-    height: 30px;
-  }*/
-
   .review__figure-quotes {
     width: 48px;
-    height:33px;
+    height: 33px;
   }
-
 }
 
-@media screen and (max-width:1340px) and (min-width:1155px){
-  .review__fugure-circle{
+@media screen and (max-width:1340px) and (min-width:1155px) {
+  .review__fugure-circle {
     width: 370px;
     height: 370px;
     transform: translateX(-55%) translateY(-30%);
   }
 }
 
-@media screen and (max-width:1155px) and (min-width:1024px){
-  .review__fugure-circle{
+@media screen and (max-width:1155px) and (min-width:1024px) {
+  .review__fugure-circle {
     width: 370px;
     height: 370px;
     transform: translateX(-65%) translateY(-30%);
   }
 }
 
-@media screen and (max-width:1024px) and (min-width:900px){
-  .review__fugure-circle{
+@media screen and (max-width:1024px) and (min-width:900px) {
+  .review__fugure-circle {
     width: 370px;
     height: 370px;
     transform: translateX(-78%) translateY(-30%);
   }
 }
 
-@media screen and (max-width:900px) and (min-width:760px){
-  .review__fugure-circle{
+@media screen and (max-width:900px) and (min-width:760px) {
+  .review__fugure-circle {
     width: 370px;
     height: 370px;
     transform: translateX(-82%) translateY(-30%);
   }
 }
 
-@media screen and (max-width:760px) and (min-width:670px){
-  .review__fugure-circle{
+@media screen and (max-width:760px) and (min-width:670px) {
+  .review__fugure-circle {
     width: 370px;
     height: 370px;
     transform: translateX(-75%) translateY(-30%);
   }
 }
 
-@media screen and (max-width:670px) and (min-width:525px){
-  .review__fugure-circle{
+@media screen and (max-width:670px) and (min-width:525px) {
+  .review__fugure-circle {
     width: 240px;
     height: 240px;
     transform: translateX(-70%) translateY(-30%);
   }
 }
 
-@media screen and (max-width:525px) and (min-width:505px){
-  .review__fugure-circle{
+@media screen and (max-width:525px) and (min-width:505px) {
+  .review__fugure-circle {
     width: 240px;
     height: 240px;
     transform: translateX(-83%) translateY(-30%);
   }
 }
 
-@media screen and (max-width:505px) and (min-width:450px){
-  .review__fugure-circle{
+@media screen and (max-width:505px) and (min-width:450px) {
+  .review__fugure-circle {
     width: 240px;
     height: 240px;
     transform: translateX(-85%) translateY(-30%);
   }
 }
 
-@media screen and (max-width:450px) and (min-width:300px){
-  .review__fugure-circle{
+@media screen and (max-width:450px) and (min-width:300px) {
+  .review__fugure-circle {
     width: 177px;
     height: 177px;
     transform: translateX(-84%) translateY(-30%);
   }
 }
-
-
-
 
 @media screen and (max-width:1024px) and (min-width:760px) {
   .review__container-figure {
@@ -249,17 +231,13 @@
 
 @media screen and (max-width:520px) and (min-width:300px) {
   .review__container-figure {
-
     grid-template-columns: 12% 53% 35%;
-
   }
 
   .review__container-info {
-
     gap: 10px;
   }
 }
-
 
 @media screen and (max-width:760px) and (min-width:450px) {
   .review__quote-text {
@@ -279,19 +257,11 @@
     line-height: 13px;
   }
 
- /* .review__figure-img {
-    width: 40px;
-    height: 27px;
-  }*/
-
   .review__figure-quotes {
     width: 30px;
-    height:21px;
+    height: 21px;
   }
-
-
 }
-
 
 @media screen and (max-width:450px) and (min-width:300px) {
   .review__quote-text {
@@ -311,13 +281,8 @@
     line-height: 10px;
   }
 
-  /*.review__figure-img {
-    width: 30px;
-    height: 14px;
-  }*/
-
   .review__figure-quotes {
     width: 20px;
-    height:14px;
+    height: 14px;
   }
 }

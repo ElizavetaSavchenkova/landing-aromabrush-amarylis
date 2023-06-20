@@ -13,7 +13,9 @@ function AboutBrush() {
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen></iframe>
+            allowFullScreen
+            loading="lazy">
+          </iframe>
         </div>
         <p className="aboutbrush__subtitle">Арома-расчески от Solomeya - ваш ключ к здоровым
           и красивым волосам. Подходят для любого типа волос, бережно распутывают и не травмируют пряди. Легко моются, устойчивы
@@ -26,5 +28,3 @@ function AboutBrush() {
 }
 
 export default AboutBrush
-
-// <video className='aboutbrush__video' ></video>

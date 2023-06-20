@@ -86,7 +86,7 @@ header:after {
   display: flex;
   flex-direction: row;
   list-style: none;
-  justify-content: end;
+  justify-content: flex-end;
   gap: 60px;
   align-items: center;
   box-sizing: border-box;
@@ -113,29 +113,14 @@ header:after {
   cursor: pointer;
 }
 
-/*.header__black {
-  margin: 0 auto;
-  padding: 0;
-  background-color: black;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: fixed;
-  z-index: 2;
-}*/
-
 .header__logo {
   width: 208px;
   height: 40px;
-  padding:0;
-  margin:0;
+  padding: 0;
+  margin: 0;
   border: initial;
   outline: none;
-
-
 }
-
 
 @media screen and (max-width:1437px) and (min-width:1250px) {
   .header {
@@ -152,8 +137,6 @@ header:after {
     margin: 0;
     padding: 0;
   }
-
-
 }
 
 
@@ -166,7 +149,6 @@ header:after {
     margin: 0;
     justify-content: space-between;
     width: 94.44%;
-    /*height: 125px;*/
   }
 
   .header__info-container {
@@ -198,22 +180,14 @@ header:after {
     width: 27px;
     height: 27px;
   }
-
 }
 
-/*@media screen and (max-width:1244px) and (min-width:1024px) {
-.header__info-container{
-  padding: 0 0 0 10px;
-}
-}*/
 
 @media screen and (max-width:1160px) and (min-width:1100px) {
   .header__logo {
     width: 200px;
     height: 32px;
     align-self: center;
-
-
   }
 }
 
@@ -227,15 +201,12 @@ header:after {
     box-sizing: border-box;
     z-index: 3;
     padding: 54px 0 45px 0;
-
   }
 
   .header__logo {
     width: 205px;
     height: 40px;
     align-self: center;
-
-
   }
 }
 
@@ -249,15 +220,12 @@ header:after {
     position: relative;
     box-sizing: border-box;
     z-index: 3;
-
   }
 
   .header__logo {
     width: 205px;
     height: 40px;
     align-self: center;
-
-
   }
 }
 
@@ -271,18 +239,13 @@ header:after {
     position: relative;
     box-sizing: border-box;
     z-index: 3;
-
   }
 
   .header__logo {
     width: 157px;
     height: 31px;
     align-self: center;
-
-
   }
-
-
 }
 
 @media screen and (max-width:570px) and (min-width:450px) {
@@ -295,18 +258,13 @@ header:after {
     position: relative;
     box-sizing: border-box;
     z-index: 3;
-
   }
 
   .header__logo {
     width: 157px;
     height: 31px;
     align-self: center;
-
-
   }
-
-
 }
 
 @media screen and (max-width:450px) and (min-width:300px) {
@@ -319,16 +277,11 @@ header:after {
     position: relative;
     box-sizing: border-box;
     z-index: 3;
-
   }
 
   .header__logo {
     width: 157px;
     height: 31px;
     align-self: center;
-
-
   }
-
-
 }

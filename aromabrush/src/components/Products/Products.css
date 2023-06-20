@@ -7,7 +7,6 @@
   flex-direction: column;
   align-items: center;
   box-sizing: border-box;
-
 }
 
 .products__container {
@@ -18,8 +17,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
-
 }
 
 .products__title {
@@ -42,7 +39,6 @@
   align-items: center;
   justify-items: center;
   align-self: center;
-
 }
 
 .products__tagline-desc {
@@ -54,8 +50,6 @@
   gap: 60px;
   z-index: 2;
   box-sizing: border-box;
-
-
 }
 
 .products__tagline-desc_left {
@@ -69,21 +63,8 @@
   padding: 0;
   width: 250px;
   box-shadow: 9px 0px 24px -11px rgba(34, 60, 80, 0.51);
-  /*box-shadow: 10px 2px 25px rgba(0, 0, 0, 0.15);*/
   border-radius: 70px;
 }
-
-/*.products__figure {
-  margin: 0;
-  padding: 38px 8px 33px;
-  width: 230px;
-  height: 66px;
-  background-color: #ffffff;
-  box-shadow: 10px 2px 25px rgba(0, 0, 0, 0.15);
-
-
-  text-align: center;
-}*/
 
 .products__figure_right {
   align-self: flex-end;
@@ -102,17 +83,6 @@
   padding: 0;
   width: 100%;
 }
-
-
-/*.products__figure-text {
-  margin: 0;
-  padding: 0;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 23px;
-  line-height: 32px;
-  color: #363636;
-}*/
 
 .products__tastes-list {
   margin: 0;
@@ -169,14 +139,6 @@
   box-sizing: border-box;
 }
 
-/*.products__imggg {
-  background-image: url(../../images/444.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  z-index: 1
-}*/
-
 @media screen and (max-width:1195px) and (min-width:760px) {
   .products__container {
     margin: 0;
@@ -185,10 +147,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
-
-
-
   }
 
   .products {
@@ -199,8 +157,6 @@
     gap: 0;
   }
 
-
-
   .products__tagline-container {
     margin: 0;
     padding: 0;
@@ -210,8 +166,6 @@
     flex-direction: column;
     align-items: center;
     justify-items: center;
-
-
   }
 
   .products__tagline-desc {
@@ -222,12 +176,10 @@
     flex-direction: row;
     gap: 30px;
     justify-content: space-between;
-
-
   }
 
   .products__brush-image {
-    padding:0;
+    padding: 0;
     margin: 0;
     width: 523px;
     height: 594px;
@@ -239,7 +191,6 @@
     padding: 0;
     width: 180px;
     box-shadow: 9px 0px 24px -11px rgba(34, 60, 80, 0.51);
-    /*box-shadow: 10px 2px 25px rgba(0, 0, 0, 0.15);*/
     border-radius: 70px;
   }
 
@@ -257,7 +208,6 @@
   }
 
   .products__taste-caption {
-
     font-weight: 500;
     font-size: 15px;
     line-height: 32px;
@@ -265,7 +215,6 @@
   }
 
   .products__tastes-list_second {
-
     padding: 0;
     max-width: 94.44%;
     display: grid;
@@ -277,8 +226,6 @@
     align-items: center;
   }
 
-
-  /* or 214% */
   .products__title {
     font-weight: 500;
     font-size: 25px;
@@ -321,7 +268,6 @@
     flex-direction: column;
     align-items: center;
     justify-items: center;
-
   }
 
   .products__tagline-desc {
@@ -332,8 +278,6 @@
     flex-direction: row;
     gap: 25px;
     justify-content: space-between;
-
-
   }
 
   .products__figure {
@@ -341,7 +285,6 @@
     padding: 0;
     width: 122px;
     box-shadow: 9px 0px 24px -11px rgba(34, 60, 80, 0.51);
-    /*box-shadow: 10px 2px 25px rgba(0, 0, 0, 0.15);*/
     border-radius: 70px;
   }
 
@@ -362,12 +305,9 @@
     font-weight: 500;
     font-size: 12px;
     line-height: 32px;
-
-
   }
 
   .products__tastes-list_second {
-
     padding: 0;
     max-width: 94.44%;
     display: grid;
@@ -379,15 +319,12 @@
     align-items: center;
   }
 
-
-  /* or 214% */
   .products__title {
     font-weight: 500;
     font-size: 20px;
     line-height: 38px;
   }
 }
-
 
 @media screen and (max-width:480px) {
   .products__container {
@@ -397,15 +334,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
-
-
   }
 
   .products__taste-el {
     gap: 0;
     vertical-align: super;
-
   }
 
 
@@ -414,25 +347,21 @@
   }
 
   .products__brush-image {
-    padding:0;
+    padding: 0;
     margin: 0;
     width: 265px;
     height: 301px;
     box-sizing: border-box;
   }
 
-
   .products__tagline-container {
     margin: 0;
     padding: 0;
     width: 100%;
     display: flex;
-
     flex-direction: column;
     align-items: center;
     justify-items: center;
-
-
   }
 
   .products__tagline-desc {
@@ -443,8 +372,6 @@
     flex-direction: row;
     gap: 25px;
     justify-content: space-between;
-
-
   }
 
   .products__figure {
@@ -452,7 +379,6 @@
     padding: 0;
     width: 122px;
     box-shadow: 9px 0px 24px -11px rgba(34, 60, 80, 0.51);
-    /*box-shadow: 10px 2px 25px rgba(0, 0, 0, 0.15);*/
     border-radius: 70px;
   }
 
@@ -473,15 +399,9 @@
     font-weight: 500;
     font-size: 9px;
     line-height: 32px;
-
-
-
-
-
   }
 
   .products__tastes-list_second {
-
     padding: 0;
     max-width: 94.44%;
     display: grid;
@@ -493,8 +413,6 @@
     align-items: center;
   }
 
-
-  /* or 214% */
   .products__title {
     font-weight: 500;
     font-size: 15px;

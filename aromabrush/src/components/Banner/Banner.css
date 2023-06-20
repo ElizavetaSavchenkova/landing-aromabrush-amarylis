@@ -1,59 +1,33 @@
 .banner {
-
+  margin: 0;
+  padding: 0;
   width: 100%;
-
   display: flex;
   flex-direction: column;
   align-self: center;
   justify-content: center;
-
   overflow: hidden;
-  background: linear-gradient(to right,#ffbacf, #ff9ab6);
+  background: linear-gradient(to right, #ffbacf, #ff9ab6);
 }
 
 .banner__container {
-
-  width: 1440px;
-
-
-  align-self: center;
-  justify-content: center;
-  /*align-self: center;
-  background-image: url(../../images/banner.jpg);
-  background-position:center ;
-  background-repeat: no-repeat;*/
-  overflow: hidden;
-
-}
-
-
-
-.banner__img {
-  width: 100%;
-
   margin: 0;
   padding: 0;
+  width: 1440px;
+  align-self: center;
+  justify-content: center;
 }
 
-
-
-
-.banner__img2 {
+.banner__img {
   background-image: url(../../images/banner1.png);
   width: 100%;
   height: 400px;
-
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
-}
-
-/*@media screen and (max-width:)*/
-.banner__title {
-  width: 1220px;
-  margin: 0;
-  padding: 0;
+  align-self: center;
+  justify-self: center;
 }
 
 .banner__link {
@@ -63,63 +37,25 @@
 }
 
 @media screen and (max-width:910px) and (min-width:600px) {
-  .banner__img2 {
+  .banner__img {
     background-image: url(../../images/banner2.png);
     width: 100%;
     height: 330px;
-
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-    align-self: center;
-    justify-self: center;
   }
 
   .banner__container {
-
     width: 910px;
-
-    align-self: center;
-    justify-content: center;
-    /*align-self: center;
-    background-image: url(../../images/banner.jpg);
-    background-position:center ;
-    background-repeat: no-repeat;*/
-    overflow: hidden;
-
   }
-
 }
 
-
 @media screen and (max-width:600px) {
-  .banner__img2 {
+  .banner__img {
     background-image: url(../../images/banner3.png);
     width: 100%;
     height: 200px;
-
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-    align-self: center;
-    justify-self: center;
   }
 
   .banner__container {
-
     width: 600px;
-
-
-    align-self: center;
-    justify-content: center;
-    /*align-self: center;
-    background-image: url(../../images/banner.jpg);
-    background-position:center ;
-    background-repeat: no-repeat;*/
-    overflow: hidden;
-
   }
-
 }

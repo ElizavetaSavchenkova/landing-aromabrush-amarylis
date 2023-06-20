@@ -1,24 +1,22 @@
 import React from 'react';
-import './Footer.css'
-
-import vk from '../../images/vk-footer-icon.svg'
-import youtube from '../../images/youtube-footer-icon.svg'
+import vk from '../../images/vk-footer-icon.svg';
+import youtube from '../../images/youtube-footer-icon.svg';
+import './Footer.css';
 
 function Footer() {
   return (
     <footer className="footer" >
       <div className="footer__container">
         <h4 className="footer__title">ПОДПИШИТЕСЬ НА НАС</h4>
-
         <nav className="footer__info">
           <ul className="footer__info-container">
             <li className="footer__vk">
               <a href="https://vk.com/amarylis_shop?utm_source=vk&utm_medium=posadochnaya_stranitsi&utm_campaign=aroma-rascheski">
-                <img className="footer__icon footer__icon_vk" src={vk}></img></a>
+                <img className="footer__icon footer__icon_vk" src={vk} alt='Вконтакте'></img></a>
               <p className="footer__text-icon">amarylis_shop</p>
             </li>
             <li className="footer__youtube">
-              <a href="https://www.youtube.com/@amarylisorg/videos?utm_source=youtube&utm_medium=posadochnaya_stranitsi&utm_campaign=aroma-rascheski"><img className="footer__icon footer__icon_youtube" src={youtube}></img></a>
+              <a href="https://www.youtube.com/@amarylisorg/videos?utm_source=youtube&utm_medium=posadochnaya_stranitsi&utm_campaign=aroma-rascheski"><img className="footer__icon footer__icon_youtube" src={youtube} alt='Youtube'></img></a>
               <p className="footer__text-icon">YouTube</p>
             </li>
           </ul>

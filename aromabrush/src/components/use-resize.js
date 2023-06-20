@@ -15,13 +15,10 @@ import {
   SCREEN_MY10,
   SCREEN_MY9,
   SCREEN_MY11,
-  SCREEN_MY12,
   SCREEN_MY13,
   SCREEN_MY14,
   SCREEN_MY15,
   SCREEN_MY16,
-  SCREEN_MY17,
-  SCREEN_MY18,
 
 } from './const-breakpoints';
 
@@ -38,8 +35,6 @@ export const useResize = () => {
     };
   }, [width]);
 
- // const SCREEN_MY19 = 449
-
   return {
     width,
     isScreenMy: width <= SCREEN_MY,
@@ -54,27 +49,16 @@ export const useResize = () => {
     isScreenMy5: width >= SCREEN_MY5,
     isScreenMy6: width <= SCREEN_MY6,
     isScreenMy7: width >= SCREEN_MY7,
-
     isScreenMy8: width >= SCREEN_MY8,
-
     isScreenMy9: width >= SCREEN_MY9,
     isScreenMy10: width <= SCREEN_MY10 && width > SCREEN_MY11,
     isScreenMy11: width <= SCREEN_MY11,
-
     isScreenMy12: width > SCREEN_MY13,
     isScreenMy13: width <= SCREEN_MY13,
-
-    isScreenMy14: width >= SCREEN_MY14, //761
-    isScreenMy15: width <= SCREEN_MY15 && width > SCREEN_MY16,  //меньше или равно 760 и больше 451
-
+    isScreenMy14: width >= SCREEN_MY14,
+    isScreenMy15: width <= SCREEN_MY15 && width > SCREEN_MY16,
     isScreenMy16: width <= 480,
-    isScreenMy19: width >= 481,//450
-
+    isScreenMy19: width >= 481,
     isScreenMy17: width <= SCREEN_MY4 && width > SCREEN_MY15,
-
-
   };
-  //export const SCREEN_MY16 = 450
-  //export const SCREEN_MY17 = 451
-  //export const SCREEN_MY18 = 449
 };

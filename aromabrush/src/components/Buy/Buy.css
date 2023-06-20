@@ -100,14 +100,11 @@
     margin: 0;
     padding: 0;
     max-width: 800px;
-
   }
-
 }
 
 
 @media screen and (max-width: 1155px) and (min-width: 760px) {
-
   .buy__title {
     font-weight: 500;
     font-size: 25px;
@@ -120,7 +117,6 @@
 }
 
 @media screen and (max-width: 760px) and (min-width: 450px) {
-
   .buy__title {
     font-weight: 500;
     font-size: 20px;
@@ -134,7 +130,6 @@
 }
 
 @media screen and (max-width: 450px) and (min-width: 300px) {
-
   .buy__title {
     font-weight: 500;
     font-size: 15px;
@@ -194,11 +189,9 @@
 
   .buy__carousel {
     gap: 5px;
-    padding:0;
+    padding: 0;
   }
-
 }
-
 
 @media screen and (max-width:450px) and (min-width:300px) {
   .buy__markets-container {
@@ -209,7 +202,6 @@
     justify-content: flex-start;
     gap: 5px;
     overflow: hidden;
-
   }
 
   .buy__markets-element {
@@ -242,5 +234,4 @@
     gap: 0px;
     padding: 0;
   }
-
 }

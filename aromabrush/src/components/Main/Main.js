@@ -8,8 +8,6 @@ import Buy from '../Buy/Buy';
 import Review from '../Review/Review'
 import Contacts from '../Contacts/Contacts';
 import AboutCompany from '../AboutCompany/AboutCompany';
-
-import Carousel from '../Carousel/Carousel';
 import './Main.css'
 
 function Main({ start, width }) {

@@ -1,176 +1,146 @@
 import React from 'react';
-import { useEffect } from 'react';
-
-
-import black from '../../images/brush-promo.svg';
-//import icon3 from '../../images/ras3.svg';
-import strawberry from '../../images/strawberry.svg'
-import mango from '../../images/mango.svg';
-import lemon from '../../images/lemon.svg'
-import jasmine from '../../images/jasmine.svg'
-import lavender from '../../images/lavender.svg'
-import grape from '../../images/grape.svg'
-import './Products.css';
 import { useResize } from '../use-resize';
 import Carousel from '../Carousel/Carousel';
-
-
-import photo from '../../images/1.svg'
-import photo2 from '../../images/2.svg'
-import photo3 from '../../images/3.svg'
-import photo4 from '../../images/4s.svg'
-import photo5 from '../../images/5.svg'
-import photo6 from '../../images/6.svg'
-
-
-
-import brush1 from '../../images/brush1.png'
-import brush2 from '../../images/brush2.png'
-import brush3 from '../../images/brush3.png'
-import brush4 from '../../images/brush4.png'
-import brush5 from '../../images/brush5.png'
-import brush6 from '../../images/brush6.png'
-import brush7 from '../../images/brush7.png'
-import brush8 from '../../images/brush8.png'
-import brush9 from '../../images/brush9.png'
-import brush10 from '../../images/brush10.png'
-import brush11 from '../../images/brush11.png'
-
-
+import captionFragrance from '../../images/figure-caption-fragrance-products.svg';
+import captionWetAndDry from '../../images/figure-caption-wetanddry-products.svg';
+import captionFrame from '../../images/figure-caption-frame-products.svg';
+import captionLightAndDurable from '../../images/figure-caption-lightanddurable-products.svg';
+import captionMassage from '../../images/figure-caption-massage-products.svg';
+import captionTravelFormat from '../../images/figure-caption-travelformat-products.svg';
+import strawberry from '../../images/strawberry-icon-products.svg';
+import mango from '../../images/mango-icon-products.svg';
+import lemon from '../../images/lemon-icon-products.svg';
+import jasmine from '../../images/jasmine-icon-products.svg';
+import lavender from '../../images/lavender-icon-products.svg';
+import grape from '../../images/grape-icon-products.svg';
+import brushGrape from '../../images/brush-slider-grape.png';
+import brushStrawberry from '../../images/brush-slider-strawberry.png';
+import brushGrapeOval from '../../images/brush-slider-grape-long.png';
+import brushMango from '../../images/brush-slider-mango.png';
+import brushLavender from '../../images/brush-slider-lavender.png';
+import brushStrawberryOval from '../../images/brush-slider-strawberry-long.png';
+import brushJasmine from '../../images/brush-slider-jasmine.png';
+import minibrushGrape from '../../images/minibrush-slider-grape.png';
+import minibrushStrawberry from '../../images/minibrush-slider-strawberry.png';
+import minibrushLemon from '../../images/minibrush-slider-lemon.png';
+import minibrushJasmine from '../../images/minibrush-slider-jasmine.png';
+import './Products.css';
 
 function Products() {
-  const { width, isScreenMy5, isScreenMy17, isScreenMy15, isScreenMy16, isScreenMy19, isScreenLg, isScreenXl } = useResize();
-  var slideIndex = 1;
-
-  useEffect(() => {
-    console.log(width)
-    console.log(width)
-  }, [width])
-
+  const { isScreenMy5, isScreenMy17, isScreenMy15, isScreenMy16 } = useResize();
 
   return (
-    <section className="products" >
-
-
-
+    <section className="products">
       {isScreenMy5 &&
         <div className="products__container">
           <h2 className="products__title">ВЫБЕРИ СВОЙ АРОМАТ</h2>
           <div className="products__tagline-container">
             <div className="products__tagline-desc products__tagline-desc_left">
               <div className="products__figure products__figure_right">
-                <img className="products__figure-text" src={photo}></img>
+                <img className="products__figure-text" src={captionFragrance} alt='Приятный аромат'></img>
               </div>
               <div className="products__figure products__figure_center">
-                <img className="products__figure-text" src={photo2}></img>
+                <img className="products__figure-text" src={captionWetAndDry} alt='Для сухих и влажных волос'></img>
               </div>
               <div className="products__figure products__figure_right">
-                <img className="products__figure-text" src={photo3}></img>
+                <img className="products__figure-text" src={captionFrame} alt='Цельный корпус легко мыть'></img>
               </div>
             </div>
             <Carousel>
-
-              <img className="products__brush-image" src={brush1}></img>
-              <img className="products__brush-image" src={brush2}></img>
-              <img className="products__brush-image" src={brush3}></img>
-              <img className="products__brush-image" src={brush4}></img>
-              <img className="products__brush-image" src={brush5}></img>
-              <img className="products__brush-image" src={brush6}></img>
-              <img className="products__brush-image" src={brush7}></img>
-              <img className="products__brush-image" src={brush8}></img>
-              <img className="products__brush-image" src={brush9}></img>
-              <img className="products__brush-image" src={brush10}></img>
-              <img className="products__brush-image" src={brush11}></img>
+              <img className="products__brush-image" src={brushGrape} alt='Арома-расчёска с ароматом винограда'></img>
+              <img className="products__brush-image" src={brushStrawberry} alt='Арома-расчёска с ароматом клубники'></img>
+              <img className="products__brush-image" src={brushGrapeOval} alt='Арома-расчёска с ароматом винограда. Овальная форма'></img>
+              <img className="products__brush-image" src={brushMango} alt='Арома-расчёска с ароматом манго'></img>
+              <img className="products__brush-image" src={brushLavender} alt='Арома-расчёска с ароматом лаванды'></img>
+              <img className="products__brush-image" src={brushStrawberryOval} alt='Арома-расчёска с ароматом клубники. Овальная форма'></img>
+              <img className="products__brush-image" src={brushJasmine} alt='Арома-расчёска с ароматом жасмина'></img>
+              <img className="products__brush-image" src={minibrushGrape} alt='Мини арома-расчёска с ароматом винограда'></img>
+              <img className="products__brush-image" src={minibrushStrawberry} alt='Мини арома-расчёска с ароматом клубники'></img>
+              <img className="products__brush-image" src={minibrushLemon} alt='Мини арома-расчёска с ароматом лимона'></img>
+              <img className="products__brush-image" src={minibrushJasmine} alt='Мини арома-расчёска с ароматом жасмина'></img>
             </Carousel>
-
-
-
             <div className="products__tagline-desc">
               <div className="products__figure products__figure_left">
-                <img className="products__figure-text" src={photo4}></img>
+                <img className="products__figure-text" src={captionLightAndDurable} alt='Лёгкая и прочная'></img>
               </div>
               <div className="products__figure products__figure_center">
-                <img className="products__figure-text" src={photo5}></img>
+                <img className="products__figure-text" src={captionMassage} alt='Оказывает массажное воздействие'></img>
               </div>
               <div className="products__figure products__figure_left">
-                <img className="products__figure-text" src={photo6}></img>            </div>
+                <img className="products__figure-text" src={captionTravelFormat} alt='Есть тревел-формат'></img>
+              </div>
             </div>
           </div>
           <ul className="products__tastes-list">
             <li className="products__taste-el">
-              <img className="products__taste-img products__taste-img_strawberry" src={strawberry} alt="Запах - клубника"></img>
+              <img className="products__taste-img products__taste-img_strawberry" src={strawberry} alt="Аромат - клубника"></img>
               <span className="products__taste-caption">клубника</span>
             </li>
             <li className="products__taste-el">
-              <img className="products__taste-img" src={mango} alt="Запах - манго"></img>
+              <img className="products__taste-img" src={mango} alt="Аромат - манго"></img>
               <span className="products__taste-caption">манго</span>
             </li>
             <li className="products__taste-el">
-              <img className="products__taste-img" src={lemon} alt="Запах - лимон"></img>
+              <img className="products__taste-img" src={lemon} alt="Аромат - лимон"></img>
               <span className="products__taste-caption">лимон</span>
             </li>
             <li className="products__taste-el">
-              <img className="products__taste-img" src={jasmine} alt="Запах - жасмин"></img>
+              <img className="products__taste-img" src={jasmine} alt="Аромат - жасмин"></img>
               <span className="products__taste-caption">жасмин</span>
             </li>
             <li className="products__taste-el">
-              <img className="products__taste-img" src={lavender} alt="Запах - лаванда"></img>
+              <img className="products__taste-img" src={lavender} alt="Аромат - лаванда"></img>
               <span className="products__taste-caption">лаванда</span>
             </li>
             <li className="products__taste-el">
-              <img className="products__taste-img" src={grape} alt="Запах - виноград"></img>
+              <img className="products__taste-img" src={grape} alt="Аромат - виноград"></img>
               <span className="products__taste-caption">виноград</span>
             </li>
           </ul>
         </div>}
-
       {isScreenMy17 &&
         <div className="products__container">
           <h2 className="products__title">ВЫБЕРИ СВОЙ АРОМАТ</h2>
-
           <div className="products__tagline-container">
-
             <Carousel>
-
-              <img className="products__brush-image" src={brush1}></img>
-              <img className="products__brush-image" src={brush2}></img>
-              <img className="products__brush-image" src={brush3}></img>
-              <img className="products__brush-image" src={brush4}></img>
-              <img className="products__brush-image" src={brush5}></img>
-              <img className="products__brush-image" src={brush6}></img>
-              <img className="products__brush-image" src={brush7}></img>
-              <img className="products__brush-image" src={brush8}></img>
-              <img className="products__brush-image" src={brush9}></img>
-              <img className="products__brush-image" src={brush10}></img>
-              <img className="products__brush-image" src={brush11}></img>
+              <img className="products__brush-image" src={brushGrape} alt='Арома-расчёска с ароматом винограда'></img>
+              <img className="products__brush-image" src={brushStrawberry} alt='Арома-расчёска с ароматом клубники'></img>
+              <img className="products__brush-image" src={brushGrapeOval} alt='Арома-расчёска с ароматом винограда. Овальная форма'></img>
+              <img className="products__brush-image" src={brushMango} alt='Арома-расчёска с ароматом манго'></img>
+              <img className="products__brush-image" src={brushLavender} alt='Арома-расчёска с ароматом лаванды'></img>
+              <img className="products__brush-image" src={brushStrawberryOval} alt='Арома-расчёска с ароматом клубники. Овальная форма'></img>
+              <img className="products__brush-image" src={brushJasmine} alt='Арома-расчёска с ароматом жасмина'></img>
+              <img className="products__brush-image" src={minibrushGrape} alt='Мини арома-расчёска с ароматом винограда'></img>
+              <img className="products__brush-image" src={minibrushStrawberry} alt='Мини арома-расчёска с ароматом клубники'></img>
+              <img className="products__brush-image" src={minibrushLemon} alt='Мини арома-расчёска с ароматом лимона'></img>
+              <img className="products__brush-image" src={minibrushJasmine} alt='Мини арома-расчёска с ароматом жасмина'></img>
             </Carousel>
-
             <div className="products__tagline-desc">
               <div className="products__figure products__figure_right">
-                <img className="products__figure-text" src={photo}></img>
+                <img className="products__figure-text" src={captionFragrance} alt='Приятный аромат'></img>
               </div>
               <div className="products__figure products__figure_center">
-                <img className="products__figure-text" src={photo2}></img>
+                <img className="products__figure-text" src={captionWetAndDry} alt='Для сухих и влажных волос'></img>
               </div>
               <div className="products__figure products__figure_right">
-                <img className="products__figure-text" src={photo5}></img>
+                <img className="products__figure-text" src={captionMassage} alt='Оказывает массажное воздействие'></img>
               </div>
             </div>
             <ul className="products__tastes-list">
               <li className="products__taste-el">
-                <img className="products__taste-img products__taste-img_strawberry" src={strawberry} alt="Запах - клубника"></img>
+                <img className="products__taste-img products__taste-img_strawberry" src={strawberry} alt="Аромат - клубника"></img>
                 <span className="products__taste-caption">клубника</span>
               </li>
               <li className="products__taste-el">
-                <img className="products__taste-img" src={mango} alt="Запах - манго"></img>
+                <img className="products__taste-img" src={mango} alt="Аромат - манго"></img>
                 <span className="products__taste-caption">манго</span>
               </li>
               <li className="products__taste-el">
-                <img className="products__taste-img" src={lemon} alt="Запах - лимон"></img>
+                <img className="products__taste-img" src={lemon} alt="Аромат - лимон"></img>
                 <span className="products__taste-caption">лимон</span>
               </li>
               <li className="products__taste-el">
-                <img className="products__taste-img" src={jasmine} alt="Запах - жасмин"></img>
+                <img className="products__taste-img" src={jasmine} alt="Аромат - жасмин"></img>
                 <span className="products__taste-caption">жасмин</span>
               </li>
             </ul>
@@ -178,71 +148,61 @@ function Products() {
               <li className="products__taste-el">
               </li>
               <li className="products__taste-el">
-                <img className="products__taste-img" src={lavender} alt="Запах - виноград"></img>
+                <img className="products__taste-img" src={lavender} alt="Аромат - лаванда"></img>
                 <span className="products__taste-caption">лаванда</span>
               </li>
               <li className="products__taste-el">
-                <img className="products__taste-img" src={grape} alt="Запах - виноград"></img>
+                <img className="products__taste-img" src={grape} alt="Аромат - виноград"></img>
                 <span className="products__taste-caption">виноград</span>
               </li>
               <li className="products__taste-el">
-
-
               </li>
             </ul>
-
-
           </div>
-
         </div>}
       {isScreenMy15 &&
         <div className="products__container">
           <h2 className="products__title">ВЫБЕРИ СВОЙ АРОМАТ</h2>
-
           <div className="products__tagline-container">
-
             <Carousel>
-
-
-              <img className="products__brush-image" src={brush1}></img>
-              <img className="products__brush-image" src={brush2}></img>
-              <img className="products__brush-image" src={brush3}></img>
-              <img className="products__brush-image" src={brush4}></img>
-              <img className="products__brush-image" src={brush5}></img>
-              <img className="products__brush-image" src={brush6}></img>
-              <img className="products__brush-image" src={brush7}></img>
-              <img className="products__brush-image" src={brush8}></img>
-              <img className="products__brush-image" src={brush9}></img>
-              <img className="products__brush-image" src={brush10}></img>
-              <img className="products__brush-image" src={brush11}></img>
+              <img className="products__brush-image" src={brushGrape} alt='Арома-расчёска с ароматом винограда'></img>
+              <img className="products__brush-image" src={brushStrawberry} alt='Арома-расчёска с ароматом клубники'></img>
+              <img className="products__brush-image" src={brushGrapeOval} alt='Арома-расчёска с ароматом винограда. Овальная форма'></img>
+              <img className="products__brush-image" src={brushMango} alt='Арома-расчёска с ароматом манго'></img>
+              <img className="products__brush-image" src={brushLavender} alt='Арома-расчёска с ароматом лаванды'></img>
+              <img className="products__brush-image" src={brushStrawberryOval} alt='Арома-расчёска с ароматом клубники. Овальная форма'></img>
+              <img className="products__brush-image" src={brushJasmine} alt='Арома-расчёска с ароматом жасмина'></img>
+              <img className="products__brush-image" src={minibrushGrape} alt='Мини арома-расчёска с ароматом винограда'></img>
+              <img className="products__brush-image" src={minibrushStrawberry} alt='Мини арома-расчёска с ароматом клубники'></img>
+              <img className="products__brush-image" src={minibrushLemon} alt='Мини арома-расчёска с ароматом лимона'></img>
+              <img className="products__brush-image" src={minibrushJasmine} alt='Мини арома-расчёска с ароматом жасмина'></img>
             </Carousel>
-
             <div className="products__tagline-desc">
               <div className="products__figure products__figure_right">
-                <img className="products__figure-text" src={photo}></img>
+                <img className="products__figure-text" src={captionFragrance} alt='Приятный аромат'></img>
               </div>
               <div className="products__figure products__figure_center">
-                <img className="products__figure-text" src={photo2}></img>
+                <img className="products__figure-text" src={captionWetAndDry} alt='Для сухих и влажных волос'></img>
               </div>
               <div className="products__figure products__figure_right">
-                <img className="products__figure-text" src={photo5}></img>
+                <img className="products__figure-text" src={captionMassage} alt='Оказывает массажное воздействие'></img>
               </div>
             </div>
             <ul className="products__tastes-list">
               <li className="products__taste-el">
-                <img className="products__taste-img products__taste-img_strawberry" src={strawberry} alt="Запах - клубника"></img>
+                <img className="products__taste-img products__taste-img_strawberry" src={strawberry} alt="Аромат - клубника"></img>
                 <span className="products__taste-caption">клубника</span>
               </li>
               <li className="products__taste-el">
-                <img className="products__taste-img" src={mango} alt="Запах - манго"></img>
+                <img className="products__taste-img" src={mango} alt="Аромат - манго"></img>
                 <span className="products__taste-caption">манго</span>
               </li>
               <li className="products__taste-el">
-                <img className="products__taste-img" src={lemon} alt="Запах - лимон"></img>
+                <img className="products__taste-img" src={lemon} alt="Аромат - лимон"></img>
                 <span className="products__taste-caption">лимон</span>
               </li>
               <li className="products__taste-el">
-                <img className="products__taste-img" src={jasmine} alt="Запах - жасмин"></img>
+                <img className="products__taste-img" src={jasmine} alt="Аромат - жасмин"></img>
                 <span className="products__taste-caption">жасмин</span>
               </li>
             </ul>
@@ -250,71 +210,61 @@ function Products() {
               <li className="products__taste-el">
               </li>
               <li className="products__taste-el">
-                <img className="products__taste-img" src={lavender} alt="Запах - виноград"></img>
+                <img className="products__taste-img" src={lavender} alt="Аромат - лаванда"></img>
                 <span className="products__taste-caption">лаванда</span>
               </li>
               <li className="products__taste-el">
-                <img className="products__taste-img" src={grape} alt="Запах - виноград"></img>
+                <img className="products__taste-img" src={grape} alt="Аромат - виноград"></img>
                 <span className="products__taste-caption">виноград</span>
               </li>
               <li className="products__taste-el">
-
-
               </li>
             </ul>
-
-
           </div>
-
         </div>}
-
       {isScreenMy16 &&
         <div className="products__container">
           <h2 className="products__title">ВЫБЕРИ СВОЙ АРОМАТ</h2>
-
           <div className="products__tagline-container">
-
             <Carousel>
-
-              <img className="products__brush-image" src={brush1}></img>
-              <img className="products__brush-image" src={brush2}></img>
-              <img className="products__brush-image" src={brush3}></img>
-              <img className="products__brush-image" src={brush4}></img>
-              <img className="products__brush-image" src={brush5}></img>
-              <img className="products__brush-image" src={brush6}></img>
-              <img className="products__brush-image" src={brush7}></img>
-              <img className="products__brush-image" src={brush8}></img>
-              <img className="products__brush-image" src={brush9}></img>
-              <img className="products__brush-image" src={brush10}></img>
-              <img className="products__brush-image" src={brush11}></img>
+              <img className="products__brush-image" src={brushGrape} alt='Арома-расчёска с ароматом винограда'></img>
+              <img className="products__brush-image" src={brushStrawberry} alt='Арома-расчёска с ароматом клубники'></img>
+              <img className="products__brush-image" src={brushGrapeOval} alt='Арома-расчёска с ароматом винограда. Овальная форма'></img>
+              <img className="products__brush-image" src={brushMango} alt='Арома-расчёска с ароматом манго'></img>
+              <img className="products__brush-image" src={brushLavender} alt='Арома-расчёска с ароматом лаванды'></img>
+              <img className="products__brush-image" src={brushStrawberryOval} alt='Арома-расчёска с ароматом клубники. Овальная форма'></img>
+              <img className="products__brush-image" src={brushJasmine} alt='Арома-расчёска с ароматом жасмина'></img>
+              <img className="products__brush-image" src={minibrushGrape} alt='Мини арома-расчёска с ароматом винограда'></img>
+              <img className="products__brush-image" src={minibrushStrawberry} alt='Мини арома-расчёска с ароматом клубники'></img>
+              <img className="products__brush-image" src={minibrushLemon} alt='Мини арома-расчёска с ароматом лимона'></img>
+              <img className="products__brush-image" src={minibrushJasmine} alt='Мини арома-расчёска с ароматом жасмина'></img>
             </Carousel>
-
             <div className="products__tagline-desc">
               <div className="products__figure products__figure_right">
-                <img className="products__figure-text" src={photo}></img>
+                <img className="products__figure-text" src={captionFragrance} alt='Приятный аромат'></img>
               </div>
               <div className="products__figure products__figure_center">
-                <img className="products__figure-text" src={photo2}></img>
+                <img className="products__figure-text" src={captionWetAndDry} alt='Для сухих и влажных волос'></img>
               </div>
               <div className="products__figure products__figure_right">
-                <img className="products__figure-text" src={photo5}></img>
+                <img className="products__figure-text" src={captionMassage} alt='Оказывает массажное воздействие'></img>
               </div>
             </div>
             <ul className="products__tastes-list">
               <li className="products__taste-el">
-                <img className="products__taste-img products__taste-img_strawberry" src={strawberry} alt="Запах - клубника"></img>
+                <img className="products__taste-img products__taste-img_strawberry" src={strawberry} alt="Аромат - клубника"></img>
                 <span className="products__taste-caption">клубника</span>
               </li>
               <li className="products__taste-el">
-                <img className="products__taste-img" src={mango} alt="Запах - манго"></img>
+                <img className="products__taste-img" src={mango} alt="Аромат - манго"></img>
                 <span className="products__taste-caption">манго</span>
               </li>
               <li className="products__taste-el">
-                <img className="products__taste-img" src={lemon} alt="Запах - лимон"></img>
+                <img className="products__taste-img" src={lemon} alt="Аромат - лимон"></img>
                 <span className="products__taste-caption">лимон</span>
               </li>
               <li className="products__taste-el">
-                <img className="products__taste-img" src={jasmine} alt="Запах - жасмин"></img>
+                <img className="products__taste-img" src={jasmine} alt="Аромат - жасмин"></img>
                 <span className="products__taste-caption">жасмин</span>
               </li>
             </ul>
@@ -322,94 +272,20 @@ function Products() {
               <li className="products__taste-el">
               </li>
               <li className="products__taste-el">
-                <img className="products__taste-img" src={lavender} alt="Запах - виноград"></img>
+                <img className="products__taste-img" src={lavender} alt="Аромат - лаванда"></img>
                 <span className="products__taste-caption">лаванда</span>
               </li>
               <li className="products__taste-el">
-                <img className="products__taste-img" src={grape} alt="Запах - виноград"></img>
+                <img className="products__taste-img" src={grape} alt="Аромат - виноград"></img>
                 <span className="products__taste-caption">виноград</span>
               </li>
               <li className="products__taste-el">
-
-
               </li>
             </ul>
-
-
           </div>
-
         </div>}
     </section>
   )
 }
 
 export default Products
-
-// showSlides(slideIndex);
-
-  // Next/previous controls
-
-  //var slideIndex = 1;
-  // showSlides(slideIndex);
-
-  //function plusSlides(n) {
-  //  showSlides(slideIndex += n);
-  //}
-
-  //function currentSlide(n) {
-  //  showSlides(slideIndex = n);
-  // }
-
-  // function showSlides(n) {
-  //  var i;
-  //var slides = document.getElementsByClassName("mySlides");
-  // var dots = document.getElementsByClassName("dot");
-  // if (n > slides.length) {slideIndex = 1}
-  // console.log('fff')
-  // if (n < 1) {slideIndex = slides.length}
-  //console.log('fff')
-  // f//or (i = 0; i < slides.length; i++) {
-  //    slides[i].style.display = "none";
-  //  console.log('fff')
-  //}
-  //for (i = 0; i < dots.length; i++) {
-  //    dots[i].className = dots[i].className.replace(" active", "");
-  //   console.log('fff')
-  //}//
-  // slides[slideIndex-1].style.display = "block";
-  //dots[slideIndex-1].className += " active";
-  // }
-
-  //<div class="slideshow-container">
-
-  //<div class="mySlides fade">
-  // <div class="numbertext">1 / 3</div>
-  //<img className="img" src={photo} ></img>
-  // <div class="text">Caption Text</div>
-  //</div>
-
-  ////<div class="mySlides fade">
-  //<div class="numbertext">2 / 3</div>
-  //<img className="img" src={photo2} ></img>
-  //<div class="text">Caption Two</div>
-  ///div>
-
-  //<div class="mySlides fade">
-  //<div class="numbertext">3 / 3</div>
-  // <img className="img" src={photo3}  ></img>
-  // <div class="text">Caption Three</div>
-  //</div>
-
-  ////<a class="prev" onclick={plusSlides(-1)}>&#10094;</a>
-  ///<a class="next" onclick={plusSlides(1)}>&#10095;</a>
-  ///</div>
-  ///<br></br>
-
-
-  //<div >
-  /////<span class="dot" onclick={currentSlide(1)}></span>
-  ///<span class="dot" onclick={currentSlide(2)}></span>
-  ///<span class="dot" onclick={currentSlide(3)}></span>
-  //</div>
-
-// <span className="products__figure-text">ПРИЯТНЫЙ АРОМАТ</span>

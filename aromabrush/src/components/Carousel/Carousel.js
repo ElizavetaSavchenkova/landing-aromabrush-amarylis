@@ -2,7 +2,7 @@ import React, { cloneElement } from 'react';
 import { useState, useEffect, Children } from 'react';
 import { FaChevronRight, FaChevronLeft } from 'react-icons/fa';
 import { useResize } from '../use-resize';
-import './Carousel.css'
+import './Carousel.css';
 
 function Carousel({ children }) {
 
@@ -14,7 +14,6 @@ function Carousel({ children }) {
     console.log('click')
     setOffset((currentOffset) => {
       const newOffset = currentOffset + 542
-      console.log(newOffset)
       return Math.min(newOffset, 0)
     })
   }
@@ -24,19 +23,14 @@ function Carousel({ children }) {
     setOffset((currentOffset) => {
       const newOffset = currentOffset - 542
       const maxOffset = - (542 * (pages.length - 1))
-      console.log(newOffset)
       return Math.max(newOffset, maxOffset)
     })
   }
-
-
-  ///
 
   const handleLeftArrowClick760 = () => {
     console.log('click')
     setOffset((currentOffset) => {
       const newOffset = currentOffset + 410
-      console.log(newOffset)
       return Math.min(newOffset, 0)
     })
   }
@@ -46,19 +40,14 @@ function Carousel({ children }) {
     setOffset((currentOffset) => {
       const newOffset = currentOffset - 410
       const maxOffset = - (410 * (pages.length - 1))
-      console.log(newOffset)
       return Math.max(newOffset, maxOffset)
     })
   }
-
-
-  //
 
   const handleLeftArrowClick450 = () => {
     console.log('click')
     setOffset((currentOffset) => {
       const newOffset = currentOffset + 270
-      console.log(newOffset)
       return Math.min(newOffset, 0)
     })
   }
@@ -68,7 +57,6 @@ function Carousel({ children }) {
     setOffset((currentOffset) => {
       const newOffset = currentOffset - 270
       const maxOffset = - (270 * (pages.length - 1))
-      console.log(newOffset)
       return Math.max(newOffset, maxOffset)
     })
   }
@@ -99,16 +87,13 @@ function Carousel({ children }) {
               minWidth: '410px',
               maxWidth: '410px'
             }
-
           })
         })
       )
     }
-
   }, [children, width])
 
-
-    useEffect(() => {
+  useEffect(() => {
     if (width <= 480) {
       setPages(
         Children.map(children, child => {
@@ -118,17 +103,14 @@ function Carousel({ children }) {
               minWidth: '270px',
               maxWidth: '270px'
             }
-
           })
         })
       )
     }
-
   }, [children, width])
 
   return (
     <div className="carousel">
-
       {isScreenMy14 &&
         <>
           <FaChevronLeft className="arrow" onClick={handleLeftArrowClick}></FaChevronLeft>
@@ -149,8 +131,7 @@ function Carousel({ children }) {
           </div>
           <FaChevronRight className="arrow" onClick={handleRightArrowClick760}></FaChevronRight>
         </>}
-
-        {isScreenMy16 &&
+      {isScreenMy16 &&
         <>
           <FaChevronLeft className="arrow" onClick={handleLeftArrowClick450}></FaChevronLeft>
           <div className="window">
@@ -160,9 +141,6 @@ function Carousel({ children }) {
           </div>
           <FaChevronRight className="arrow" onClick={handleRightArrowClick450}></FaChevronRight>
         </>}
-
-
-
     </div>
   )
 }

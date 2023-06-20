@@ -7,28 +7,6 @@
   align-items: center;
 }
 
-.item1 {
-
-  background-image: url(../../images/auchan-mag.svg);
-
-
-}
-
-.item2 {
-
-  background-image: url(../../images/brush-promo.svg);
-
-
-}
-
-.item3 {
-
-  background-image: url(../../images/jasmine.svg);
-
-
-}
-
-
 .main_blur {
   filter: blur(15px);
 }

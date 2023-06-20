@@ -108,7 +108,6 @@
     transition-property: transform ;
     transition-duration: 600ms;
     transition-timing-function: ease-in-out;
-
   }
 
   .arrow2 {
@@ -121,5 +120,4 @@
   .arrow2_right{
     padding:0 0 0 10px;
   }
-
 }

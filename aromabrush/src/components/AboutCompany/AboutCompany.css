@@ -50,7 +50,6 @@
   align-self: center;
 }
 
-
 @media screen and (max-width:1155px) and (min-width:760px) {
   .aboutcompany__title {
     padding: 0 0 20px 0;
@@ -73,10 +72,7 @@
   .aboutcompany {
     padding: 40px 0 40px 0;
   }
-
 }
-
-
 
 @media screen and (max-width:760px) and (min-width:450px) {
   .aboutcompany__title {
@@ -100,8 +96,6 @@
   .aboutcompany {
     padding: 40px 0 40px 0;
   }
-
-
 }
 
 
@@ -121,12 +115,10 @@
 
   .aboutcompany__desc {
     gap: 0;
-
   }
 
   .aboutcompany__desc {
     width: 74%;
-
   }
 
   .aboutcompany {
