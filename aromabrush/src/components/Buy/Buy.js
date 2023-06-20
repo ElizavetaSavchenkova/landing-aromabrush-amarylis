@@ -19,12 +19,12 @@ import rada from '../../images/raduga-mag.svg';
 import './Buy.css';
 
 function Buy() {
-  const { width, isScreenMy12, isScreenMy13 } = useResize();
+  const {isScreenMy12, isScreenMy13 } = useResize();
 
   return (
     <section className="buy" >
       {isScreenMy12 &&
-        <div className="buy__container">width={width}
+        <div className="buy__container">
           <h4 className="buy__title">ГДЕ КУПИТЬ</h4>
           <ul className="buy__markets-container">
             <li className="buy__markets-element"><img className="buy__markets-element-img" src={auchan} alt='АШАН'></img></li>
