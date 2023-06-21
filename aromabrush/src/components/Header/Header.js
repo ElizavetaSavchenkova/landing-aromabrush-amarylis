@@ -13,7 +13,7 @@ function Header({ onMenuClick }) {
     <header className="header">
       {isScreenMy2 &&
         <div className="header__container">
-          <img className="header__logo" src={headerLogo} alt="Логотип компании 'Amarylis'" />
+          <a className="header__logo-link" href="https://amarylis.ru/"><img className="header__logo" src={headerLogo} alt="Логотип компании 'Amarylis'" /></a>
           <div className="header__info">
             <ul className="header__info-container">
               <li className="header__info-container-el"><span className="header__info-container-telephone">8(499) 704 55 75</span></li>
@@ -31,7 +31,7 @@ function Header({ onMenuClick }) {
         </div>}
       {isScreenMy &&
         <div className="header__container">
-          <img className="header__logo" src={headerLogo} alt="Логотип компании 'Amarylis'" />
+          <a className="header__logo-link" href="https://amarylis.ru/"><img className="header__logo" src={headerLogo} alt="Логотип компании 'Amarylis'" /></a>
           <BurgerMenu onMenuClick={onMenuClick} />
         </div>}
 

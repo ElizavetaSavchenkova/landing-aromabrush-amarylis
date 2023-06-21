@@ -15,7 +15,7 @@ function Order() {
         <h3 className="order__title">ЗАКАЖИ НА МАРКЕТПЛЕЙСЕ</h3>
         <ul className="order__markets-container">
           <li className="order__market-element">
-            <a className="order__market-link" href="https://market.yandex.ru/business--amarilis-liuks/900795?utm_source=yandeks_market&utm_campaign=aroma_rascheski">
+            <a className="order__market-link" href="https://market.yandex.ru/search?businessId=900795&text=%D1%80%D0%B0%D1%81%D1%87%D0%B5%D1%81%D0%BA%D0%B8%20%D1%81%20%D0%B0%D1%80%D0%BE%D1%82%D0%BE%D0%BC%D0%B0&rs=eJxFkL0LQWEYxS_KYBHdkkVXFrPRR91JzAbrHQyU_A23KCYWCdNroUiRzUfuYrAblMFbTEJsMrnnLJbT6fec5-N9Y6Zr51C0S9JWK5KyVSyg8gGijeAtFaoF6G9r-BL9C14M4JUz8maY2oTquQ2SLWTMOYgRB9E9UOsDInvMe8kzSBpu9hZ4yYTJILhSI3nSV7boyoKYafIoL3yv0HvihDbnDzj_ii5rz3u-vLbILpWvnvEVVVTFkfN94CLP5Jj_UP_fLLrUPqshbJQdksMSu6qcfCfxJ1B1guhD_htfIafcVYbKxvoHhFGM5w%2C%2C&allowCollapsing=1&local-offers-first=0">
               <img className="order__icon" src={yandexOrder} alt="Заказать на Яндекс-Маркет"></img>
             </a>
           </li>
@@ -30,7 +30,7 @@ function Order() {
             </a>
           </li>
           <li className="order__market-element">
-            <a className="order__market-link" href="https://sbermegamarket.ru/shop/amarilis?utm_source=sbermegamarket&utm_medium=posadochnaya_stranitsi&utm_campaign=aroma-rascheski">
+            <a className="order__market-link" href="https://sbermegamarket.ru/shop/amarilis/catalog/aksessuary-dlya-uhoda-za-volosami/">
               <img className="order__icon" src={sbermarketOrder} alt={'Заказать на СберМаркет'}></img>
             </a>
           </li>

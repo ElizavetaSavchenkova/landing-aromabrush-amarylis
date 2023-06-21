@@ -5,7 +5,7 @@ import './Contacts.css';
 
 function Contacts() {
 
-  const {isScreenMy9, isScreenMy10, isScreenMy11 } = useResize();
+  const { isScreenMy9, isScreenMy10, isScreenMy11 } = useResize();
 
   return (
     <section className="contacts" id="contacts">
@@ -26,17 +26,17 @@ function Contacts() {
               <li className="contacts__info-title">WhatsApp</li>
               <li className="contacts__info-title">Интернет-магазин</li>
               <li className="contacts__info-title">Санкт-Петербург</li>
-              <li className="contacts__info-desc">+7 (499) 704-55-75</li>
-              <li className="contacts__info-desc">+7 (926) 992-95-88</li>
-              <li className="contacts__info-desc">+7 (800) 511-98-97</li>
-              <li className="contacts__info-desc">+7 (812) 424-18-64</li>
+              <li className="contacts__info-desc"><a className="contacts__info-desc-click-tel" href="tel:+7 (499) 704-55-75">+7 (499) 704-55-75</a></li>
+              <li className="contacts__info-desc"><a className="contacts__info-desc-click-tel" href="https://wa.me/79269959588?utm_source=wa&utm_campaign=aroma_rascheski">+7 (926) 992-95-88</a></li>
+              <li className="contacts__info-desc"><a className="contacts__info-desc-click-tel" href="tel:+7 (800) 511-98-97">+7 (800) 511-98-97</a></li>
+              <li className="contacts__info-desc"><a className="contacts__info-desc-click-tel" href="tel:+7 (812) 424-18-64">+7 (812) 424-18-64</a></li>
             </ul>
             <ul className="contacts__info-container contacts__info-container_second">
               <li className="contacts__info-title">Адрес</li>
               <li className="contacts__info-title"></li>
               <li className="contacts__info-title contacts__info-title_right">Режим работы</li>
               <li className="contacts__info-desc">г. Москва ул. Фомичевой д.5 корп.2</li>
-              <li className="contacts__info-desc contacts__info-desc_center">sales@amarylis.ru</li>
+              <li className="contacts__info-desc contacts__info-desc_center contacts__info-desc_email"><a className="contacts__info-desc-click-email" href="mailto:sales@amarylis.ru">sales@amarylis.ru</a></li>
               <li className="contacts__info-desc contacts__info-desc_right">ПН-ПТ - 10:00-19:00</li>
             </ul>
           </div>
@@ -55,17 +55,17 @@ function Contacts() {
             <ul className="contacts__info-container">
               <li className="contacts__info-title">Оптовикам</li>
               <li className="contacts__info-title">Интернет-магазин</li>
-              <li className="contacts__info-desc">+7 (499) 704-55-75</li>
-              <li className="contacts__info-desc">+7 (800) 511-98-97</li>
+              <li className="contacts__info-desc"><a className="contacts__info-desc-click-tel" href="tel:+7 (499) 704-55-75">+7 (499) 704-55-75</a></li>
+              <li className="contacts__info-desc"><a className="contacts__info-desc-click-tel" href="tel:+7 (800) 511-98-97">+7 (800) 511-98-97</a></li>
               <li className="contacts__info-title">WhatsApp</li>
               <li className="contacts__info-title">Санкт-Петербург</li>
-              <li className="contacts__info-desc">+7 (926) 992-95-88</li>
-              <li className="contacts__info-desc">+7 (812) 424-18-64</li>
+              <li className="contacts__info-desc"><a className="contacts__info-desc-click-tel" href="https://wa.me/79269959588?utm_source=wa&utm_campaign=aroma_rascheski">+7 (926) 992-95-88</a></li>
+              <li className="contacts__info-desc"><a className="contacts__info-desc-click-tel" href="tel:+7 (812) 424-18-64">+7 (812) 424-18-64</a></li>
             </ul>
             <ul className="contacts__info-container contacts__info-container_second">
               <li className="contacts__info-title">Адрес</li>
               <li className="contacts__info-desc contacts__info-desc__address">г. Москва ул. Фомичевой д.5 корп.2</li>
-              <li className="contacts__info-desc contacts__info-desc_center">sales@amarylis.ru</li>
+              <li className="contacts__info-desc contacts__info-desc_center contacts__info-desc_email"><a className="contacts__info-desc-click-email" href="mailto:sales@amarylis.ru">sales@amarylis.ru</a></li>
               <li className="contacts__info-title contacts__info-title_right">Режим работы</li>
               <li className="contacts__info-desc contacts__info-desc_right">ПН-ПТ - 10:00-19:00</li>
             </ul>
@@ -84,16 +84,16 @@ function Contacts() {
           <div className="contacts__info">
             <ul className="contacts__info-container">
               <li className="contacts__info-title">Оптовикам</li>
-              <li className="contacts__info-desc">+7 (499) 704-55-75</li>
+              <li className="contacts__info-desc"><a className="contacts__info-desc-click-tel" href="tel:+7 (499) 704-55-75">7 (499) 704-55-75</a></li>
               <li className="contacts__info-title">WhatsApp</li>
-              <li className="contacts__info-desc">+7 (926) 992-95-88</li>
+              <li className="contacts__info-desc"><a className="contacts__info-desc-click-tel" href="https://wa.me/79269959588?utm_source=wa&utm_campaign=aroma_rascheski">+7 (926) 992-95-88</a></li>
               <li className="contacts__info-title">Интернет-магазин</li>
-              <li className="contacts__info-desc">+7 (800) 511-98-97</li>
+              <li className="contacts__info-desc"><a className="contacts__info-desc-click-tel" href="tel:+7 (800) 511-98-97">+7 (800) 511-98-97</a></li>
               <li className="contacts__info-title">Санкт-Петербург</li>
-              <li className="contacts__info-desc">+7 (812) 424-18-64</li>
+              <li className="contacts__info-desc"><a className="contacts__info-desc-click-tel" href="tel:+7 (812) 424-18-64">+7 (812) 424-18-64</a></li>
               <li className="contacts__info-title contacts__info-title_address">Адрес</li>
               <li className="contacts__info-desc contacts__info-desc__address">г. Москва ул. Фомичевой д.5 корп.2</li>
-              <li className="contacts__info-desc contacts__info-desc_center">sales@amarylis.ru</li>
+              <li className="contacts__info-desc contacts__info-desc_center contacts__info-desc_email"><a className="contacts__info-desc-click-email" href="mailto:sales@amarylis.ru">sales@amarylis.ru</a></li>
               <li className="contacts__info-title contacts__info-title_right">Режим работы</li>
               <li className="contacts__info-desc contacts__info-desc_right">ПН-ПТ - 10:00-19:00</li>
             </ul>

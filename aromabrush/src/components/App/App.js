@@ -13,10 +13,7 @@ function App() {
   const [isPopupMenuOpen, setIsPopupMenuOpen] = useState(false);
 
   window.addEventListener('scroll', () => {
-    let scrollDistance = window.scrollY
-    console.log(scrollDistance)
     const btnUp = document.querySelector('.page__button-scroll')
-    console.log(btnUp)
     btnUp.onclick = () => {
       window.scrollTo({
         top: 0,

@@ -77,6 +77,18 @@
 
 .contacts__info-desc_center {
   text-align: center;
+  cursor: pointer;
+}
+
+.contacts__info-desc-click-email {
+  text-decoration: none;
+  color: #3B3B3B;
+}
+
+.contacts__info-desc-click-tel {
+  text-decoration: none;
+  color: #3B3B3B;
+  cursor: pointer;
 }
 
 .contacts__info-desc_right {

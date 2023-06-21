@@ -109,6 +109,7 @@ function Carousel({ children }) {
     }
   }, [children, width])
 
+
   return (
     <div className="carousel">
       {isScreenMy14 &&
