@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/landing-aromabrush-amarylis/static/css/main.f8186054.css",
+    "main.css": "/landing-aromabrush-amarylis/static/css/main.8487b35b.css",
     "main.js": "/landing-aromabrush-amarylis/static/js/main.0692e81e.js",
     "static/js/787.a4342853.chunk.js": "/landing-aromabrush-amarylis/static/js/787.a4342853.chunk.js",
     "static/media/brush-review.svg": "/landing-aromabrush-amarylis/static/media/brush-review.85deb422d9a3623c193b0be9f97c4ab7.svg",
@@ -80,12 +80,12 @@
     "static/media/burgermenu-icon-steptwo.svg": "/landing-aromabrush-amarylis/static/media/burgermenu-icon-steptwo.0b9e4adb9e85b1c1d01d.svg",
     "static/media/burgermenu-icon.svg": "/landing-aromabrush-amarylis/static/media/burgermenu-icon.69135826d3eb7795aadc.svg",
     "static/media/arrow-header.svg": "/landing-aromabrush-amarylis/static/media/arrow-header.dfb75bc201358dd5942e.svg",
-    "main.f8186054.css.map": "/landing-aromabrush-amarylis/static/css/main.f8186054.css.map",
+    "main.8487b35b.css.map": "/landing-aromabrush-amarylis/static/css/main.8487b35b.css.map",
     "main.0692e81e.js.map": "/landing-aromabrush-amarylis/static/js/main.0692e81e.js.map",
     "787.a4342853.chunk.js.map": "/landing-aromabrush-amarylis/static/js/787.a4342853.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8186054.css",
+    "static/css/main.8487b35b.css",
     "static/js/main.0692e81e.js"
   ]
 }
